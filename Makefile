@@ -1,10 +1,10 @@
-CC=clang
-CFLAGS=-g -Wall
-LDLIBS=libbacktrace/.libs/libbacktrace.a
+.PHONY: all
+all: example_1
 
-# main.s: main.c
-# 	$(CC) -S $(CFLAGS) $(LDLIBS) main.c
+.PHONY: example_1
+example_1:
+	cd example_programs/1 && $(MAKE)
 
-main: main.o
-
-main.o: main.c
+.PHONY: libbacktrace
+libbacktrace:
+	cd libbacktrace && ./configure CC="clang" && $(MAKE)
