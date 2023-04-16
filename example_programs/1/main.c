@@ -85,6 +85,7 @@ int func_2(int b)
 
 void func_1(int a)
 {
+    unsigned long long b = 1234;
     int g = 123;
     for (int b = 0; b < 94; b++) {
         b += 20;

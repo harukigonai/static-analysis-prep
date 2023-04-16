@@ -1,5 +1,9 @@
 .PHONY: all
-all: example_1
+all: clean example_1
+
+.PHONY: clean
+clean:
+	cd example_programs/1 && $(MAKE) clean
 
 .PHONY: example_1
 example_1:

@@ -1,6 +1,6 @@
 CC=clang
 INCLUDES=-I../../libbacktrace
-CFLAGS=-g -Wall $(INCLUDES)
+CFLAGS=-g -gdwarf-4 -Wall -target aarch64-linux-gnu $(INCLUDES)
 LDLIBS=../../libbacktrace/.libs/libbacktrace.a
 LDFLAGS=-g
 
