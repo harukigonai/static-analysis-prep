@@ -3,4 +3,4 @@
 	url = git@github.com:ianlancetaylor/libbacktrace.git
 [submodule "vprofAE"]
 	path = vprofAE
-	url = git@github.com:wenglingmei/vprofAE.git
+	url = git@github.com:harukigonai/vprofAE.git
