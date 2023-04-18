@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "./unwind_and_find_var_addrs/unwind_and_find_var_addrs.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,6 +11,8 @@ struct hello {
     unsigned long c;
 };
 
+typedef struct hello hello2;
+
 void func_4(struct hello hello);
 
 void func_3(struct hello hello);
@@ -21,9 +23,14 @@ void func_1(int a);
 
 int main();
 
+void *void_guy;
+hello2 global_guy;
+unsigned long b;
+
 void func_4(struct hello hello)
 {
-
+    b = 3;
+    unwind_and_find_var_addrs();
 }
 
 void func_3(struct hello hello)
@@ -42,10 +49,17 @@ int func_2(int b)
     hello.b = 1313;
     hello.c = d;
     func_3(hello);
+
+    return 0;
 }
 
 void func_1(int a)
 {
+    int c = 10;
+    if (c <= 9) {
+        return;
+    }
+
     unsigned long long b = 1234;
     int g = 123;
     for (int b = 0; b < 94; b++) {
@@ -60,6 +74,14 @@ void func_1(int a)
 
 int main()
 {
+    printf("main: %#lx\n", &main);
+    printf("func_1: %#lx\n", &func_1);
+    printf("func_2: %#lx\n", &func_1);
+    printf("func_3: %#lx\n", &func_1);
+    printf("func_4: %#lx\n", &func_1);
+
+    read_in_file();
+
     int a = 10;
     func_1(a);
 }

@@ -61,8 +61,9 @@ namespace {
       LoopInfo &LI = getAnalysis<LoopInfoWrapperPass>(*F).getLoopInfo();
       if (hasLoop(F, LI) == true)
         loopVars = collectVarsOnLoop(F, Vals);
-      condVars = collectVarsOnCond(F, Vals);
+      // condVars = collectVarsOnCond(F, Vals);
       argsVars = collectVarsOnArgs(F, Vals);
+      condVars = collectAllVars(F, Vals);
 
       //Save schema for localvariable in function F
       return saveLocal(F, loopVars, condVars, argsVars);
@@ -188,7 +189,7 @@ namespace {
     }
 
 
-    const int max_depth = 8;
+    const int max_depth = 8; // ?
     //prevent stack overflow on instructions like phi
     bool ProfileVarPass::getOperand(Value *V, std::set<Value *> &operands, int depth) {
       if (!V || depth >= max_depth)
@@ -232,6 +233,25 @@ namespace {
         //global variable 
         if (GlobalValue* G = dyn_cast<GlobalValue>(&*v)) {
             Globals.insert(G);
+        }
+      }
+      return ret;
+    }
+
+    std::set<MDNode *> ProfileVarPass::collectAllVars(Function *F, std::unordered_map<Value *, MDNode *> &Vals) {
+      std::set<MDNode *> ret;
+
+      for (Function::iterator bb = F->begin(); bb != F->end(); ++bb) {
+        BasicBlock *Block = &*bb;
+        if (!Block)
+          continue;
+        for (BasicBlock::iterator Iter = Block->begin(); Iter != Block->end(); ++Iter) {
+          Instruction* I = &*Iter;
+          if (const DbgDeclareInst* DbgDeclare = dyn_cast<DbgDeclareInst>(I)) {
+            ret.insert(DbgDeclare->getVariable());
+          } else if (const DbgValueInst* DbgValue = dyn_cast<DbgValueInst>(I)) {
+            ret.insert(DbgDeclare->getVariable());
+          }
         }
       }
       return ret;
@@ -325,25 +345,20 @@ namespace {
           if (!GV)
             continue;
           DIGlobalVariable *Var = GV->getVariable();
-          for (auto gVal: Globals) {
-            if (gVal->getGlobalIdentifier() != Var->getName())
-              continue;
-            //set the default type, in case Type name is not available
-            std::string type("uintptr");
-            if (Var->getType()) {
-              type = Var->getType()->getName().str();
-              std::replace(type.begin(), type.end(), ' ', '#');
-            } 
-            LogSchema("%s %s %s %d %s %s %s\n",
-                Var->getDirectory().str().c_str(),
-                Var->getFilename().str().c_str(),
-                "#global",
-                Var->getLine(),
-                Var->getName().str().c_str(),
-                type.size() == 0 ? "uintptr" : type.c_str(), "globalVar");
-            Globals.erase(gVal);
-            break;
-          }
+
+          //set the default type, in case Type name is not available
+          std::string type("uintptr");
+          if (Var->getType()) {
+            type = Var->getType()->getName().str();
+            std::replace(type.begin(), type.end(), ' ', '#');
+          } 
+          LogSchema("%s %s %s %d %s %s %s\n",
+              Var->getDirectory().str().c_str(),
+              Var->getFilename().str().c_str(),
+              "#global",
+              Var->getLine(),
+              Var->getName().str().c_str(),
+              type.size() == 0 ? "uintptr" : type.c_str(), "globalVar");
         }
       }
       return Globals.size();

@@ -89,6 +89,7 @@ namespace {
     std::set<MDNode *> collectVarsOnLoop(Function *F, std::unordered_map<Value *, MDNode *> &Vals);
     std::set<MDNode *> collectVarsOnCond(Function *F, std::unordered_map<Value *, MDNode *>&Vals);
     std::set<MDNode *> collectVarsOnArgs(Function *F, std::unordered_map<Value *, MDNode *> &Vals);
+    std::set<MDNode *> collectAllVars(Function *F, std::unordered_map<Value *, MDNode *> &Vals);
     bool getOperand(Value *V, std::set<Value *> &operands, int depth);
     std::set<MDNode *> collectVarsFromVal(Value *V, Function *F, std::unordered_map<Value *, MDNode *> &Vals);
     MDNode* findLocalVar(Value* V, Function* F);

@@ -1,0 +1,21 @@
+CC=clang
+
+# ARM
+# CFLAGS=-g -gdwarf-4 -Wall -target aarch64-linux-gnu $(INCLUDES)
+
+# x86
+CFLAGS=-g -gdwarf-4 -Wall -fPIC
+LDLIBS=-L/usr/local/lib -lunwind-x86_64 -lunwind
+LDFLAGS = -g -shared
+
+libunwind_and_find_var_addrs.so: unwind_and_find_var_addrs.o
+	$(CC) $(LDFLAGS) $^ -o $@ $(LDLIBS)
+
+unwind_and_find_var_addrs.o: unwind_and_find_var_addrs.c unwind_and_find_var_addrs.h
+
+.PHONY: all
+all: clean libunwind_and_find_var_addrs.so
+
+.PHONY: clean
+clean:
+	rm -f *.so *.o
