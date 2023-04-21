@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -g -Wall
-LDLIBS = ./lib_wrapper/libfunc.so
+LDLIBS = ./lib_wrapper/libfunc.so ../unwind_and_find_var_addrs/unwind_and_find_var_addrs.so
 
 .PHONY: all
 all: clean libfunc main init_2
