@@ -406,12 +406,14 @@ namespace {
     }
 } //namespace
 
-int main()
+int main(int argc, char** args)
 {
+    char* arg = args[0];
+
     SMDiagnostic Err;
 
     LLVMContext *C = new LLVMContext();
-    Module *mod = parseIRFile("../example_programs/2/main.bc", Err, *C).release();
+    Module *mod = parseIRFile(arg, Err, *C).release();
     if (!mod) {
         std::cout << "File passed in was invalid.";
         return 1;

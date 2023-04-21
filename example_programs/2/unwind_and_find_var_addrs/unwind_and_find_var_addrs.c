@@ -19,8 +19,8 @@ struct node {
 
 struct node head;
 
-u_long load_address = 0;
-u_long load_size = 0;
+u_long load_addresses[10];
+size_t num_load_addresses;
 
 int layer = 0;
 
@@ -28,17 +28,26 @@ static int reg_valid[31] = {1};
 
 static int callback(struct dl_phdr_info *info, size_t size, void *data)
 {
-    printf("caled\n");
     if (info->dlpi_name[0] == '\0') {
-        u_long *load_address = data;
-        *load_address = (u_long) info->dlpi_addr;
-        load_size = size;
+        u_long load_address = (u_long)info->dlpi_addr;
+        int load_address_in = 0;
+        for (int i = 0; i < num_load_addresses; i++) {
+            if (load_addresses[i] == load_address) {
+                load_address_in = 1;
+                break;
+            }
+        }
+        if (!load_address_in) {
+            printf("name: [%s]\n", info->dlpi_name);
+            load_addresses[num_load_addresses] = load_address;
+            num_load_addresses++;
+        }
         return 1;
     }
     return 0;
 }
 
-long long find_true_addr(const void* bctx, unsigned short loc_atom, long addr) {
+long long find_true_addr(const void* bctx, unsigned short loc_atom, long addr, u_long load_address) {
     const ucontext_t *ctx = (const ucontext_t *)(bctx);
     long long true_addr;
     switch(loc_atom) {
@@ -75,8 +84,8 @@ static int store_context(ucontext_t *dest, unw_cursor_t *cursor)
 
 static void
 sample_variables(const ucontext_t *ctx, struct var *var_addr_li,
-                 size_t *var_addr_li_size, u_long rel_addr) {
-    u_long pc = rel_addr;
+                 size_t *var_addr_li_size, unw_word_t ip, u_long load_address) {
+    u_long pc = ip - load_address;
     printf("pc is %#lx\n", pc);
 
     for (struct node *node = head.next; node != &head; node = node->next) {
@@ -85,7 +94,7 @@ sample_variables(const ucontext_t *ctx, struct var *var_addr_li,
         }
 
         int size = node->size;
-        long long true_addr = find_true_addr(ctx, node->loc_atom, node->var_addr);
+        long long true_addr = find_true_addr(ctx, node->loc_atom, node->var_addr, load_address);
 
         int in_var_addr_li = 0;
         for (int i = 0; i < *var_addr_li_size; i++) {
@@ -108,30 +117,31 @@ sample_variables(const ucontext_t *ctx, struct var *var_addr_li,
 }
 
 void unwind_and_find_var_addrs(struct var *var_li, size_t *var_li_size) {
+
+    dl_iterate_phdr(callback, NULL);
+
     //init unwind context
     unw_context_t context;
     unw_cursor_t cursor;
     unw_getcontext(&context);
     unw_init_local(&cursor, &context);
 
-    printf("load address is %#lx\n", load_address);
-    printf("load size is %#lu\n", load_size);
-
     ucontext_t prev_ctx;
     unw_word_t ip;
     while (unw_step(&cursor) > 0) {
         unw_get_reg(&cursor, UNW_REG_IP, &ip);
-        u_long rel_addr = ip - load_address;
-        printf("ip was %#lx\n", ip);
 
         store_context(&prev_ctx, &cursor);
-        sample_variables(&prev_ctx, var_li, var_li_size, rel_addr);
+
+        for (int i = 0; i < num_load_addresses; i++) {
+            u_long rel_addr = ip - load_addresses[i];
+            sample_variables(&prev_ctx, var_li, var_li_size, ip, load_addresses[i]);
+        }
 
         layer++;
     }
 
     unw_get_reg(&cursor, UNW_REG_IP, &ip);
-    u_long rel_addr = ip - load_address;
     printf("ip was %#lx\n", ip);
 
     printf("var_addr_li_size is %lu\n", *var_li_size);
@@ -145,8 +155,6 @@ void unwind_and_find_var_addrs(struct var *var_li, size_t *var_li_size) {
 
 void read_in_file(void) {
     // FIX ME: file_loaded not atomic
-
-    dl_iterate_phdr(callback, &load_address);
     head.next = &head;
     head.prev = &head;
 
