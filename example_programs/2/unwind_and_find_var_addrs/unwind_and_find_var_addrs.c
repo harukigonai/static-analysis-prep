@@ -19,7 +19,7 @@ struct node {
 
 struct node head;
 
-u_long load_addresses[10];
+u_long load_addresses[10] = {0};
 size_t num_load_addresses;
 
 int layer = 0;
@@ -28,21 +28,19 @@ static int reg_valid[31] = {1};
 
 static int callback(struct dl_phdr_info *info, size_t size, void *data)
 {
-    if (info->dlpi_name[0] == '\0') {
-        u_long load_address = (u_long)info->dlpi_addr;
-        int load_address_in = 0;
-        for (int i = 0; i < num_load_addresses; i++) {
-            if (load_addresses[i] == load_address) {
-                load_address_in = 1;
-                break;
-            }
+    printf("callback called\n");
+    u_long load_address = (u_long)info->dlpi_addr;
+    int load_address_in = 0;
+    for (int i = 0; i < num_load_addresses; i++) {
+        if (load_addresses[i] == load_address) {
+            load_address_in = 1;
+            break;
         }
-        if (!load_address_in) {
-            printf("name: [%s]\n", info->dlpi_name);
-            load_addresses[num_load_addresses] = load_address;
-            num_load_addresses++;
-        }
-        return 1;
+    }
+    if (!load_address_in) {
+        printf("name: [%s]\n", info->dlpi_name);
+        load_addresses[num_load_addresses] = load_address;
+        num_load_addresses++;
     }
     return 0;
 }

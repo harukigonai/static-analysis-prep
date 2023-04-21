@@ -23,6 +23,7 @@ void func_4(struct hello3 hello)
 
 void func_3(int b)
 {
+    printf("In shared lib\n");
     struct hello3 hello;
 
     printf("func_3: b: %#lx\n", &b);

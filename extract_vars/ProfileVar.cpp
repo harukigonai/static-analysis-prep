@@ -408,14 +408,15 @@ namespace {
 
 int main(int argc, char** args)
 {
-    char* arg = args[0];
+    char* arg = args[1];
+    std::cout << "File passed in named [" << arg << "]\n";
 
     SMDiagnostic Err;
 
     LLVMContext *C = new LLVMContext();
     Module *mod = parseIRFile(arg, Err, *C).release();
     if (!mod) {
-        std::cout << "File passed in was invalid.";
+        std::cout << "File passed in was invalid.\n";
         return 1;
     }
 

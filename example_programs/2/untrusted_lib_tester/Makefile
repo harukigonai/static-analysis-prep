@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -g -Wall
+CFLAGS = -g -gdwarf-4 -Wall -funwind-tables
 LDLIBS = ./lib_wrapper/libfunc.so ../unwind_and_find_var_addrs/unwind_and_find_var_addrs.so
 
 .PHONY: all
