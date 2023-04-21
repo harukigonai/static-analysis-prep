@@ -5,12 +5,11 @@ CC=clang
 
 # x86
 CFLAGS=-g -gdwarf-4 -Wall -funwind-tables
-LDLIBS=./unwind_and_find_var_addrs/libunwind_and_find_var_addrs.so
-
+LDLIBS=./libunwind_test.so ./unwind_and_find_var_addrs/libunwind_and_find_var_addrs.so
 LDFLAGS=-g
 
 .PHONY: all
-all: clean libunwind_and_find_var_addrs.so main.s main bc
+all: clean libunwind_and_find_var_addrs.so libunwind_test.so main.s main bc
 
 .PHONY: clean
 clean:
@@ -31,3 +30,9 @@ main: main.o
 	$(CC) $(LDFLAGS) main.o -o main $(LDLIBS)
 
 main.o: main.c
+
+libunwind_test.so: libunwind_test.o
+	clang -g libunwind_test.o -o libunwind_test.so -g -shared
+
+libunwind_test.o: libunwind_test.c
+	clang -g -gdwarf-4 -Wall -fPIC -funwind-tables libunwind_test.c -o libunwind_test.o

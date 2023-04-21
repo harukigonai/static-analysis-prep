@@ -14,10 +14,6 @@ struct hello {
 
 typedef struct hello hello2;
 
-void func_4(struct hello hello);
-
-void func_3(struct hello hello);
-
 int func_2(int b);
 
 void func_1(int a);
@@ -27,25 +23,6 @@ int main();
 void *void_guy;
 hello2 global_guy;
 unsigned long b;
-
-void func_4(struct hello hello)
-{
-    printf("func_4: hello: %#lx\n", &hello);
-
-    b = 3;
-    unwind_and_find_var_addrs();
-}
-
-void func_3(struct hello hello)
-{
-    hello.a = 0.4;
-    hello.b = 0.1;
-    hello.c = 1234;
-
-    printf("func_3: hello: %#lx\n", &hello);
-
-    func_4(hello);
-}
 
 int func_2(int b)
 {
@@ -59,7 +36,7 @@ int func_2(int b)
     printf("func_2: d: %#lx\n", &d);
     printf("func_2: hello: %#lx\n", &hello);
 
-    func_3(hello);
+    func_3(b);
 
     return 0;
 }
