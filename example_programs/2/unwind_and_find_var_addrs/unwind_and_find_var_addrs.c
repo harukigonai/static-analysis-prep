@@ -4,8 +4,11 @@
 #include <libunwind.h>
 #include <ucontext.h>
 #include <link.h>
+#include "arg_struct.h"
 
 #define UNW_LOCAL_ONLY
+
+int file_loaded = 0;
 
 struct node {
     struct node *prev, *next;
@@ -15,10 +18,6 @@ struct node {
 };
 
 struct node head;
-
-struct var_addr {
-    long var_addr, size;
-};
 
 u_long load_address = 0;
 u_long load_size = 0;
@@ -75,7 +74,7 @@ static int store_context(ucontext_t *dest, unw_cursor_t *cursor)
 }
 
 static void
-sample_variables(const ucontext_t *ctx, struct var_addr *var_addr_li,
+sample_variables(const ucontext_t *ctx, struct var *var_addr_li,
                  size_t *var_addr_li_size, u_long rel_addr) {
     u_long pc = rel_addr;
     printf("pc is %#lx\n", pc);
@@ -91,7 +90,7 @@ sample_variables(const ucontext_t *ctx, struct var_addr *var_addr_li,
         int in_var_addr_li = 0;
         for (int i = 0; i < *var_addr_li_size; i++) {
             if (var_addr_li[i].size == size &&
-                var_addr_li[i].var_addr == true_addr) {
+                var_addr_li[i].arg == (void *)true_addr) {
                 in_var_addr_li = 1;
             }
         }
@@ -101,14 +100,14 @@ sample_variables(const ucontext_t *ctx, struct var_addr *var_addr_li,
         }
 
         var_addr_li[*var_addr_li_size].size = size;
-        var_addr_li[*var_addr_li_size].var_addr = true_addr;
+        var_addr_li[*var_addr_li_size].arg = (void *)true_addr;
         (*var_addr_li_size)++;
 
         printf("var: var_addr %#lx. size %lu. loc_atom %lu. %d\n", true_addr, size, node->loc_atom, layer);
     }
 }
 
-void unwind_and_find_var_addrs(void) {
+void unwind_and_find_var_addrs(struct var *var_li, size_t *var_li_size) {
     //init unwind context
     unw_context_t context;
     unw_cursor_t cursor;
@@ -118,20 +117,15 @@ void unwind_and_find_var_addrs(void) {
     printf("load address is %#lx\n", load_address);
     printf("load size is %#lu\n", load_size);
 
-    struct var_addr var_addr_li[4096];
-    size_t var_addr_li_size = 0;
-
     ucontext_t prev_ctx;
     unw_word_t ip;
     while (unw_step(&cursor) > 0) {
-	printf("cursor depth++\n");
-
         unw_get_reg(&cursor, UNW_REG_IP, &ip);
         u_long rel_addr = ip - load_address;
         printf("ip was %#lx\n", ip);
 
         store_context(&prev_ctx, &cursor);
-        sample_variables(&prev_ctx, var_addr_li, &var_addr_li_size, rel_addr);
+        sample_variables(&prev_ctx, var_li, var_li_size, rel_addr);
 
         layer++;
     }
@@ -140,16 +134,18 @@ void unwind_and_find_var_addrs(void) {
     u_long rel_addr = ip - load_address;
     printf("ip was %#lx\n", ip);
 
-    printf("var_addr_li_size is %lu\n", var_addr_li_size);
-    for (int i = 0; i < var_addr_li_size; i++) {
-        printf("%#lx -> %#lx (%lu)\n", var_addr_li[i].var_addr, var_addr_li[i].var_addr + var_addr_li[i].size,
-               var_addr_li[i].size);
+    printf("var_addr_li_size is %lu\n", *var_li_size);
+    for (int i = 0; i < *var_li_size; i++) {
+        printf("%#lx -> %#lx (%lu)\n", var_li[i].arg, var_li[i].arg + var_li[i].size,
+               var_li[i].size);
     }
 
     printf("Finished walk\n");
 }
 
 void read_in_file(void) {
+    // FIX ME: file_loaded not atomic
+
     dl_iterate_phdr(callback, &load_address);
     head.next = &head;
     head.prev = &head;
@@ -196,10 +192,4 @@ void read_in_file(void) {
 
         i++;
     }
-
-    // int i = 0;
-    // for (struct node *node = head.next; node != &head; node = node->next) {
-    //     printf("Node %d: %llx, %llx, %hu, %ld, %ld\n", i, from, to, loc_atom, var_addr, size);
-    //     i++;
-    // }
 }

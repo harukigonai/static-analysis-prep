@@ -5,13 +5,15 @@ CC=clang
 
 # x86
 CFLAGS=-g -gdwarf-4 -Wall -fPIC -funwind-tables
-LDLIBS=-L/usr/local/lib -lunwind-aarch64 -lunwind
+LDLIBS=-L/usr/local/lib -lunwind-aarch64 -lunwind -ldl
 LDFLAGS = -g -shared
 
-libunwind_and_find_var_addrs.so: unwind_and_find_var_addrs.o
+libunwind_and_find_var_addrs.so: unwind_and_find_var_addrs.o malloc_2.o
 	$(CC) $(LDFLAGS) $^ -o $@ $(LDLIBS)
 
 unwind_and_find_var_addrs.o: unwind_and_find_var_addrs.c unwind_and_find_var_addrs.h
+
+malloc_2.o: malloc_2.c
 
 .PHONY: all
 all: clean libunwind_and_find_var_addrs.so
