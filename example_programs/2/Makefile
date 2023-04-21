@@ -4,7 +4,7 @@ CC=clang
 # CFLAGS=-g -gdwarf-4 -Wall -target aarch64-linux-gnu $(INCLUDES)
 
 # x86
-CFLAGS=-g -gdwarf-4 -Wall
+CFLAGS=-g -gdwarf-4 -Wall -funwind-tables
 LDLIBS=./unwind_and_find_var_addrs/libunwind_and_find_var_addrs.so
 
 LDFLAGS=-g

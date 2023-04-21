@@ -99,9 +99,9 @@ int main()
 {
     printf("main: %#lx\n", &main);
     printf("func_1: %#lx\n", &func_1);
-    printf("func_2: %#lx\n", &func_1);
-    printf("func_3: %#lx\n", &func_1);
-    printf("func_4: %#lx\n", &func_1);
+    printf("func_2: %#lx\n", &func_2);
+    printf("func_3: %#lx\n", &func_3);
+    printf("func_4: %#lx\n", &func_4);
 
     read_in_file();
 
