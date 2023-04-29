@@ -14,7 +14,6 @@ std::string valDesc(Value *v) {
 
 void Log(const char *path, const char *fmt, ...)
 {
-  std::cout << "logged\n";
   va_list mark;
   char buf[4096] = {0};
   va_start(mark, fmt);

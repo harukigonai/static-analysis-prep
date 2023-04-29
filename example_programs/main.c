@@ -14,6 +14,12 @@ struct hello {
 
 typedef struct hello hello2;
 
+hello2 hi;
+
+struct hello hello_arr[14];
+
+hello2 hello2_arr_arr[4][3];
+
 int func_2(int b);
 
 void func_1(int a);

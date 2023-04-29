@@ -1,13 +1,13 @@
 .PHONY: all
-all: clean example_1
+all: clean example
 
 .PHONY: clean
 clean:
-	cd example_programs/1 && $(MAKE) clean
+	cd example_programs && $(MAKE) clean
 
-.PHONY: example_1
-example_1:
-	cd example_programs/1 && $(MAKE)
+.PHONY: example
+example:
+	cd example_programs && $(MAKE)
 
 .PHONY: libbacktrace
 libbacktrace:
