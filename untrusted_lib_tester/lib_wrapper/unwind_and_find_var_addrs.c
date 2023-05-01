@@ -96,7 +96,7 @@ static int store_context(ucontext_t *dest, unw_cursor_t *cursor)
 static void
 sample_variables(const ucontext_t *ctx, struct var *var_addr_li,
                  size_t *var_addr_li_size, unw_word_t ip, u_long load_address,
-                 struct node *head) {
+                 struct node *head, int untrusted) {
     u_long pc = ip - load_address;
     printf("pc is %#lx\n", pc);
 
@@ -107,12 +107,15 @@ sample_variables(const ucontext_t *ctx, struct var *var_addr_li,
 
         int size = node->size;
         long long true_addr = find_true_addr(ctx, node->loc_atom, node->var_addr, load_address);
+        if (true_addr == 0xdeadbeef)
+            continue;
 
         int in_var_addr_li = 0;
         for (int i = 0; i < *var_addr_li_size; i++) {
             if (var_addr_li[i].size == size &&
                 var_addr_li[i].arg == (void *)true_addr) {
                 in_var_addr_li = 1;
+                break;
             }
         }
 
@@ -122,6 +125,7 @@ sample_variables(const ucontext_t *ctx, struct var *var_addr_li,
 
         var_addr_li[*var_addr_li_size].size = size;
         var_addr_li[*var_addr_li_size].arg = (void *)true_addr;
+        var_addr_li[*var_addr_li_size].untrusted = untrusted;
         (*var_addr_li_size)++;
 
         printf("var: var_addr %#lx. size %lu. loc_atom %lu. %d\n", true_addr, size, node->loc_atom, layer);
@@ -146,17 +150,20 @@ void unwind_and_find_var_addrs(struct var *var_li, size_t *var_li_size) {
         store_context(&prev_ctx, &cursor);
 
         for (int i = 0; i < num_load_addresses; i++) {
+            int untrusted;
             struct node *head;
             if (i == app_index) {
                 head = &head_app;
+                untrusted = 0;
             } else if (i == lib_index) {
                 head = &head_lib;
+                untrusted = 1;
             } else {
                 continue;
             }
 
             u_long rel_addr = ip - load_addresses[i];
-            sample_variables(&prev_ctx, var_li, var_li_size, ip, load_addresses[i], head);
+            sample_variables(&prev_ctx, var_li, var_li_size, ip, load_addresses[i], head, untrusted);
         }
 
         layer++;

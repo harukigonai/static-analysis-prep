@@ -38,6 +38,7 @@
 struct var {
     void *arg;
     size_t size;
+    char untrusted;
 };
 
 struct lib_enter_args {
@@ -48,8 +49,9 @@ struct lib_enter_args {
     void *ret;
     size_t ret_size;
 
-    struct var var_li[4096];
     size_t var_li_size;
+    int var_li_malloc_start_ind; 
+    struct var var_li[100];
 };
 
 #define offsetof(TYPE, MEMBER) ((size_t) &((TYPE *)0)->MEMBER)

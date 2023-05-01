@@ -13,7 +13,7 @@ int main(void) {
     syscall(889);
     */
 
-    char *argv[] = { "/root/untrusted_lib_tester/main", 0 };
-    char *envp[] = { "LD_PRELOAD=./lib_malloc/libmalloc.so", 0 };
+    char *argv[] = { "/root/static-analysis-prep/untrusted_lib_tester/main", 0 };
+    char *envp[] = { "LD_PRELOAD=/root/static-analysis-prep/untrusted_lib_tester/lib_wrapper/libfunc.so", 0 };
     execve(argv[0], argv, envp);
 }
