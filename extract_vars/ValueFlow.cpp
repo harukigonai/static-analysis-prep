@@ -21,7 +21,7 @@ void Log(const char *path, const char *fmt, ...)
   va_end(mark);
   std::string msg(buf);
   std::ofstream ofstr(path, std::ofstream::out|std::ofstream::app);
-  if (!ofstr) 
+  if (!ofstr)
     return;
   std::copy(msg.begin(), msg.end(), std::ostream_iterator<char>(ofstr));
 }

@@ -1,0 +1,118 @@
+int;BIO_free;BIO *;BIO * arg_a
+void;BIO_free_all;BIO *;BIO * arg_a
+BIO *;BIO_new;BIO_METHOD *;BIO_METHOD * arg_a
+BIO *;BIO_new_file;const char *;const char * arg_a;const char *;const char * arg_b
+BIO *;BIO_push;BIO *;BIO * arg_a;BIO *;BIO * arg_b
+int;BIO_read;BIO *;BIO * arg_a;void *;void * arg_b;int;int arg_c
+BIO_METHOD *;BIO_s_file;void
+BIO_METHOD *;BIO_s_mem;void
+int;BIO_write;BIO *;BIO * arg_a;const void *;const void * arg_b;int;int arg_c
+void;BN_free;BIGNUM *;BIGNUM * arg_a
+BIGNUM *;BN_new;void
+int;BN_set_word;BIGNUM *;BIGNUM * arg_a;BN_ULONG;BN_ULONG arg_b
+void;CONF_modules_free;void
+int;CRYPTO_THREADID_set_callback;void (*)(CRYPTO_THREADID *);void (*arg_a)(CRYPTO_THREADID *)
+void;CRYPTO_THREADID_set_numeric;CRYPTO_THREADID *;CRYPTO_THREADID * arg_a;unsigned long;unsigned long arg_b
+void;CRYPTO_cleanup_all_ex_data;void
+int;CRYPTO_num_locks;void
+void;CRYPTO_set_dynlock_create_callback;struct CRYPTO_dynlock_value *(*)(const char *, int);struct CRYPTO_dynlock_value *(*arg_a)(const char *, int)
+void;CRYPTO_set_dynlock_destroy_callback;void (*)(struct CRYPTO_dynlock_value *, const char *, int);void (*arg_a)(struct CRYPTO_dynlock_value *, const char *, int)
+void;CRYPTO_set_dynlock_lock_callback;void (*)(int, struct CRYPTO_dynlock_value *, const char *, int);void (*arg_a)(int, struct CRYPTO_dynlock_value *, const char *, int)
+void;CRYPTO_set_locking_callback;void (*)(int, int, const char *, int);void (*arg_a)(int, int, const char *, int)
+void;DH_free;DH *;DH * arg_a
+DH *;DH_new;void
+void;EC_GROUP_free;EC_GROUP *;EC_GROUP * arg_a
+int;EC_GROUP_get_curve_name;const EC_GROUP *;const EC_GROUP * arg_a
+void;EC_KEY_free;EC_KEY *;EC_KEY * arg_a
+const EC_GROUP *;EC_KEY_get0_group;const EC_KEY *;const EC_KEY * arg_a
+EC_KEY *;EC_KEY_new_by_curve_name;int;int arg_a
+void;ENGINE_cleanup;void
+void;ENGINE_load_builtin_engines;void
+void;ERR_clear_error;void
+void;ERR_free_strings;void
+void;ERR_load_crypto_strings;void
+unsigned long;ERR_peek_error;void
+unsigned long;ERR_peek_last_error;void
+void;ERR_remove_thread_state;const CRYPTO_THREADID *;const CRYPTO_THREADID * arg_a
+int;EVP_DigestInit_ex;EVP_MD_CTX *;EVP_MD_CTX * arg_a;const EVP_MD *;const EVP_MD * arg_b;ENGINE *;ENGINE * arg_c
+int;EVP_DigestUpdate;EVP_MD_CTX *;EVP_MD_CTX * arg_a; const void *; const void * arg_b;size_t;size_t arg_c
+int;EVP_EncryptInit_ex;EVP_CIPHER_CTX *;EVP_CIPHER_CTX * arg_a;const EVP_CIPHER *;const EVP_CIPHER * arg_b;ENGINE *;ENGINE * arg_c;const unsigned char *;const unsigned char * arg_d;const unsigned char *;const unsigned char * arg_e
+EVP_MD_CTX *;EVP_MD_CTX_create;void
+void;EVP_MD_CTX_destroy;EVP_MD_CTX *;EVP_MD_CTX * arg_a
+void;EVP_PKEY_free;EVP_PKEY *;EVP_PKEY * arg_a
+int;EVP_PKEY_size;EVP_PKEY *;EVP_PKEY * arg_a
+int;EVP_SignFinal;EVP_MD_CTX *;EVP_MD_CTX * arg_a;unsigned char *;unsigned char * arg_b;unsigned int *;unsigned int * arg_c;EVP_PKEY *;EVP_PKEY * arg_d
+const EVP_CIPHER *;EVP_aes_128_cbc;void
+const EVP_CIPHER *;EVP_aes_256_cbc;void
+void;EVP_cleanup;void
+const EVP_MD *;EVP_sha1;void
+const EVP_MD *;EVP_sha256;void
+int;HMAC_Init_ex;HMAC_CTX *;HMAC_CTX * arg_a;const void *;const void * arg_b;int;int arg_c;const EVP_MD *;const EVP_MD * arg_d;ENGINE *;ENGINE * arg_e
+void;OBJ_cleanup;void
+int;OBJ_create;const char *;const char * arg_a;const char *;const char * arg_b;const char *;const char * arg_c
+int;OBJ_txt2nid;const char *;const char * arg_a
+void;OPENSSL_cleanse;void *;void * arg_a;size_t;size_t arg_b
+void;OPENSSL_load_builtin_modules;void
+EVP_PKEY *;PEM_read_bio_PrivateKey;BIO *;BIO * arg_a;EVP_PKEY **;EVP_PKEY ** arg_b;pem_password_cb *;pem_password_cb * arg_c;void *;void * arg_d
+int;RAND_bytes;unsigned char *;unsigned char * arg_a;int;int arg_b
+void;RAND_seed;void *;void * arg_a;int;int arg_b
+int;RAND_status;void
+int;SSL_CIPHER_get_bits;const SSL_CIPHER *;const SSL_CIPHER * arg_a;int *;int * arg_b
+const char *;SSL_CIPHER_get_name;const SSL_CIPHER *;const SSL_CIPHER * arg_a
+int;SSL_CTX_check_private_key;const SSL_CTX *;const SSL_CTX * arg_a
+long;SSL_CTX_ctrl;SSL_CTX *;SSL_CTX * arg_a;int;int arg_b;long;long arg_c;void *;void * arg_d
+void;SSL_CTX_free;SSL_CTX *;SSL_CTX * arg_a
+X509_STORE *;SSL_CTX_get_cert_store;const SSL_CTX *;const SSL_CTX * arg_a
+void;SSL_CTX_sess_set_get_cb;SSL_CTX *;SSL_CTX * arg_a;SSL_SESSION *(*)(struct ssl_st *, unsigned char *, int, int *);SSL_SESSION *(*arg_b)(struct ssl_st *, unsigned char *, int, int *)
+void;SSL_CTX_sess_set_new_cb;SSL_CTX *;SSL_CTX * arg_a;int (*)(struct ssl_st *, SSL_SESSION *);int (*arg_b)(struct ssl_st *, SSL_SESSION *)
+void;SSL_CTX_sess_set_remove_cb;SSL_CTX *;SSL_CTX * arg_a;void (*)(struct ssl_ctx_st *,SSL_SESSION *);void (*arg_b)(struct ssl_ctx_st *,SSL_SESSION *)
+int;SSL_CTX_set_cipher_list;SSL_CTX *;SSL_CTX * arg_a;const char *;const char * arg_b
+void;SSL_CTX_set_default_passwd_cb;SSL_CTX *;SSL_CTX * arg_a;pem_password_cb *;pem_password_cb * arg_b
+void;SSL_CTX_set_info_callback;SSL_CTX *;SSL_CTX *arg_a; void (*)(const SSL *,int,int); void (*arg_b)(const SSL *,int,int)
+long;SSL_CTX_set_timeout;SSL_CTX *;SSL_CTX * arg_a;long;long arg_b
+void;SSL_CTX_set_tmp_dh_callback;SSL_CTX *;SSL_CTX * arg_a;DH *(*)(SSL *, int, int);DH *(*arg_b)(SSL *, int, int)
+void;SSL_CTX_set_verify;SSL_CTX *;SSL_CTX * arg_a;int;int arg_b;int (*)(int, X509_STORE_CTX *);int (*arg_c)(int, X509_STORE_CTX *)
+int;SSL_CTX_use_PrivateKey_file;SSL_CTX *;SSL_CTX * arg_a;const char *;const char * arg_b;int;int arg_c
+int;SSL_CTX_use_certificate_chain_file;SSL_CTX *;SSL_CTX * arg_a;const char *;const char * arg_b
+int;SSL_accept;SSL *;SSL * arg_a
+void;SSL_free;SSL *;SSL * arg_a
+SSL_CTX *;SSL_get_SSL_CTX;const SSL *;const SSL * arg_a
+X509 *;SSL_get_certificate;const SSL *;const SSL * arg_a
+const SSL_CIPHER *;SSL_get_current_cipher;const SSL *;const SSL * arg_a
+int;SSL_get_error;const SSL *;const SSL * arg_a;int;int arg_b
+void *;SSL_get_ex_data;const SSL *;const SSL * arg_a;int;int arg_b
+int;SSL_get_ex_new_index;long;long arg_a;void *;void * arg_b;CRYPTO_EX_new *;CRYPTO_EX_new * arg_c;CRYPTO_EX_dup *;CRYPTO_EX_dup * arg_d;CRYPTO_EX_free *;CRYPTO_EX_free * arg_e
+X509 *;SSL_get_peer_certificate;const SSL *;const SSL * arg_a
+const char *;SSL_get_servername;const SSL *;const SSL * arg_a;const int;const int arg_b
+int;SSL_get_shutdown;const SSL *;const SSL * arg_a
+char *;SSL_get_srp_username;SSL *;SSL * arg_a
+int;SSL_get_verify_mode;const SSL *;const SSL * arg_a
+long;SSL_get_verify_result;const SSL *;const SSL * arg_a
+const char *;SSL_get_version;const SSL *;const SSL * arg_a
+BIO *;SSL_get_wbio;const SSL *;const SSL * arg_a
+int;SSL_library_init;void
+void;SSL_load_error_strings;void
+SSL *;SSL_new;SSL_CTX *;SSL_CTX * arg_a
+int;SSL_read;SSL *;SSL * arg_a;void *;void * arg_b;int;int arg_c
+void;SSL_set_bio;SSL *;SSL * arg_a;BIO *;BIO * arg_b;BIO *;BIO * arg_c
+void;SSL_set_connect_state;SSL *;SSL * arg_a
+int;SSL_set_ex_data;SSL *;SSL * arg_a;int;int arg_b;void *;void * arg_c
+int;SSL_set_session_id_context;SSL *;SSL * arg_a;const unsigned char *;const unsigned char * arg_b;unsigned int;unsigned int arg_c
+void;SSL_set_shutdown;SSL *;SSL * arg_a;int;int arg_b
+void;SSL_set_verify;SSL *;SSL * arg_a;int;int arg_b;int (*)(int, X509_STORE_CTX *);int (*arg_c)(int, X509_STORE_CTX *)
+void;SSL_set_verify_result;SSL *;SSL * arg_a;long;long arg_b
+int;SSL_shutdown;SSL *;SSL * arg_a
+int;SSL_write;SSL *;SSL * arg_a;const void *;const void * arg_b;int;int arg_c
+unsigned long;SSLeay;void
+const char *;SSLeay_version;int;int arg_a
+int;X509_NAME_get_index_by_NID;X509_NAME *;X509_NAME * arg_a;int;int arg_b;int;int arg_c
+void;X509_STORE_CTX_cleanup;X509_STORE_CTX *;X509_STORE_CTX * arg_a
+void;X509_STORE_CTX_free;X509_STORE_CTX *;X509_STORE_CTX * arg_a
+int;X509_STORE_CTX_get1_issuer;X509 **;X509 ** arg_a;X509_STORE_CTX *;X509_STORE_CTX * arg_b;X509 *;X509 * arg_c
+int;X509_STORE_CTX_init;X509_STORE_CTX *;X509_STORE_CTX * arg_a;X509_STORE *;X509_STORE * arg_b;X509 *;X509 * arg_c;STACK_OF(X509) *;STACK_OF(X509) * arg_d
+X509_STORE_CTX *;X509_STORE_CTX_new;void
+int;X509_check_private_key;X509 *;X509 * arg_a;EVP_PKEY *;EVP_PKEY * arg_b
+void *;X509_get_ext_d2i;X509 *;X509 * arg_a;int;int arg_b;int *;int * arg_c;int *;int * arg_d
+EVP_PKEY *;X509_get_pubkey;X509 *;X509 * arg_a
+X509_NAME *;X509_get_subject_name;X509 *;X509 * arg_a
+int;X509_verify_cert;X509_STORE_CTX *;X509_STORE_CTX * arg_a
