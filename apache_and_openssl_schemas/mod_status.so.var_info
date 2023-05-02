@@ -1,0 +1,256 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c register_hooks 1032 p uintptr cond
+0x1350:0x13ff:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c show_time 129 r uintptr cond|args
+0x3988:0x3ae7:145:-8:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c show_time 129 tsecs apr_uint32_t cond
+0x3988:0x3ae7:145:-12:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c show_time 131 days int cond|args
+0x3988:0x3ae7:145:-16:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c show_time 131 hrs int cond|args
+0x3988:0x3ae7:145:-20:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c show_time 131 mins int cond|args
+0x3988:0x3ae7:143:24:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c show_time 131 secs int cond|args
+0x3988:0x3ae7:143:20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c format_kbyte_out 119 r uintptr cond|args
+0x3ae8:0x3b8f:143:8:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c format_kbyte_out 119 kbytes apr_off_t cond|args
+0x3ae8:0x3b8f:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c format_byte_out 107 r uintptr cond|args
+0x3b90:0x3c77:143:8:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c format_byte_out 107 bytes apr_off_t cond|args
+0x3b90:0x3c77:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c ap_run_status_hook 93 r uintptr cond|args
+0x1284:0x134f:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c ap_run_status_hook 93 flags int cond|args
+0x1284:0x134f:145:-20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c ap_run_status_hook 93 pHook uintptr cond
+0x1284:0x134f:143:16:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c ap_run_status_hook 93 n int cond
+0x1284:0x134f:143:12:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c ap_run_status_hook 93 rv int cond
+0x1284:0x134f:143:8:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c ap_run_status_hook 93 pHookArray uintptr cond
+0x1284:0x134f:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_handler 202 ps_record uintptr cond|args
+0x1400:0x372b:145:-200:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_handler 203 stat_buffer uintptr cond|args
+0x1400:0x372b:145:-208:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_handler 204 pid_buffer uintptr cond|args
+0x1400:0x372b:145:-216:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 204 worker_pid pid_t cond|args
+0x1400:0x372b:145:-220:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_handler 205 thread_idle_buffer uintptr cond|args
+0x1400:0x372b:145:-232:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_handler 206 thread_busy_buffer uintptr cond|args
+0x1400:0x372b:145:-240:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 207 tu clock_t cond|args
+0x1400:0x372b:145:-248:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 207 ts clock_t cond|args
+0x1400:0x372b:145:-256:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 207 tcu clock_t cond|args
+0x1400:0x372b:145:-264:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 207 tcs clock_t cond|args
+0x1400:0x372b:145:-272:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 208 gu clock_t cond|args
+0x1400:0x372b:145:-280:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 208 gs clock_t cond|args
+0x1400:0x372b:145:-288:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 208 gcu clock_t cond|args
+0x1400:0x372b:145:-296:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 208 gcs clock_t cond|args
+0x1400:0x372b:145:-304:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 209 mpm_generation ap_generation_t cond|args
+0x1400:0x372b:145:-308:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 209 worker_generation ap_generation_t cond|args
+0x1400:0x372b:145:-312:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 211 tick float cond|args
+0x1400:0x372b:145:-316:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 212 times_per_thread int cond
+0x1400:0x372b:145:-320:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 285 len apr_size_t cond|args
+0x1284:0x1294:145:-328:8
+0x1294:0x1294:145:-328:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 286 t long#int cond|args
+0x1284:0x1294:145:-336:8
+0x1294:0x1294:145:-336:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 314 proc_tu clock_t cond
+0x1394:0x1294:145:-344:8
+0x13a4:0x1294:145:-344:8
+0x13b4:0x1294:145:-344:8
+0x13c4:0x1294:145:-344:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 314 proc_ts clock_t cond
+0x1394:0x1294:145:-352:8
+0x13a4:0x1294:145:-352:8
+0x13b4:0x1294:145:-352:8
+0x13c4:0x1294:145:-352:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 314 proc_tcu clock_t cond
+0x1394:0x1294:145:-360:8
+0x13a4:0x1294:145:-360:8
+0x13b4:0x1294:145:-360:8
+0x13c4:0x1294:145:-360:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 314 proc_tcs clock_t cond
+0x1394:0x1294:145:-368:8
+0x13a4:0x1294:145:-368:8
+0x13b4:0x1294:145:-368:8
+0x13c4:0x1294:145:-368:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 315 tmp_tu clock_t cond
+0x1394:0x1294:145:-376:8
+0x13a4:0x1294:145:-376:8
+0x13b4:0x1294:145:-376:8
+0x13c4:0x1294:145:-376:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 315 tmp_ts clock_t cond
+0x1394:0x1294:145:-384:8
+0x13a4:0x1294:145:-384:8
+0x13b4:0x1294:145:-384:8
+0x13c4:0x1294:145:-384:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 315 tmp_tcu clock_t cond
+0x1394:0x1294:145:-392:8
+0x13a4:0x1294:145:-392:8
+0x13b4:0x1294:145:-392:8
+0x13c4:0x1294:145:-392:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 315 tmp_tcs clock_t cond
+0x1394:0x1294:145:-400:8
+0x13a4:0x1294:145:-400:8
+0x13b4:0x1294:145:-400:8
+0x13c4:0x1294:145:-400:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 324 indx int cond
+0x1354:0x1294:145:-404:4
+0x1364:0x1294:145:-404:4
+0x1374:0x1294:145:-404:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 477 cpu clock_t cond|args
+0x12b4:0x1294:145:-416:8
+0x12c4:0x1294:145:-416:8
+0x12d4:0x1294:145:-416:8
+0x12e4:0x1294:145:-416:8
+0x12f4:0x1294:145:-416:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 560 write_completion int cond|args
+0x27c8:0x2a8b:145:-420:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 560 lingering_close int cond|args
+0x27c8:0x2a8b:145:-424:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 560 keep_alive int cond|args
+0x27c8:0x2a8b:145:-428:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 561 connections int cond|args
+0x27c8:0x2a8b:145:-432:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 561 stopping int cond|args
+0x27c8:0x2a8b:145:-436:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 561 procs int cond|args
+0x27c8:0x2a8b:145:-440:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 566 busy_workers int cond|args
+0x27c8:0x2a8b:145:-444:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 566 idle_workers int cond|args
+0x27c8:0x2a8b:145:-448:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_handler 592 dying uintptr cond|args
+0x28e8:0x29e7:145:-456:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_handler 593 old uintptr cond|args
+0x28e8:0x29e7:145:-464:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 654 indx int cond|args
+0x1314:0x1294:145:-468:4
+0x1324:0x1294:145:-468:4
+0x1334:0x1294:145:-468:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 684 j int cond
+0x13e4:0x1294:145:-472:4
+0x13f4:0x1294:145:-472:4
+0x1404:0x1294:145:-472:4
+0x1414:0x1294:145:-472:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 685 k int cond
+0x13e4:0x1294:145:-476:4
+0x13f4:0x1294:145:-476:4
+0x1404:0x1294:145:-476:4
+0x1414:0x1294:145:-476:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 690 indx int cond|args
+0x2c2c:0x2ccb:145:-480:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 972 flags int cond|args
+0x1434:0x1294:145:-484:4
+0x1444:0x1294:145:-484:4
+0x1454:0x1294:145:-484:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_handler 182 r uintptr cond|args
+0x1400:0x372b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_handler 184 loc uintptr cond|args
+0x1400:0x372b:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 185 nowtime apr_time_t cond|args
+0x1400:0x372b:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 186 up_time apr_uint32_t cond|args
+0x1400:0x372b:145:-36:4
+#variable = DW_TAG_structure_type /root/httpd/modules/generators mod_status.c status_handler 187 t ap_loadavg_t cond|args
+0x1400:0x372b:145:-48:12
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 188 j int cond|args
+0x1400:0x372b:145:-52:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 188 i int cond|args
+0x1400:0x372b:145:-56:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 188 res int cond
+0x1400:0x372b:145:-60:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 188 written int cond
+0x1400:0x372b:145:-64:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 189 ready int cond|args
+0x1400:0x372b:145:-68:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 190 busy int cond|args
+0x1400:0x372b:145:-72:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 191 count long#unsigned#int cond|args
+0x1400:0x372b:145:-80:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 192 lres long#unsigned#int cond|args
+0x1400:0x372b:145:-88:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 192 my_lres long#unsigned#int cond|args
+0x1400:0x372b:145:-96:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 192 conn_lres long#unsigned#int cond|args
+0x1400:0x372b:145:-104:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 193 bytes apr_off_t cond|args
+0x1400:0x372b:145:-112:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 193 my_bytes apr_off_t cond|args
+0x1400:0x372b:145:-120:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 193 conn_bytes apr_off_t cond|args
+0x1400:0x372b:145:-128:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 194 bcount apr_off_t cond
+0x1400:0x372b:145:-136:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 194 kbcount apr_off_t cond|args
+0x1400:0x372b:145:-144:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 195 req_time long#int cond|args
+0x1400:0x372b:145:-152:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 196 duration_global apr_time_t cond|args
+0x1400:0x372b:145:-160:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 197 duration_slot apr_time_t cond|args
+0x1400:0x372b:145:-168:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 198 short_report int cond
+0x1400:0x372b:145:-172:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c status_handler 199 no_table_report int cond
+0x1400:0x372b:145:-176:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_handler 200 global_record uintptr cond
+0x1400:0x372b:145:-184:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_handler 201 ws_record uintptr cond|args
+0x1400:0x372b:145:-192:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_pre_config 988 p uintptr cond
+0x372c:0x375b:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_pre_config 988 plog uintptr cond
+0x372c:0x375b:145:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_pre_config 988 ptemp uintptr cond
+0x372c:0x375b:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_init 999 p uintptr cond
+0x375c:0x389f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_init 999 plog uintptr cond
+0x375c:0x389f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_init 999 ptemp uintptr cond
+0x375c:0x389f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_init 1000 s uintptr cond
+0x375c:0x389f:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_child_init 1026 p uintptr cond
+0x38a0:0x38d7:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_status.c status_child_init 1026 s uintptr cond
+0x38a0:0x38d7:143:16:8
+#variable = DW_TAG_structure_type /root/httpd/modules/generators mod_status.c #global 1042 status_module module globalVar
+0x1284:0x3c77:3:90432:112
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c #global 103 child_pid pid_t globalVar
+0x1284:0x3c77:3:90548:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c #global 89 server_limit int globalVar
+0x1284:0x3c77:3:90552:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c #global 89 thread_limit int globalVar
+0x1284:0x3c77:3:90556:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c #global 90 is_async int globalVar
+0x1284:0x3c77:3:90560:4
+#variable = DW_TAG_array_type /root/httpd/modules/generators mod_status.c #global 168 status_options uintptr globalVar
+0x1284:0x3c77:3:89464:96
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c #global 89 max_servers int globalVar
+0x1284:0x3c77:3:90564:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_status.c #global 89 threads_per_child int globalVar
+0x1284:0x3c77:3:90568:4
+#variable = DW_TAG_array_type /root/httpd/modules/generators mod_status.c #global 180 status_flags uintptr globalVar
+0x1284:0x3c77:3:90572:12

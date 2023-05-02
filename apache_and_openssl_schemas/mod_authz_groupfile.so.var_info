@@ -1,0 +1,94 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c create_authz_groupfile_dir_config 64 p uintptr cond|args
+0xf84:0xfcf:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c create_authz_groupfile_dir_config 64 d uintptr cond
+0xf84:0xfcf:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c create_authz_groupfile_dir_config 66 conf uintptr cond
+0xf84:0xfcf:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c register_hooks 311 p uintptr cond|args
+0xfd0:0x109b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 85 p uintptr cond|args
+0x1998:0x1bab:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 85 user uintptr cond|args
+0x1998:0x1bab:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 85 grpfile uintptr cond|args
+0x1998:0x1bab:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 86 out uintptr cond
+0x1998:0x1bab:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 88 f uintptr cond|args
+0x1998:0x1bab:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 89 grps uintptr cond|args
+0x1998:0x1bab:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 90 sp uintptr cond|args
+0x1998:0x1bab:145:-64:8
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 91 vb ap_varbuf cond|args
+0x1998:0x1bab:143:88:40
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 92 group_name uintptr cond|args
+0x1998:0x1bab:143:80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 92 ll uintptr cond|args
+0x1998:0x1bab:143:72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 92 w uintptr cond|args
+0x1998:0x1bab:143:64:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 93 status apr_status_t cond
+0x1998:0x1bab:143:60:4
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_groupfile.c groups_for_user 94 group_len apr_size_t cond|args
+0x1998:0x1bab:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c filegroup_check_authorization 209 r uintptr cond|args
+0x1bac:0x20ab:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c filegroup_check_authorization 210 require_args uintptr cond
+0x1bac:0x20ab:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c filegroup_check_authorization 211 parsed_require_args uintptr cond
+0x1bac:0x20ab:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c filegroup_check_authorization 213 conf uintptr cond|args
+0x1bac:0x20ab:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c filegroup_check_authorization 215 user uintptr cond|args
+0x1bac:0x20ab:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c filegroup_check_authorization 216 grpstatus uintptr cond|args
+0x1bac:0x20ab:145:-56:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_groupfile.c filegroup_check_authorization 217 status apr_status_t cond|args
+0x1bac:0x20ab:145:-60:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c filegroup_check_authorization 218 filegroup uintptr cond|args
+0x1bac:0x20ab:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c group_check_authorization 136 r uintptr cond|args
+0x10d4:0x18bf:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c group_check_authorization 137 require_args uintptr cond
+0x10d4:0x18bf:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c group_check_authorization 138 parsed_require_args uintptr cond
+0x10d4:0x18bf:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c group_check_authorization 140 conf uintptr cond|args
+0x10d4:0x18bf:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c group_check_authorization 142 user uintptr cond|args
+0x10d4:0x18bf:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c group_check_authorization 144 err uintptr cond|args
+0x10d4:0x18bf:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c group_check_authorization 145 expr uintptr cond|args
+0x10d4:0x18bf:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c group_check_authorization 146 require uintptr cond
+0x10d4:0x18bf:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c group_check_authorization 148 t uintptr cond|args
+0x10d4:0x18bf:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c group_check_authorization 148 w uintptr cond|args
+0x10d4:0x18bf:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c group_check_authorization 149 grpstatus uintptr cond|args
+0x10d4:0x18bf:145:-96:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_groupfile.c group_check_authorization 150 status apr_status_t cond|args
+0x10d4:0x18bf:145:-100:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groupfile_parse_config 274 cmd uintptr cond|args
+0x18c0:0x1997:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groupfile_parse_config 274 require_line uintptr cond|args
+0x18c0:0x1997:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groupfile_parse_config 275 parsed_require_line uintptr cond
+0x18c0:0x1997:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groupfile_parse_config 277 expr_err uintptr cond|args
+0x18c0:0x1997:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c groupfile_parse_config 278 expr uintptr cond
+0x18c0:0x1997:143:32:8
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authz_groupfile.c #global 324 authz_groupfile_module module globalVar
+0xf84:0x20ab:3:78064:112
+#variable = DW_TAG_array_type /root/httpd/modules/aaa mod_authz_groupfile.c #global 72 authz_groupfile_cmds uintptr globalVar
+0xf84:0x20ab:3:77176:80
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authz_groupfile.c #global 293 authz_group_provider uintptr globalVar
+0xf84:0x20ab:3:77256:16
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authz_groupfile.c #global 299 authz_filegroup_provider uintptr globalVar
+0xf84:0x20ab:3:77272:16
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_groupfile.c #global 207 authz_owner_get_file_group uintptr globalVar
+0xf84:0x20ab:3:78184:8

@@ -1,0 +1,60 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c create_authn_file_dir_config 40 p uintptr cond|args
+0xa54:0xa9f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c create_authn_file_dir_config 40 d uintptr cond
+0xa54:0xa9f:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c create_authn_file_dir_config 42 conf uintptr cond
+0xa54:0xa9f:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c register_hooks 177 p uintptr cond|args
+0xaa0:0xb1b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c check_password 58 r uintptr cond|args
+0xb54:0xdc7:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c check_password 58 user uintptr cond|args
+0xb54:0xdc7:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c check_password 59 password uintptr cond|args
+0xb54:0xdc7:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c check_password 61 conf uintptr cond|args
+0xb54:0xdc7:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c check_password 63 f uintptr cond|args
+0xb54:0xdc7:145:-48:8
+#variable = DW_TAG_array_type /root/httpd/modules/aaa mod_authn_file.c check_password 64 l uintptr cond|args
+0xb54:0xdc7:143:64:8192
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authn_file.c check_password 65 status apr_status_t cond|args
+0xb54:0xdc7:143:60:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c check_password 66 file_password uintptr cond|args
+0xb54:0xdc7:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c check_password 83 rpw uintptr cond|args
+0xcc8:0xd2b:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c check_password 83 w uintptr cond|args
+0xcc8:0xd2b:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c get_realm_hash 113 r uintptr cond|args
+0xdc8:0x106f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c get_realm_hash 113 user uintptr cond|args
+0xdc8:0x106f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c get_realm_hash 114 realm uintptr cond|args
+0xdc8:0x106f:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c get_realm_hash 114 rethash uintptr cond
+0xdc8:0x106f:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c get_realm_hash 116 conf uintptr cond|args
+0xdc8:0x106f:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c get_realm_hash 118 f uintptr cond|args
+0xdc8:0x106f:145:-56:8
+#variable = DW_TAG_array_type /root/httpd/modules/aaa mod_authn_file.c get_realm_hash 119 l uintptr cond|args
+0xdc8:0x106f:143:88:8192
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authn_file.c get_realm_hash 120 status apr_status_t cond|args
+0xdc8:0x106f:143:84:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c get_realm_hash 121 file_hash uintptr cond|args
+0xdc8:0x106f:143:72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c get_realm_hash 138 rpw uintptr cond|args
+0xf40:0xfeb:143:64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c get_realm_hash 138 w uintptr cond|args
+0xf40:0xfeb:143:56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c get_realm_hash 138 x uintptr cond|args
+0xf40:0xfeb:143:48:8
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authn_file.c #global 185 authn_file_module module globalVar
+0xa54:0x106f:3:73840:112
+#variable = DW_TAG_array_type /root/httpd/modules/aaa mod_authn_file.c #global 48 authn_file_cmds uintptr globalVar
+0xa54:0x106f:3:73096:80
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authn_file.c #global 167 authn_file_provider uintptr globalVar
+0xa54:0x106f:3:73176:16
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_file.c #global 35 authn_cache_store uintptr globalVar
+0xa54:0x106f:3:73960:8

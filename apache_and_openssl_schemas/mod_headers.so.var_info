@@ -1,0 +1,339 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c create_headers_dir_config 243 p uintptr cond|args
+0x1804:0x189f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c create_headers_dir_config 243 d uintptr cond
+0x1804:0x189f:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c create_headers_dir_config 245 conf uintptr cond
+0x1804:0x189f:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c merge_headers_config 254 p uintptr cond|args
+0x18a0:0x1957:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c merge_headers_config 254 basev uintptr cond
+0x18a0:0x1957:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c merge_headers_config 254 overridesv uintptr cond
+0x18a0:0x1957:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c merge_headers_config 256 newconf uintptr cond
+0x18a0:0x1957:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c merge_headers_config 257 base uintptr cond|args
+0x18a0:0x1957:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c merge_headers_config 258 overrides uintptr cond|args
+0x18a0:0x1957:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c register_hooks 986 p uintptr cond
+0x1958:0x1aab:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_tags 595 hdr uintptr cond|args
+0x3768:0x392f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_tags 595 r uintptr cond|args
+0x3768:0x392f:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_headers.c process_tags 597 i int cond|args
+0x3768:0x392f:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_tags 598 s uintptr cond|args
+0x3768:0x392f:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_tags 599 str uintptr cond|args
+0x3768:0x392f:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_tags 600 tag uintptr cond|args
+0x3768:0x392f:143:56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_tags 603 err uintptr cond|args
+0x1ac4:0x1814:143:48:8
+0x1ad4:0x1814:143:48:8
+0x1ae4:0x1814:143:48:8
+0x1af4:0x1814:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_tags 604 val uintptr cond|args
+0x1ac4:0x1814:143:40:8
+0x1ad4:0x1814:143:40:8
+0x1ae4:0x1814:143:40:8
+0x1af4:0x1814:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_regexp 625 hdr uintptr cond|args
+0x39a4:0x3b7f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_regexp 625 value uintptr cond|args
+0x39a4:0x3b7f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_regexp 626 r uintptr cond|args
+0x39a4:0x3b7f:145:-32:8
+#variable = DW_TAG_array_type /root/httpd/modules/metadata mod_headers.c process_regexp 628 pmatch uintptr cond|args
+0x39a4:0x3b7f:143:80:80
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_regexp 629 subs uintptr cond|args
+0x39a4:0x3b7f:143:72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_regexp 630 remainder uintptr cond|args
+0x39a4:0x3b7f:143:64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c process_regexp 631 ret uintptr cond|args
+0x39a4:0x3b7f:143:56:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_headers.c process_regexp 632 diffsz int cond|args
+0x39a4:0x3b7f:143:52:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 693 r uintptr cond|args
+0x3060:0x3767:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 693 headers uintptr cond|args
+0x3060:0x3767:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 694 fixup uintptr cond
+0x3060:0x3767:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 694 early int cond
+0x3060:0x3767:145:-36:4
+#variable = DW_TAG_structure_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 696 v echo_do cond|args
+0x3060:0x3767:145:-56:16
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 697 i int cond
+0x3060:0x3767:145:-60:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 698 val uintptr cond
+0x3060:0x3767:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 701 hdr uintptr cond|args
+0x1a74:0x1814:145:-80:8
+0x1a84:0x1814:145:-80:8
+0x1a94:0x1814:145:-80:8
+0x1aa4:0x1814:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 702 envar uintptr cond|args
+0x1a74:0x1814:145:-88:8
+0x1a84:0x1814:145:-88:8
+0x1a94:0x1814:145:-88:8
+0x1aa4:0x1814:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 714 err uintptr cond|args
+0x1994:0x1814:145:-96:8
+0x19a4:0x1814:145:-96:8
+0x19b4:0x1814:145:-96:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 715 eval int cond
+0x1994:0x1814:145:-100:4
+0x19a4:0x1814:145:-100:4
+0x19b4:0x1814:145:-100:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 749 new_val uintptr cond|args
+0x1a04:0x1814:145:-112:8
+0x1a14:0x1814:145:-112:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 750 new_val_len apr_size_t cond|args
+0x1a04:0x1814:145:-120:8
+0x1a14:0x1814:145:-120:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 751 tok_found int cond
+0x1a04:0x1814:145:-124:4
+0x1a14:0x1814:145:-124:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 755 tok_start uintptr cond|args
+0x19d4:0x1814:145:-136:8
+0x19e4:0x1814:145:-136:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 809 repl uintptr cond|args
+0x3614:0x3647:145:-144:8
+#variable = DW_TAG_structure_type /root/httpd/modules/metadata mod_headers.c do_headers_fixup 815 ed edit_do cond|args
+0x1a34:0x1814:145:-168:24
+0x1a44:0x1814:145:-168:24
+0x1a54:0x1814:145:-168:24
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_output_filter 859 f uintptr cond|args
+0x282c:0x2a43:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_output_filter 860 in uintptr cond|args
+0x282c:0x2a43:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_output_filter 862 dirconf uintptr cond|args
+0x282c:0x2a43:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_output_filter 865 sr__ uintptr cond|args
+0x1934:0x1814:145:-32:8
+0x1944:0x1814:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_error_filter 883 f uintptr cond|args
+0x2a44:0x2c2f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_error_filter 884 in uintptr cond|args
+0x2a44:0x2c2f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_error_filter 886 dirconf uintptr cond|args
+0x2a44:0x2c2f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_error_filter 890 sr__ uintptr cond|args
+0x1964:0x1814:145:-32:8
+0x1974:0x1814:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c register_format_tag_handler 960 tag uintptr cond|args
+0x3c40:0x3c7b:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c register_format_tag_handler 961 tag_handler uintptr cond|args
+0x3c40:0x3c7b:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_pre_config 966 p uintptr cond|args
+0x2c30:0x2d77:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_pre_config 966 plog uintptr cond
+0x2c30:0x2d77:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_pre_config 966 ptemp uintptr cond
+0x2c30:0x2d77:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_post_config 980 pconf uintptr cond
+0x2d78:0x2d9b:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_post_config 980 plog uintptr cond
+0x2d78:0x2d9b:145:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_post_config 981 ptemp uintptr cond
+0x2d78:0x2d9b:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_post_config 981 s uintptr cond
+0x2d78:0x2d9b:145:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_insert_output_filter 836 r uintptr cond|args
+0x2d9c:0x2e1f:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_insert_output_filter 838 dirconf uintptr cond
+0x2d9c:0x2e1f:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_insert_error_filter 849 r uintptr cond|args
+0x2e20:0x2e93:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_insert_error_filter 851 dirconf uintptr cond
+0x2e20:0x2e93:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_fixup 911 r uintptr cond|args
+0x2e94:0x2f0b:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_fixup 913 dirconf uintptr cond|args
+0x2e94:0x2f0b:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_early 923 r uintptr cond|args
+0x2f0c:0x305f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c ap_headers_early 925 dirconf uintptr cond|args
+0x2f0c:0x305f:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c echo_header 660 v uintptr cond
+0x3930:0x39a3:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c echo_header 660 key uintptr cond|args
+0x3930:0x39a3:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c echo_header 660 val uintptr cond|args
+0x3930:0x39a3:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c echo_header 662 ed uintptr cond|args
+0x3930:0x39a3:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c edit_header 674 v uintptr cond
+0x3b80:0x3bf7:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c edit_header 674 key uintptr cond|args
+0x3b80:0x3bf7:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c edit_header 674 val uintptr cond|args
+0x3b80:0x3bf7:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c edit_header 676 ed uintptr cond|args
+0x3b80:0x3bf7:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c edit_header 677 repl uintptr cond|args
+0x3b80:0x3bf7:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c add_them_all 685 v uintptr cond
+0x3bf8:0x3c3f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c add_them_all 685 key uintptr cond|args
+0x3bf8:0x3c3f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c add_them_all 685 val uintptr cond|args
+0x3bf8:0x3c3f:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c add_them_all 687 headers uintptr cond|args
+0x3bf8:0x3c3f:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_duration 170 r uintptr cond|args
+0x3c7c:0x3ccf:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_duration 170 a uintptr cond
+0x3c7c:0x3ccf:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_time 175 r uintptr cond|args
+0x3cd0:0x3d0f:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_time 175 a uintptr cond
+0x3cd0:0x3d0f:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c unwrap_header 182 p uintptr cond|args
+0x3ef0:0x3f8b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c unwrap_header 182 hdr uintptr cond|args
+0x3ef0:0x3f8b:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c unwrap_header 185 ptr uintptr cond
+0x3f28:0x3f7b:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_env_var 197 r uintptr cond|args
+0x3d10:0x3d73:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_env_var 197 a uintptr cond|args
+0x3d10:0x3d73:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_env_var 199 s uintptr cond|args
+0x3d10:0x3d73:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_ssl_var 207 r uintptr cond|args
+0x3d74:0x3df7:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_ssl_var 207 name uintptr cond|args
+0x3d74:0x3df7:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_ssl_var 209 val uintptr cond|args
+0x3d74:0x3df7:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_loadavg 217 r uintptr cond|args
+0x3df8:0x3e57:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_loadavg 217 a uintptr cond
+0x3df8:0x3e57:145:-16:8
+#variable = DW_TAG_structure_type /root/httpd/modules/metadata mod_headers.c header_request_loadavg 219 t ap_loadavg_t cond|args
+0x3df8:0x3e57:143:20:12
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_idle 225 r uintptr cond|args
+0x3e58:0x3ea3:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_idle 225 a uintptr cond
+0x3e58:0x3ea3:145:-16:8
+#variable = DW_TAG_structure_type /root/httpd/modules/metadata mod_headers.c header_request_idle 227 t ap_sload_t cond|args
+0x3e58:0x3ea3:143:8:24
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_busy 232 r uintptr cond|args
+0x3ea4:0x3eef:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_request_busy 232 a uintptr cond
+0x3ea4:0x3eef:145:-16:8
+#variable = DW_TAG_structure_type /root/httpd/modules/metadata mod_headers.c header_request_busy 234 t ap_sload_t cond|args
+0x3ea4:0x3eef:143:8:24
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_misc_string 270 p uintptr cond|args
+0x25e0:0x2813:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_misc_string 270 tag uintptr cond
+0x25e0:0x2813:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_misc_string 270 sa uintptr cond|args
+0x25e0:0x2813:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_misc_string 272 s uintptr cond|args
+0x25e0:0x2813:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_misc_string 273 d uintptr cond
+0x25e0:0x2813:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_format_tag 330 p uintptr cond|args
+0x2434:0x25df:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_format_tag 330 tag uintptr cond|args
+0x2434:0x25df:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_format_tag 330 sa uintptr cond|args
+0x2434:0x25df:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_format_tag 332 s uintptr cond|args
+0x2434:0x25df:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_format_tag 333 tag_handler uintptr cond
+0x2434:0x25df:143:16:8
+#variable = DW_TAG_array_type /root/httpd/modules/metadata mod_headers.c parse_format_tag 361 dummy uintptr cond|args
+0x1904:0x1814:143:14:2
+0x1914:0x1814:143:14:2
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_format_string 382 cmd uintptr cond|args
+0x226c:0x2433:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_format_string 382 hdr uintptr cond|args
+0x226c:0x2433:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_format_string 382 s uintptr cond|args
+0x226c:0x2433:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_format_string 384 p uintptr cond|args
+0x226c:0x2433:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_format_string 385 res uintptr cond
+0x226c:0x2433:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c parse_format_string 397 err uintptr cond|args
+0x18b4:0x1814:143:56:8
+0x18c4:0x1814:143:56:8
+0x18d4:0x1814:143:56:8
+0x18e4:0x1814:143:56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 419 cmd uintptr cond|args
+0x1c80:0x226b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 420 indirconf uintptr cond
+0x1c80:0x226b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 421 action uintptr cond|args
+0x1c80:0x226b:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 422 hdr uintptr cond|args
+0x1c80:0x226b:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 423 value uintptr cond|args
+0x1c80:0x226b:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 424 subs uintptr cond
+0x1c80:0x226b:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 425 envclause uintptr cond|args
+0x1c80:0x226b:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 427 dirconf uintptr cond
+0x1c80:0x226b:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 428 condition_var uintptr cond
+0x1c80:0x226b:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 429 colon uintptr cond|args
+0x1c80:0x226b:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 430 new uintptr cond|args
+0x1c80:0x226b:143:96:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 431 expr uintptr cond
+0x1c80:0x226b:143:88:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 433 fixup uintptr cond|args
+0x1c80:0x226b:143:80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 491 regex uintptr cond
+0x1864:0x1814:143:72:8
+0x1874:0x1814:143:72:8
+0x1884:0x1814:143:72:8
+0x1894:0x1814:143:72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_inout_cmd 528 err uintptr cond|args
+0x1804:0x1814:143:64:8
+0x1814:0x1814:143:64:8
+0x1824:0x1814:143:64:8
+0x1834:0x1814:143:64:8
+0x1844:0x1814:143:64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_cmd 554 cmd uintptr cond|args
+0x1aac:0x1c7f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_cmd 554 indirconf uintptr cond|args
+0x1aac:0x1c7f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_cmd 555 args uintptr cond|args
+0x1aac:0x1c7f:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_cmd 557 action uintptr cond|args
+0x1aac:0x1c7f:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_cmd 558 hdr uintptr cond|args
+0x1aac:0x1c7f:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_cmd 559 val uintptr cond|args
+0x1aac:0x1c7f:143:56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_cmd 560 envclause uintptr cond|args
+0x1aac:0x1c7f:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c header_cmd 561 subs uintptr cond|args
+0x1aac:0x1c7f:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c constant_item 166 r uintptr cond
+0x2814:0x282b:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c constant_item 166 stuff uintptr cond
+0x2814:0x282b:145:0:8
+#variable = DW_TAG_structure_type /root/httpd/modules/metadata mod_headers.c #global 1001 headers_module module globalVar
+0x1804:0x3f8b:3:86472:112
+#variable = DW_TAG_array_type /root/httpd/modules/metadata mod_headers.c #global 949 headers_cmds uintptr globalVar
+0x1804:0x3f8b:3:85360:120
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_headers.c #global 108 hdr_out_always char globalVar
+0x1804:0x3f8b:3:86586:1
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c #global 123 condition_early uintptr globalVar
+0x1804:0x3f8b:3:86592:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_headers.c #global 88 format_tag_hash uintptr globalVar
+0x1804:0x3f8b:3:86608:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_headers.c #global 107 hdr_out_onsuccess char globalVar
+0x1804:0x3f8b:3:86584:1
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_headers.c #global 106 hdr_in char globalVar
+0x1804:0x3f8b:3:86585:1

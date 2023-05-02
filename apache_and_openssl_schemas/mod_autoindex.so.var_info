@@ -1,0 +1,695 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c create_autoindex_config 614 p uintptr cond|args
+0x2414:0x256f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c create_autoindex_config 614 dummy uintptr cond
+0x2414:0x256f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c create_autoindex_config 616 new uintptr cond
+0x2414:0x256f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c merge_autoindex_configs 638 p uintptr cond|args
+0x2570:0x2a77:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c merge_autoindex_configs 638 basev uintptr cond
+0x2570:0x2a77:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c merge_autoindex_configs 638 addv uintptr cond
+0x2570:0x2a77:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c merge_autoindex_configs 640 new uintptr cond
+0x2570:0x2a77:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c merge_autoindex_configs 641 base uintptr cond|args
+0x2570:0x2a77:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c merge_autoindex_configs 642 add uintptr cond|args
+0x2570:0x2a77:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c register_hooks 2336 p uintptr cond
+0x2a78:0x2ab3:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c response_is_html 156 r uintptr cond|args
+0x7098:0x711b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c response_is_html 158 ctype uintptr cond|args
+0x7098:0x711b:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_preamble 169 r uintptr cond|args
+0x711c:0x7247:145:-8:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c emit_preamble 169 xhtml int cond|args
+0x711c:0x7247:145:-12:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_preamble 169 title uintptr cond|args
+0x711c:0x7247:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_preamble 171 d uintptr cond|args
+0x711c:0x7247:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c do_emit_plain 948 r uintptr cond|args
+0x7248:0x7447:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c do_emit_plain 948 f uintptr cond|args
+0x7248:0x7447:145:-16:8
+#variable = DW_TAG_array_type /root/httpd/modules/generators mod_autoindex.c do_emit_plain 950 buf uintptr cond|args
+0x7248:0x7447:143:47:8193
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c do_emit_plain 951 ch int cond
+0x7248:0x7447:143:40:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c do_emit_plain 952 i apr_size_t cond
+0x7248:0x7447:143:32:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c do_emit_plain 952 c apr_size_t cond|args
+0x7248:0x7447:143:24:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c do_emit_plain 952 n apr_size_t cond|args
+0x7248:0x7447:143:16:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c do_emit_plain 953 rv apr_status_t cond
+0x7248:0x7447:143:12:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_head 1000 r uintptr cond|args
+0x45c0:0x4903:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_head 1000 header_fname uintptr cond|args
+0x45c0:0x4903:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c emit_head 1000 suppress_amble int cond
+0x45c0:0x4903:145:-20:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c emit_head 1001 emit_xhtml int cond|args
+0x45c0:0x4903:145:-24:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_head 1001 title uintptr cond|args
+0x45c0:0x4903:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_head 1003 d uintptr cond
+0x45c0:0x4903:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_head 1004 hdrs uintptr cond|args
+0x45c0:0x4903:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_head 1005 f uintptr cond|args
+0x45c0:0x4903:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_head 1006 rr uintptr cond|args
+0x45c0:0x4903:143:64:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c emit_head 1007 emit_amble int cond
+0x45c0:0x4903:143:60:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c emit_head 1008 emit_H1 int cond
+0x45c0:0x4903:143:56:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_head 1009 r_accept uintptr cond|args
+0x45c0:0x4903:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_head 1010 r_accept_enc uintptr cond|args
+0x45c0:0x4903:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_head 1038 f uintptr cond
+0x2644:0x2424:143:32:8
+0x2654:0x2424:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c ignore_entry 871 d uintptr cond
+0x74f8:0x760b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c ignore_entry 871 path uintptr cond|args
+0x74f8:0x760b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c ignore_entry 873 list uintptr cond
+0x74f8:0x760b:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c ignore_entry 874 items uintptr cond
+0x74f8:0x760b:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c ignore_entry 875 tt uintptr cond|args
+0x74f8:0x760b:143:32:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c ignore_entry 876 i int cond
+0x74f8:0x760b:143:28:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c ignore_entry 886 p uintptr cond|args
+0x2b34:0x2424:143:16:8
+0x2b44:0x2424:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c ignore_entry 887 ap uintptr cond|args
+0x2b34:0x2424:143:8:8
+0x2b44:0x2424:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_item 761 content_type uintptr cond|args
+0x760c:0x77b7:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_item 761 content_encoding uintptr cond|args
+0x760c:0x77b7:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_item 762 path uintptr cond|args
+0x760c:0x77b7:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_item 762 list uintptr cond
+0x760c:0x77b7:143:40:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c find_item 762 path_only int cond
+0x760c:0x77b7:143:36:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_item 764 items uintptr cond
+0x760c:0x77b7:143:24:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c find_item 765 i int cond
+0x760c:0x77b7:143:20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_item 768 p uintptr cond|args
+0x7650:0x778f:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_desc 829 dcfg uintptr cond
+0x77b8:0x78ff:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_desc 829 filename_full uintptr cond|args
+0x77b8:0x78ff:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c find_desc 831 i int cond
+0x77b8:0x78ff:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_desc 832 list uintptr cond
+0x77b8:0x78ff:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_desc 833 filename_only uintptr cond
+0x77b8:0x78ff:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_desc 834 filename uintptr cond|args
+0x77b8:0x78ff:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_desc 847 tuple uintptr cond|args
+0x2b64:0x2424:143:16:8
+0x2b74:0x2424:143:16:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c find_desc 848 found int cond
+0x2b64:0x2424:143:12:4
+0x2b74:0x2424:143:12:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c make_parent_entry 1249 autoindex_opts apr_int32_t cond
+0x4904:0x4b53:145:-12:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c make_parent_entry 1250 d uintptr cond|args
+0x4904:0x4b53:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c make_parent_entry 1251 r uintptr cond|args
+0x4904:0x4b53:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c make_parent_entry 1251 keyid char cond|args
+0x4904:0x4b53:145:-33:1
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c make_parent_entry 1252 direction char cond|args
+0x4904:0x4b53:145:-34:1
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c make_parent_entry 1254 p uintptr cond|args
+0x4904:0x4b53:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c make_parent_entry 1255 testpath uintptr cond|args
+0x4904:0x4b53:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_item_by_request 804 r uintptr cond|args
+0x7900:0x7953:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_item_by_request 804 list uintptr cond|args
+0x7900:0x7953:143:16:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c find_item_by_request 804 path_only int cond|args
+0x7900:0x7953:143:12:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_title 1194 r uintptr cond|args
+0x7954:0x7bff:145:-16:8
+#variable = DW_TAG_array_type /root/httpd/modules/generators mod_autoindex.c find_title 1196 titlebuf uintptr cond|args
+0x7954:0x7bff:143:48:8192
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_title 1196 find uintptr cond
+0x7954:0x7bff:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c find_title 1197 thefile uintptr cond|args
+0x7954:0x7bff:143:32:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c find_title 1198 x int cond|args
+0x7954:0x7bff:143:28:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c find_title 1198 y int cond
+0x7954:0x7bff:143:24:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c find_title 1198 p int cond
+0x7954:0x7bff:143:20:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c find_title 1199 n apr_size_t cond|args
+0x7954:0x7bff:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c make_autoindex_entry 1302 dirent uintptr cond|args
+0x4b54:0x50ab:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c make_autoindex_entry 1303 autoindex_opts int cond
+0x4b54:0x50ab:145:-20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c make_autoindex_entry 1304 d uintptr cond|args
+0x4b54:0x50ab:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c make_autoindex_entry 1305 r uintptr cond|args
+0x4b54:0x50ab:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c make_autoindex_entry 1305 keyid char cond|args
+0x4b54:0x50ab:145:-41:1
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c make_autoindex_entry 1306 direction char cond|args
+0x4b54:0x50ab:145:-42:1
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c make_autoindex_entry 1307 pattern uintptr cond|args
+0x4b54:0x50ab:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c make_autoindex_entry 1309 rr uintptr cond|args
+0x4b54:0x50ab:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c make_autoindex_entry 1310 p uintptr cond
+0x4b54:0x50ab:143:72:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c make_autoindex_entry 1311 show_forbidden int cond
+0x4b54:0x50ab:143:68:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_link 1477 r uintptr cond|args
+0x7c00:0x7d2f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_link 1477 anchor uintptr cond|args
+0x7c00:0x7d2f:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c emit_link 1477 column char cond
+0x7c00:0x7d2f:145:-17:1
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c emit_link 1478 curkey char cond
+0x7c00:0x7d2f:145:-18:1
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c emit_link 1478 curdirection char cond
+0x7c00:0x7d2f:145:-19:1
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_link 1479 colargs uintptr cond|args
+0x7c00:0x7d2f:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c emit_link 1479 nosort int cond
+0x7c00:0x7d2f:145:-36:4
+#variable = DW_TAG_array_type /root/httpd/modules/generators mod_autoindex.c emit_link 1482 qvalue uintptr cond|args
+0x7c34:0x7d17:143:35:9
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c terminate_description 1418 d uintptr cond
+0x7d30:0x7f2f:145:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c terminate_description 1418 desc uintptr cond
+0x7d30:0x7f2f:145:32:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c terminate_description 1419 autoindex_opts apr_int32_t cond
+0x7d30:0x7f2f:145:28:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c terminate_description 1419 desc_width int cond
+0x7d30:0x7f2f:145:24:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c terminate_description 1421 maxsize int cond
+0x7d30:0x7f2f:145:20:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c terminate_description 1422 x int cond
+0x7d30:0x7f2f:145:16:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1503 ar uintptr cond|args
+0x5410:0x6eeb:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1503 n int cond
+0x5410:0x6eeb:145:-20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1504 d uintptr cond|args
+0x5410:0x6eeb:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1504 r uintptr cond|args
+0x5410:0x6eeb:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1505 autoindex_opts apr_int32_t cond|args
+0x5410:0x6eeb:145:-44:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1505 keyid char cond|args
+0x5410:0x6eeb:145:-45:1
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1506 direction char cond|args
+0x5410:0x6eeb:145:-46:1
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1506 colargs uintptr cond|args
+0x5410:0x6eeb:145:-56:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1508 x int cond|args
+0x5410:0x6eeb:145:-60:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1509 rv apr_size_t cond|args
+0x5410:0x6eeb:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1510 tp uintptr cond|args
+0x5410:0x6eeb:145:-80:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1511 static_columns int cond|args
+0x5410:0x6eeb:145:-84:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1512 scratch uintptr cond|args
+0x5410:0x6eeb:145:-96:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1513 name_width int cond|args
+0x5410:0x6eeb:145:-100:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1514 desc_width int cond|args
+0x5410:0x6eeb:145:-104:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1515 datetime_format uintptr cond|args
+0x5410:0x6eeb:145:-112:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1516 name_scratch uintptr cond|args
+0x5410:0x6eeb:145:-120:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1517 pad_scratch uintptr cond|args
+0x5410:0x6eeb:145:-128:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1518 breakrow uintptr cond|args
+0x5410:0x6eeb:145:-136:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1531 t int cond
+0x560c:0x564f:145:-140:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1541 t int cond
+0x56bc:0x56ff:145:-144:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1555 cols int cond|args
+0x2674:0x2424:145:-148:4
+0x2684:0x2424:145:-148:4
+0x2694:0x2424:145:-148:4
+0x26a4:0x2424:145:-148:4
+0x26b4:0x2424:145:-148:4
+0x26c4:0x2424:145:-148:4
+0x26d4:0x2424:145:-148:4
+0x26e4:0x2424:145:-148:4
+0x26f4:0x2424:145:-148:4
+0x2704:0x2424:145:-148:4
+0x2714:0x2424:145:-148:4
+0x2724:0x2424:145:-148:4
+0x2734:0x2424:145:-148:4
+0x2744:0x2424:145:-148:4
+0x2754:0x2424:145:-148:4
+0x2764:0x2424:145:-148:4
+0x2774:0x2424:145:-148:4
+0x2784:0x2424:145:-148:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1675 anchor uintptr cond|args
+0x28a4:0x2424:145:-160:8
+0x28b4:0x2424:145:-160:8
+0x28c4:0x2424:145:-160:8
+0x28d4:0x2424:145:-160:8
+0x28e4:0x2424:145:-160:8
+0x28f4:0x2424:145:-160:8
+0x2904:0x2424:145:-160:8
+0x2914:0x2424:145:-160:8
+0x2924:0x2424:145:-160:8
+0x2934:0x2424:145:-160:8
+0x2944:0x2424:145:-160:8
+0x2954:0x2424:145:-160:8
+0x2964:0x2424:145:-160:8
+0x2974:0x2424:145:-160:8
+0x2984:0x2424:145:-160:8
+0x2994:0x2424:145:-160:8
+0x29a4:0x2424:145:-160:8
+0x29b4:0x2424:145:-160:8
+0x29c4:0x2424:145:-160:8
+0x29d4:0x2424:145:-160:8
+0x29e4:0x2424:145:-160:8
+0x29f4:0x2424:145:-160:8
+0x2a04:0x2424:145:-160:8
+0x2a14:0x2424:145:-160:8
+0x2a24:0x2424:145:-160:8
+0x2a34:0x2424:145:-160:8
+0x2a44:0x2424:145:-160:8
+0x2a54:0x2424:145:-160:8
+0x2a64:0x2424:145:-160:8
+0x2a74:0x2424:145:-160:8
+0x2a84:0x2424:145:-160:8
+0x2a94:0x2424:145:-160:8
+0x2aa4:0x2424:145:-160:8
+0x2ab4:0x2424:145:-160:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1675 t uintptr cond|args
+0x28a4:0x2424:145:-168:8
+0x28b4:0x2424:145:-168:8
+0x28c4:0x2424:145:-168:8
+0x28d4:0x2424:145:-168:8
+0x28e4:0x2424:145:-168:8
+0x28f4:0x2424:145:-168:8
+0x2904:0x2424:145:-168:8
+0x2914:0x2424:145:-168:8
+0x2924:0x2424:145:-168:8
+0x2934:0x2424:145:-168:8
+0x2944:0x2424:145:-168:8
+0x2954:0x2424:145:-168:8
+0x2964:0x2424:145:-168:8
+0x2974:0x2424:145:-168:8
+0x2984:0x2424:145:-168:8
+0x2994:0x2424:145:-168:8
+0x29a4:0x2424:145:-168:8
+0x29b4:0x2424:145:-168:8
+0x29c4:0x2424:145:-168:8
+0x29d4:0x2424:145:-168:8
+0x29e4:0x2424:145:-168:8
+0x29f4:0x2424:145:-168:8
+0x2a04:0x2424:145:-168:8
+0x2a14:0x2424:145:-168:8
+0x2a24:0x2424:145:-168:8
+0x2a34:0x2424:145:-168:8
+0x2a44:0x2424:145:-168:8
+0x2a54:0x2424:145:-168:8
+0x2a64:0x2424:145:-168:8
+0x2a74:0x2424:145:-168:8
+0x2a84:0x2424:145:-168:8
+0x2a94:0x2424:145:-168:8
+0x2aa4:0x2424:145:-168:8
+0x2ab4:0x2424:145:-168:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1675 t2 uintptr cond|args
+0x28a4:0x2424:145:-176:8
+0x28b4:0x2424:145:-176:8
+0x28c4:0x2424:145:-176:8
+0x28d4:0x2424:145:-176:8
+0x28e4:0x2424:145:-176:8
+0x28f4:0x2424:145:-176:8
+0x2904:0x2424:145:-176:8
+0x2914:0x2424:145:-176:8
+0x2924:0x2424:145:-176:8
+0x2934:0x2424:145:-176:8
+0x2944:0x2424:145:-176:8
+0x2954:0x2424:145:-176:8
+0x2964:0x2424:145:-176:8
+0x2974:0x2424:145:-176:8
+0x2984:0x2424:145:-176:8
+0x2994:0x2424:145:-176:8
+0x29a4:0x2424:145:-176:8
+0x29b4:0x2424:145:-176:8
+0x29c4:0x2424:145:-176:8
+0x29d4:0x2424:145:-176:8
+0x29e4:0x2424:145:-176:8
+0x29f4:0x2424:145:-176:8
+0x2a04:0x2424:145:-176:8
+0x2a14:0x2424:145:-176:8
+0x2a24:0x2424:145:-176:8
+0x2a34:0x2424:145:-176:8
+0x2a44:0x2424:145:-176:8
+0x2a54:0x2424:145:-176:8
+0x2a64:0x2424:145:-176:8
+0x2a74:0x2424:145:-176:8
+0x2a84:0x2424:145:-176:8
+0x2a94:0x2424:145:-176:8
+0x2aa4:0x2424:145:-176:8
+0x2ab4:0x2424:145:-176:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c output_directories 1676 nwidth int cond|args
+0x28a4:0x2424:145:-180:4
+0x28b4:0x2424:145:-180:4
+0x28c4:0x2424:145:-180:4
+0x28d4:0x2424:145:-180:4
+0x28e4:0x2424:145:-180:4
+0x28f4:0x2424:145:-180:4
+0x2904:0x2424:145:-180:4
+0x2914:0x2424:145:-180:4
+0x2924:0x2424:145:-180:4
+0x2934:0x2424:145:-180:4
+0x2944:0x2424:145:-180:4
+0x2954:0x2424:145:-180:4
+0x2964:0x2424:145:-180:4
+0x2974:0x2424:145:-180:4
+0x2984:0x2424:145:-180:4
+0x2994:0x2424:145:-180:4
+0x29a4:0x2424:145:-180:4
+0x29b4:0x2424:145:-180:4
+0x29c4:0x2424:145:-180:4
+0x29d4:0x2424:145:-180:4
+0x29e4:0x2424:145:-180:4
+0x29f4:0x2424:145:-180:4
+0x2a04:0x2424:145:-180:4
+0x2a14:0x2424:145:-180:4
+0x2a24:0x2424:145:-180:4
+0x2a34:0x2424:145:-180:4
+0x2a44:0x2424:145:-180:4
+0x2a54:0x2424:145:-180:4
+0x2a64:0x2424:145:-180:4
+0x2a74:0x2424:145:-180:4
+0x2a84:0x2424:145:-180:4
+0x2a94:0x2424:145:-180:4
+0x2aa4:0x2424:145:-180:4
+0x2ab4:0x2424:145:-180:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c output_directories 1695 altclass uintptr cond|args
+0x2844:0x2424:145:-192:8
+0x2854:0x2424:145:-192:8
+#variable = DW_TAG_array_type /root/httpd/modules/generators mod_autoindex.c output_directories 1761 time_str uintptr cond|args
+0x27e4:0x2424:145:-224:32
+0x27f4:0x2424:145:-224:32
+0x2804:0x2424:145:-224:32
+0x2814:0x2424:145:-224:32
+0x2824:0x2424:145:-224:32
+#variable = DW_TAG_structure_type /root/httpd/modules/generators mod_autoindex.c output_directories 1762 ts apr_time_exp_t cond|args
+0x27e4:0x2424:145:-268:44
+0x27f4:0x2424:145:-268:44
+0x2804:0x2424:145:-268:44
+0x2814:0x2424:145:-268:44
+0x2824:0x2424:145:-268:44
+#variable = DW_TAG_array_type /root/httpd/modules/generators mod_autoindex.c output_directories 1774 buf uintptr cond|args
+0x2874:0x2424:145:-273:5
+0x2884:0x2424:145:-273:5
+#variable = DW_TAG_array_type /root/httpd/modules/generators mod_autoindex.c output_directories 1849 time_str uintptr cond|args
+0x27a4:0x2424:145:-305:32
+0x27b4:0x2424:145:-305:32
+0x27c4:0x2424:145:-305:32
+#variable = DW_TAG_structure_type /root/httpd/modules/generators mod_autoindex.c output_directories 1850 ts apr_time_exp_t cond|args
+0x27a4:0x2424:145:-352:44
+0x27b4:0x2424:145:-352:44
+0x27c4:0x2424:145:-352:44
+#variable = DW_TAG_array_type /root/httpd/modules/generators mod_autoindex.c output_directories 1866 buf uintptr cond|args
+0x6cc0:0x6d03:145:-357:5
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_tail 1132 r uintptr cond|args
+0x6eec:0x7097:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_tail 1132 readme_fname uintptr cond|args
+0x6eec:0x7097:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c emit_tail 1132 suppress_amble int cond
+0x6eec:0x7097:145:-20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_tail 1134 f uintptr cond|args
+0x6eec:0x7097:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_tail 1135 rr uintptr cond|args
+0x6eec:0x7097:143:24:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c emit_tail 1136 suppress_post int cond
+0x6eec:0x7097:143:20:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c emit_tail 1137 suppress_sig int cond
+0x6eec:0x7097:143:16:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c emit_tail 1156 f uintptr cond
+0x2ad4:0x2424:143:8:8
+0x2ae4:0x2424:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2012 r uintptr cond|args
+0x3abc:0x45bf:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2013 autoindex_conf uintptr cond|args
+0x3abc:0x45bf:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2015 title_name uintptr cond|args
+0x3abc:0x45bf:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2016 title_endp uintptr cond
+0x3abc:0x45bf:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2017 name uintptr cond|args
+0x3abc:0x45bf:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2018 pstring uintptr cond|args
+0x3abc:0x45bf:145:-56:8
+#variable = DW_TAG_structure_type /root/httpd/modules/generators mod_autoindex.c index_directory 2019 dirent apr_finfo_t cond|args
+0x3abc:0x45bf:145:-176:120
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2020 thedir uintptr cond|args
+0x3abc:0x45bf:145:-184:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c index_directory 2021 status apr_status_t cond|args
+0x3abc:0x45bf:145:-188:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c index_directory 2022 num_ent int cond|args
+0x3abc:0x45bf:145:-192:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c index_directory 2022 x int cond
+0x3abc:0x45bf:145:-196:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2023 head uintptr cond
+0x3abc:0x45bf:145:-208:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2023 p uintptr cond
+0x3abc:0x45bf:145:-216:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2024 ar uintptr cond|args
+0x3abc:0x45bf:145:-224:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2025 qstring uintptr cond|args
+0x3abc:0x45bf:145:-232:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c index_directory 2026 autoindex_opts apr_int32_t cond|args
+0x3abc:0x45bf:145:-236:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c index_directory 2027 keyid char cond|args
+0x3abc:0x45bf:145:-237:1
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c index_directory 2028 direction char cond|args
+0x3abc:0x45bf:145:-238:1
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2029 colargs uintptr cond|args
+0x3abc:0x45bf:145:-248:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2030 fullpath uintptr cond|args
+0x3abc:0x45bf:145:-256:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c index_directory 2031 dirpathlen apr_size_t cond|args
+0x3abc:0x45bf:145:-264:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2032 ctype uintptr cond|args
+0x3abc:0x45bf:145:-272:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2033 charset uintptr cond|args
+0x3abc:0x45bf:145:-280:8
+#variable = DW_TAG_array_type /root/httpd/modules/generators mod_autoindex.c index_directory 2094 fval uintptr cond|args
+0x2564:0x2424:145:-285:5
+0x2574:0x2424:145:-285:5
+0x2584:0x2424:145:-285:5
+0x2594:0x2424:145:-285:5
+0x25a4:0x2424:145:-285:5
+0x25b4:0x2424:145:-285:5
+0x25c4:0x2424:145:-285:5
+0x25d4:0x2424:145:-285:5
+0x25e4:0x2424:145:-285:5
+0x25f4:0x2424:145:-285:5
+#variable = DW_TAG_array_type /root/httpd/modules/generators mod_autoindex.c index_directory 2094 vval uintptr cond|args
+0x2564:0x2424:145:-290:5
+0x2574:0x2424:145:-290:5
+0x2584:0x2424:145:-290:5
+0x2594:0x2424:145:-290:5
+0x25a4:0x2424:145:-290:5
+0x25b4:0x2424:145:-290:5
+0x25c4:0x2424:145:-290:5
+0x25d4:0x2424:145:-290:5
+0x25e4:0x2424:145:-290:5
+0x25f4:0x2424:145:-290:5
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2094 ppre uintptr cond|args
+0x2564:0x2424:143:288:8
+0x2574:0x2424:143:288:8
+0x2584:0x2424:143:288:8
+0x2594:0x2424:143:288:8
+0x25a4:0x2424:143:288:8
+0x25b4:0x2424:143:288:8
+0x25c4:0x2424:143:288:8
+0x25d4:0x2424:143:288:8
+0x25e4:0x2424:143:288:8
+0x25f4:0x2424:143:288:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2094 epattern uintptr cond|args
+0x2564:0x2424:143:280:8
+0x2574:0x2424:143:280:8
+0x2584:0x2424:143:280:8
+0x2594:0x2424:143:280:8
+0x25a4:0x2424:143:280:8
+0x25b4:0x2424:143:280:8
+0x25c4:0x2424:143:280:8
+0x25d4:0x2424:143:280:8
+0x25e4:0x2424:143:280:8
+0x25f4:0x2424:143:280:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2157 eos uintptr cond|args
+0x2514:0x2424:143:272:8
+0x2524:0x2424:143:272:8
+0x2534:0x2424:143:272:8
+0x2544:0x2424:143:272:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c index_directory 2232 savename uintptr cond
+0x2614:0x2424:143:264:8
+0x2624:0x2424:143:264:8
+#variable = DW_TAG_structure_type /root/httpd/modules/generators mod_autoindex.c index_directory 2233 fi apr_finfo_t cond|args
+0x2614:0x2424:143:144:120
+0x2624:0x2424:143:144:120
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c handle_autoindex 2282 r uintptr cond|args
+0x3894:0x3abb:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c handle_autoindex 2284 d uintptr cond|args
+0x3894:0x3abb:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c handle_autoindex 2285 allow_opts int cond
+0x3894:0x3abb:145:-28:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c handle_autoindex 2307 errstatus int cond
+0x2494:0x2424:145:-32:4
+0x24a4:0x2424:145:-32:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c handle_autoindex 2324 index_names uintptr cond|args
+0x24c4:0x2424:145:-40:8
+0x24d4:0x2424:145:-40:8
+0x24e4:0x2424:145:-40:8
+0x24f4:0x2424:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c dsortf 1910 e1 uintptr cond
+0x50ac:0x540f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c dsortf 1910 e2 uintptr cond
+0x50ac:0x540f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c dsortf 1912 c1 uintptr cond|args
+0x50ac:0x540f:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c dsortf 1913 c2 uintptr cond|args
+0x50ac:0x540f:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c dsortf 1914 result int cond
+0x50ac:0x540f:145:-44:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c push_item 198 arr uintptr cond|args
+0x3784:0x3893:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c push_item 198 type uintptr cond
+0x3784:0x3893:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c push_item 198 to uintptr cond|args
+0x3784:0x3893:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c push_item 199 path uintptr cond|args
+0x3784:0x3893:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c push_item 199 data uintptr cond|args
+0x3784:0x3893:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c push_item 201 p uintptr cond
+0x3784:0x3893:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_alt 222 cmd uintptr cond|args
+0x2c08:0x2ccf:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_alt 222 d uintptr cond|args
+0x2c08:0x2ccf:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_alt 222 alt uintptr cond|args
+0x2c08:0x2ccf:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_alt 223 to uintptr cond|args
+0x2c08:0x2ccf:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_alt 231 tmp uintptr cond|args
+0x2c74:0x2c97:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_icon 242 to uintptr cond|args
+0x2ab4:0x2c07:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_icon 244 iconbak uintptr cond|args
+0x2ab4:0x2c07:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_icon 247 alt uintptr cond|args
+0x2414:0x2424:143:24:8
+0x2424:0x2424:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_icon 248 cl uintptr cond
+0x2414:0x2424:143:16:8
+0x2424:0x2424:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_icon 263 tmp uintptr cond|args
+0x2ba8:0x2bcb:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_icon 241 cmd uintptr cond|args
+0x2ab4:0x2c07:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_icon 241 d uintptr cond|args
+0x2ab4:0x2c07:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_icon 241 icon uintptr cond|args
+0x2ab4:0x2c07:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_opts 325 cmd uintptr cond|args
+0x2cd0:0x349b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_opts 325 d uintptr cond
+0x2cd0:0x349b:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c add_opts 325 argc int cond
+0x2cd0:0x349b:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_opts 325 argv uintptr cond
+0x2cd0:0x349b:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c add_opts 327 i int cond
+0x2cd0:0x349b:145:-44:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_opts 328 w uintptr cond|args
+0x2cd0:0x349b:143:40:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c add_opts 329 opts apr_int32_t cond
+0x2cd0:0x349b:143:36:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c add_opts 330 opts_add apr_int32_t cond
+0x2cd0:0x349b:143:32:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c add_opts 331 opts_remove apr_int32_t cond
+0x2cd0:0x349b:143:28:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c add_opts 332 action char cond
+0x2cd0:0x349b:143:27:1
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_opts 333 d_cfg uintptr cond
+0x2cd0:0x349b:143:16:8
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c add_opts 340 option int cond
+0x2444:0x2424:143:12:4
+0x2454:0x2424:143:12:4
+0x2464:0x2424:143:12:4
+0x2474:0x2424:143:12:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c add_opts 458 width int cond
+0x31d8:0x321f:143:8:4
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c add_opts 483 width int cond
+0x32c0:0x3307:143:4:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c set_default_order 527 cmd uintptr cond
+0x349c:0x35d3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c set_default_order 527 m uintptr cond
+0x349c:0x35d3:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c set_default_order 528 direction uintptr cond|args
+0x349c:0x35d3:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c set_default_order 528 key uintptr cond|args
+0x349c:0x35d3:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c set_default_order 530 d_cfg uintptr cond
+0x349c:0x35d3:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_ignore 319 cmd uintptr cond|args
+0x35d4:0x3623:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_ignore 319 d uintptr cond|args
+0x35d4:0x3623:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_ignore 319 ext uintptr cond|args
+0x35d4:0x3623:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_desc 295 cmd uintptr cond
+0x3624:0x3783:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_desc 295 d uintptr cond
+0x3624:0x3783:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_desc 295 desc uintptr cond|args
+0x3624:0x3783:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_desc 296 to uintptr cond|args
+0x3624:0x3783:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_desc 298 dcfg uintptr cond|args
+0x3624:0x3783:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_desc 299 desc_entry uintptr cond
+0x3624:0x3783:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/generators mod_autoindex.c add_desc 300 prefix uintptr cond|args
+0x3624:0x3783:143:24:8
+#variable = DW_TAG_structure_type /root/httpd/modules/generators mod_autoindex.c #global 2341 autoindex_module module globalVar
+0x2414:0x7f2f:3:107128:112
+#variable = DW_TAG_array_type /root/httpd/modules/generators mod_autoindex.c #global 564 autoindex_cmds uintptr globalVar
+0x2414:0x7f2f:3:105232:720
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c #global 150 c_by_path char globalVar
+0x2414:0x7f2f:3:107241:1
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c #global 150 c_by_type char globalVar
+0x2414:0x7f2f:3:107242:1
+#variable = DW_TAG_base_type /root/httpd/modules/generators mod_autoindex.c #global 150 c_by_encoding char globalVar
+0x2414:0x7f2f:3:107243:1

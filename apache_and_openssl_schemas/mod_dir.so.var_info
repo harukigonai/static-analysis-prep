@@ -1,0 +1,109 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c create_dir_config 143 p uintptr cond|args
+0xea4:0xf3b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c create_dir_config 143 dummy uintptr cond
+0xea4:0xf3b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c create_dir_config 145 new uintptr cond
+0xea4:0xf3b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c merge_dir_configs 154 p uintptr cond|args
+0xf3c:0x10b3:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c merge_dir_configs 154 basev uintptr cond
+0xf3c:0x10b3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c merge_dir_configs 154 addv uintptr cond
+0xf3c:0x10b3:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c merge_dir_configs 156 new uintptr cond
+0xf3c:0x10b3:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c merge_dir_configs 157 base uintptr cond
+0xf3c:0x10b3:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c merge_dir_configs 158 add uintptr cond
+0xf3c:0x10b3:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c register_hooks 404 p uintptr cond
+0x10b4:0x10ef:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c fixup_dir 224 r uintptr cond|args
+0x1458:0x1a3f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c fixup_dir 226 d uintptr cond|args
+0x1458:0x1a3f:145:-24:8
+#variable = DW_TAG_array_type /root/httpd/modules/mappers mod_dir.c fixup_dir 227 dummy_ptr uintptr cond
+0x1458:0x1a3f:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c fixup_dir 228 names_ptr uintptr cond
+0x1458:0x1a3f:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_dir.c fixup_dir 229 num_names int cond
+0x1458:0x1a3f:145:-44:4
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_dir.c fixup_dir 230 error_notfound int cond
+0x1458:0x1a3f:145:-48:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c fixup_dir 248 ifile uintptr cond|args
+0xea4:0xeb4:145:-56:8
+0xeb4:0xeb4:145:-56:8
+0xec4:0xeb4:145:-56:8
+0xed4:0xeb4:145:-56:8
+0xee4:0xeb4:145:-56:8
+0xef4:0xeb4:145:-56:8
+0xf04:0xeb4:145:-56:8
+0xf14:0xeb4:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c fixup_dir 306 name_ptr uintptr cond|args
+0xf34:0xeb4:145:-64:8
+0xf44:0xeb4:145:-64:8
+0xf54:0xeb4:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c fixup_dir 307 rr uintptr cond|args
+0xf34:0xeb4:145:-72:8
+0xf44:0xeb4:145:-72:8
+0xf54:0xeb4:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c fixup_dflt 171 r uintptr cond|args
+0x1a40:0x1c5f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c fixup_dflt 173 d uintptr cond
+0x1a40:0x1c5f:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c fixup_dflt 174 name_ptr uintptr cond|args
+0x1a40:0x1c5f:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c fixup_dflt 175 rr uintptr cond|args
+0x1a40:0x1c5f:143:8:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_dir.c fixup_dflt 176 error_notfound int cond
+0x1a40:0x1c5f:143:4:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c dir_fixups 391 r uintptr cond|args
+0x13e8:0x1457:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c add_index 55 cmd uintptr cond|args
+0x10f0:0x1217:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c add_index 55 dummy uintptr cond
+0x10f0:0x1217:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c add_index 55 arg uintptr cond
+0x10f0:0x1217:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c add_index 57 d uintptr cond|args
+0x10f0:0x1217:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c add_index 58 t uintptr cond|args
+0x10f0:0x1217:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c add_index 58 w uintptr cond|args
+0x10f0:0x1217:143:48:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_dir.c add_index 59 count int cond
+0x10f0:0x1217:143:44:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c add_index 69 tt uintptr cond|args
+0x11a0:0x11d7:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c add_index 70 ww uintptr cond
+0x11a0:0x11d7:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c configure_slash 84 cmd uintptr cond
+0x1218:0x125b:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c configure_slash 84 d_ uintptr cond
+0x1218:0x125b:145:16:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_dir.c configure_slash 84 arg int cond
+0x1218:0x125b:145:12:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c configure_slash 86 d uintptr cond
+0x1218:0x125b:145:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c configure_checkhandler 91 cmd uintptr cond
+0x125c:0x129f:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c configure_checkhandler 91 d_ uintptr cond
+0x125c:0x129f:145:16:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_dir.c configure_checkhandler 91 arg int cond
+0x125c:0x129f:145:12:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c configure_checkhandler 93 d uintptr cond
+0x125c:0x129f:145:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c configure_redirect 98 cmd uintptr cond
+0x12a0:0x13e7:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c configure_redirect 98 d_ uintptr cond
+0x12a0:0x13e7:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c configure_redirect 98 arg1 uintptr cond|args
+0x12a0:0x13e7:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_dir.c configure_redirect 100 d uintptr cond
+0x12a0:0x13e7:143:8:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_dir.c configure_redirect 101 status int cond
+0x12a0:0x13e7:143:4:4
+#variable = DW_TAG_structure_type /root/httpd/modules/mappers mod_dir.c #global 409 dir_module module globalVar
+0xea4:0x1c5f:3:78024:112
+#variable = DW_TAG_array_type /root/httpd/modules/mappers mod_dir.c #global 126 dir_cmds uintptr globalVar
+0xea4:0x1c5f:3:77048:240

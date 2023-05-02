@@ -1,0 +1,752 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c register_hooks 1070 p uintptr cond|args
+0xe94:0xf17:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_create 290 context uintptr cond
+0xf18:0x1117:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_create 291 arg uintptr cond|args
+0xf18:0x1117:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_create 292 tmp uintptr cond|args
+0xf18:0x1117:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_create 292 p uintptr cond|args
+0xf18:0x1117:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_create 294 ctx uintptr cond
+0xf18:0x1117:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_create 295 path uintptr cond|args
+0xf18:0x1117:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_create 295 cp uintptr cond|args
+0xf18:0x1117:143:64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_create 295 cp2 uintptr cond
+0xf18:0x1117:143:56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_create 313 endptr uintptr cond|args
+0xe94:0xea4:143:48:8
+0xea4:0xea4:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 355 ctx uintptr cond|args
+0x1118:0x2237:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 356 namespace uintptr cond|args
+0x1118:0x2237:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 357 hints uintptr cond
+0x1118:0x2237:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 358 s uintptr cond
+0x1118:0x2237:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 358 p uintptr cond|args
+0x1118:0x2237:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 360 shm_segment uintptr cond
+0x1118:0x2237:145:-56:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 361 shm_segsize apr_size_t cond|args
+0x1118:0x2237:145:-64:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 362 rv apr_status_t cond|args
+0x1118:0x2237:145:-68:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 363 header uintptr cond|args
+0x1118:0x2237:145:-80:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 364 num_subcache unsigned#int cond|args
+0x1118:0x2237:145:-84:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 364 num_idx unsigned#int cond|args
+0x1118:0x2237:145:-88:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 364 loop unsigned#int cond
+0x1118:0x2237:145:-92:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 365 avg_obj_size apr_size_t cond
+0x1118:0x2237:145:-104:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 365 avg_id_len apr_size_t cond
+0x1118:0x2237:145:-112:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 369 path uintptr cond|args
+0x11b4:0xea4:145:-120:8
+0x11c4:0xea4:145:-120:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 382 sr__ uintptr cond|args
+0x11e4:0xea4:145:-128:8
+0x11f4:0xea4:145:-128:8
+0x1204:0xea4:145:-128:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 397 sr__ uintptr cond|args
+0x1294:0xea4:145:-136:8
+0x12a4:0xea4:145:-136:8
+0x12b4:0xea4:145:-136:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 410 sr__ uintptr cond|args
+0x12d4:0xea4:145:-144:8
+0x12e4:0xea4:145:-144:8
+0x12f4:0xea4:145:-144:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 414 sr__ uintptr cond|args
+0xec4:0xea4:145:-152:8
+0xed4:0xea4:145:-152:8
+0xee4:0xea4:145:-152:8
+0xef4:0xea4:145:-152:8
+0xf04:0xea4:145:-152:8
+0xf14:0xea4:145:-152:8
+0xf24:0xea4:145:-152:8
+0xf34:0xea4:145:-152:8
+0xf44:0xea4:145:-152:8
+0xf54:0xea4:145:-152:8
+0xf64:0xea4:145:-152:8
+0xf74:0xea4:145:-152:8
+0xf84:0xea4:145:-152:8
+0xf94:0xea4:145:-152:8
+0xfa4:0xea4:145:-152:8
+0xfb4:0xea4:145:-152:8
+0xfc4:0xea4:145:-152:8
+0xfd4:0xea4:145:-152:8
+0xfe4:0xea4:145:-152:8
+0xff4:0xea4:145:-152:8
+0x1004:0xea4:145:-152:8
+0x1014:0xea4:145:-152:8
+0x1024:0xea4:145:-152:8
+0x1034:0xea4:145:-152:8
+0x1044:0xea4:145:-152:8
+0x1054:0xea4:145:-152:8
+0x1064:0xea4:145:-152:8
+0x1074:0xea4:145:-152:8
+0x1084:0xea4:145:-152:8
+0x1094:0xea4:145:-152:8
+0x10a4:0xea4:145:-152:8
+0x10b4:0xea4:145:-152:8
+0x10c4:0xea4:145:-152:8
+0x10d4:0xea4:145:-152:8
+0x10e4:0xea4:145:-152:8
+0x10f4:0xea4:145:-152:8
+0x1104:0xea4:145:-152:8
+0x1114:0xea4:145:-152:8
+0x1124:0xea4:145:-152:8
+0x1134:0xea4:145:-152:8
+0x1144:0xea4:145:-152:8
+0x1154:0xea4:145:-152:8
+0x1164:0xea4:145:-152:8
+0x1174:0xea4:145:-152:8
+0x1184:0xea4:145:-152:8
+0x1194:0xea4:145:-152:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 428 sr__ uintptr cond|args
+0x1314:0xea4:145:-160:8
+0x1324:0xea4:145:-160:8
+0x1334:0xea4:145:-160:8
+0x1344:0xea4:145:-160:8
+0x1354:0xea4:145:-160:8
+0x1364:0xea4:145:-160:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 436 sr__ uintptr cond|args
+0x1224:0xea4:145:-168:8
+0x1234:0xea4:145:-168:8
+0x1244:0xea4:145:-168:8
+0x1254:0xea4:145:-168:8
+0x1264:0xea4:145:-168:8
+0x1274:0xea4:145:-168:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 465 sr__ uintptr cond|args
+0x1384:0xea4:145:-176:8
+0x1394:0xea4:145:-176:8
+0x13a4:0xea4:145:-176:8
+0x13b4:0xea4:145:-176:8
+0x13c4:0xea4:145:-176:8
+0x13d4:0xea4:145:-176:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 467 sr__ uintptr cond|args
+0x13f4:0xea4:145:-184:8
+0x1404:0xea4:145:-184:8
+0x1414:0xea4:145:-184:8
+0x1424:0xea4:145:-184:8
+0x1434:0xea4:145:-184:8
+0x1444:0xea4:145:-184:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 469 sr__ uintptr cond|args
+0x1464:0xea4:145:-192:8
+0x1474:0xea4:145:-192:8
+0x1484:0xea4:145:-192:8
+0x1494:0xea4:145:-192:8
+0x14a4:0xea4:145:-192:8
+0x14b4:0xea4:145:-192:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 471 sr__ uintptr cond|args
+0x14d4:0xea4:145:-200:8
+0x14e4:0xea4:145:-200:8
+0x14f4:0xea4:145:-200:8
+0x1504:0xea4:145:-200:8
+0x1514:0xea4:145:-200:8
+0x1524:0xea4:145:-200:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 473 sr__ uintptr cond|args
+0x1544:0xea4:145:-208:8
+0x1554:0xea4:145:-208:8
+0x1564:0xea4:145:-208:8
+0x1574:0xea4:145:-208:8
+0x1584:0xea4:145:-208:8
+0x1594:0xea4:145:-208:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 475 sr__ uintptr cond|args
+0x15b4:0xea4:145:-216:8
+0x15c4:0xea4:145:-216:8
+0x15d4:0xea4:145:-216:8
+0x15e4:0xea4:145:-216:8
+0x15f4:0xea4:145:-216:8
+0x1604:0xea4:145:-216:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 479 subcache uintptr cond
+0x2084:0x20cb:145:-224:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_init 483 sr__ uintptr cond|args
+0x1624:0xea4:145:-232:8
+0x1634:0xea4:145:-232:8
+0x1644:0xea4:145:-232:8
+0x1654:0xea4:145:-232:8
+0x1664:0xea4:145:-232:8
+0x1674:0xea4:145:-232:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_destroy 490 ctx uintptr cond|args
+0x2238:0x2277:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_destroy 490 s uintptr cond
+0x2238:0x2277:143:0:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_memcmp 234 buf_size unsigned#int cond|args
+0x494c:0x4a4b:145:-8:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_memcmp 234 data uintptr cond|args
+0x494c:0x4a4b:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_memcmp 235 dest_offset unsigned#int cond|args
+0x494c:0x4a4b:145:-20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_memcmp 236 src uintptr cond|args
+0x494c:0x4a4b:143:16:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_memcmp 237 src_len unsigned#int cond|args
+0x494c:0x4a4b:143:12:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_memcmp 244 diff int cond
+0x49ac:0x4a3b:143:8:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_remove 936 s uintptr cond
+0x3ba8:0x3f77:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_remove 936 header uintptr cond|args
+0x3ba8:0x3f77:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_remove 937 subcache uintptr cond|args
+0x3ba8:0x3f77:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_remove 938 id uintptr cond|args
+0x3ba8:0x3f77:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_remove 939 idlen unsigned#int cond
+0x3ba8:0x3f77:145:-44:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_remove 941 pos unsigned#int cond|args
+0x3ba8:0x3f77:145:-48:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_remove 942 loop unsigned#int cond
+0x3ba8:0x3f77:145:-52:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_remove 946 idx uintptr cond|args
+0x1c44:0xea4:145:-64:8
+0x1c54:0xea4:145:-64:8
+0x1c64:0xea4:145:-64:8
+0x1c74:0xea4:145:-64:8
+0x1c84:0xea4:145:-64:8
+0x1c94:0xea4:145:-64:8
+0x1ca4:0xea4:145:-64:8
+0x1cb4:0xea4:145:-64:8
+0x1cc4:0xea4:145:-64:8
+0x1cd4:0xea4:145:-64:8
+0x1ce4:0xea4:145:-64:8
+0x1cf4:0xea4:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_remove 954 sr__ uintptr cond|args
+0x1b24:0xea4:145:-72:8
+0x1b34:0xea4:145:-72:8
+0x1b44:0xea4:145:-72:8
+0x1b54:0xea4:145:-72:8
+0x1b64:0xea4:145:-72:8
+0x1b74:0xea4:145:-72:8
+0x1b84:0xea4:145:-72:8
+0x1b94:0xea4:145:-72:8
+0x1ba4:0xea4:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_remove 959 sr__ uintptr cond|args
+0x1bc4:0xea4:145:-80:8
+0x1bd4:0xea4:145:-80:8
+0x1be4:0xea4:145:-80:8
+0x1bf4:0xea4:145:-80:8
+0x1c04:0xea4:145:-80:8
+0x1c14:0xea4:145:-80:8
+0x1c24:0xea4:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_expire 723 s uintptr cond
+0x4a4c:0x4ee7:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_expire 723 header uintptr cond
+0x4a4c:0x4ee7:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_expire 724 subcache uintptr cond|args
+0x4a4c:0x4ee7:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_expire 724 now apr_time_t cond
+0x4a4c:0x4ee7:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_expire 726 loop unsigned#int cond
+0x4a4c:0x4ee7:145:-36:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_expire 726 freed unsigned#int cond|args
+0x4a4c:0x4ee7:145:-40:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_expire 726 expired unsigned#int cond|args
+0x4a4c:0x4ee7:145:-44:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_expire 727 new_idx_pos unsigned#int cond
+0x4a4c:0x4ee7:145:-48:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_expire 728 idx uintptr cond
+0x4a4c:0x4ee7:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_expire 745 sr__ uintptr cond|args
+0x21b4:0xea4:145:-64:8
+0x21c4:0xea4:145:-64:8
+0x21d4:0xea4:145:-64:8
+0x21e4:0xea4:145:-64:8
+0x21f4:0xea4:145:-64:8
+0x2204:0xea4:145:-64:8
+0x2214:0xea4:145:-64:8
+0x2224:0xea4:145:-64:8
+0x2234:0xea4:145:-64:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_expire 754 diff unsigned#int cond
+0x4cd0:0x4d73:145:-68:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_expire 765 sr__ uintptr cond|args
+0x2254:0xea4:145:-80:8
+0x2264:0xea4:145:-80:8
+0x2274:0xea4:145:-80:8
+0x2284:0xea4:145:-80:8
+0x2294:0xea4:145:-80:8
+0x22a4:0xea4:145:-80:8
+0x22b4:0xea4:145:-80:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_ntoc_memcpy 200 buf_size unsigned#int cond|args
+0x4ee8:0x4fc3:145:-4:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_ntoc_memcpy 200 data uintptr cond|args
+0x4ee8:0x4fc3:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_ntoc_memcpy 201 dest_offset unsigned#int cond|args
+0x4ee8:0x4fc3:145:-20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_ntoc_memcpy 201 src uintptr cond|args
+0x4ee8:0x4fc3:143:16:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_ntoc_memcpy 202 src_len unsigned#int cond|args
+0x4ee8:0x4fc3:143:12:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 769 s uintptr cond|args
+0x3f78:0x494b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 769 header uintptr cond|args
+0x3f78:0x494b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 770 subcache uintptr cond|args
+0x3f78:0x494b:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 771 data uintptr cond|args
+0x3f78:0x494b:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 771 data_len unsigned#int cond|args
+0x3f78:0x494b:145:-44:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 772 id uintptr cond|args
+0x3f78:0x494b:145:-56:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 772 id_len unsigned#int cond|args
+0x3f78:0x494b:145:-60:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 773 expiry apr_time_t cond
+0x3f78:0x494b:145:-72:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 775 data_offset unsigned#int cond|args
+0x3f78:0x494b:145:-76:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 775 new_idx unsigned#int cond|args
+0x3f78:0x494b:145:-80:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 775 id_offset unsigned#int cond|args
+0x3f78:0x494b:145:-84:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 776 idx uintptr cond
+0x3f78:0x494b:145:-96:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 777 total_len unsigned#int cond|args
+0x3f78:0x494b:145:-100:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 781 sr__ uintptr cond|args
+0x2094:0xea4:145:-112:8
+0x20a4:0xea4:145:-112:8
+0x20b4:0xea4:145:-112:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 796 loop unsigned#int cond
+0x1f84:0xea4:145:-116:4
+0x1f94:0xea4:145:-116:4
+0x1fa4:0xea4:145:-116:4
+0x1fb4:0xea4:145:-116:4
+0x1fc4:0xea4:145:-116:4
+0x1fd4:0xea4:145:-116:4
+0x1fe4:0xea4:145:-116:4
+0x1ff4:0xea4:145:-116:4
+0x2004:0xea4:145:-116:4
+0x2014:0xea4:145:-116:4
+0x2024:0xea4:145:-116:4
+0x2034:0xea4:145:-116:4
+0x2044:0xea4:145:-116:4
+0x2054:0xea4:145:-116:4
+0x2064:0xea4:145:-116:4
+0x2074:0xea4:145:-116:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 799 sr__ uintptr cond|args
+0x1d14:0xea4:145:-128:8
+0x1d24:0xea4:145:-128:8
+0x1d34:0xea4:145:-128:8
+0x1d44:0xea4:145:-128:8
+0x1d54:0xea4:145:-128:8
+0x1d64:0xea4:145:-128:8
+0x1d74:0xea4:145:-128:8
+0x1d84:0xea4:145:-128:8
+0x1d94:0xea4:145:-128:8
+0x1da4:0xea4:145:-128:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 803 idx2 uintptr cond
+0x1dc4:0xea4:145:-136:8
+0x1dd4:0xea4:145:-136:8
+0x1de4:0xea4:145:-136:8
+0x1df4:0xea4:145:-136:8
+0x1e04:0xea4:145:-136:8
+0x1e14:0xea4:145:-136:8
+0x1e24:0xea4:145:-136:8
+0x1e34:0xea4:145:-136:8
+0x1e44:0xea4:145:-136:8
+0x1e54:0xea4:145:-136:8
+0x1e64:0xea4:145:-136:8
+0x1e74:0xea4:145:-136:8
+0x1e84:0xea4:145:-136:8
+0x1e94:0xea4:145:-136:8
+0x1ea4:0xea4:145:-136:8
+0x1eb4:0xea4:145:-136:8
+0x1ec4:0xea4:145:-136:8
+0x1ed4:0xea4:145:-136:8
+0x1ee4:0xea4:145:-136:8
+0x1ef4:0xea4:145:-136:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 826 sr__ uintptr cond|args
+0x1f14:0xea4:145:-144:8
+0x1f24:0xea4:145:-144:8
+0x1f34:0xea4:145:-144:8
+0x1f44:0xea4:145:-144:8
+0x1f54:0xea4:145:-144:8
+0x1f64:0xea4:145:-144:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 862 sr__ uintptr cond|args
+0x20d4:0xea4:145:-152:8
+0x20e4:0xea4:145:-152:8
+0x20f4:0xea4:145:-152:8
+0x2104:0xea4:145:-152:8
+0x2114:0xea4:145:-152:8
+0x2124:0xea4:145:-152:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_store 865 sr__ uintptr cond|args
+0x2144:0xea4:145:-160:8
+0x2154:0xea4:145:-160:8
+0x2164:0xea4:145:-160:8
+0x2174:0xea4:145:-160:8
+0x2184:0xea4:145:-160:8
+0x2194:0xea4:145:-160:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 497 ctx uintptr cond
+0x2278:0x271f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 498 s uintptr cond|args
+0x2278:0x271f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 498 id uintptr cond|args
+0x2278:0x271f:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 499 idlen unsigned#int cond|args
+0x2278:0x271f:145:-36:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 499 expiry apr_time_t cond|args
+0x2278:0x271f:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 500 encoded uintptr cond|args
+0x2278:0x271f:145:-56:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 501 len_encoded unsigned#int cond|args
+0x2278:0x271f:145:-60:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 502 p uintptr cond
+0x2278:0x271f:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 504 header uintptr cond|args
+0x2278:0x271f:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 505 subcache uintptr cond|args
+0x2278:0x271f:145:-88:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 506 tryreplace int cond
+0x2278:0x271f:145:-92:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 508 sr__ uintptr cond|args
+0x1694:0xea4:145:-104:8
+0x16a4:0xea4:145:-104:8
+0x16b4:0xea4:145:-104:8
+0x16c4:0xea4:145:-104:8
+0x16d4:0xea4:145:-104:8
+0x16e4:0xea4:145:-104:8
+0x16f4:0xea4:145:-104:8
+0x1704:0xea4:145:-104:8
+0x1714:0xea4:145:-104:8
+0x1724:0xea4:145:-104:8
+0x1734:0xea4:145:-104:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 513 sr__ uintptr cond|args
+0x1754:0xea4:145:-112:8
+0x1764:0xea4:145:-112:8
+0x1774:0xea4:145:-112:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 520 sr__ uintptr cond|args
+0x1794:0xea4:145:-120:8
+0x17a4:0xea4:145:-120:8
+0x17b4:0xea4:145:-120:8
+0x17c4:0xea4:145:-120:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_store 530 sr__ uintptr cond|args
+0x17e4:0xea4:143:128:8
+0x17f4:0xea4:143:128:8
+0x1804:0xea4:143:128:8
+0x1814:0xea4:143:128:8
+0x1824:0xea4:143:128:8
+0x1834:0xea4:143:128:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_cton_memcpy 216 buf_size unsigned#int cond|args
+0x55c0:0x569b:145:-4:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_cton_memcpy 216 dest uintptr cond|args
+0x55c0:0x569b:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_cton_memcpy 217 data uintptr cond|args
+0x55c0:0x569b:143:8:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_cton_memcpy 217 src_offset unsigned#int cond|args
+0x55c0:0x569b:143:4:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_cyclic_cton_memcpy 218 src_len unsigned#int cond|args
+0x55c0:0x569b:143:0:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 873 s uintptr cond
+0x4fc4:0x55bf:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 873 header uintptr cond|args
+0x4fc4:0x55bf:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 874 subcache uintptr cond|args
+0x4fc4:0x55bf:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 875 id uintptr cond|args
+0x4fc4:0x55bf:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 875 idlen unsigned#int cond
+0x4fc4:0x55bf:145:-44:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 876 dest uintptr cond|args
+0x4fc4:0x55bf:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 876 destlen uintptr cond|args
+0x4fc4:0x55bf:145:-64:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 878 pos unsigned#int cond|args
+0x4fc4:0x55bf:145:-68:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 879 loop unsigned#int cond
+0x4fc4:0x55bf:145:-72:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 880 now apr_time_t cond
+0x4fc4:0x55bf:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 885 idx uintptr cond|args
+0x2454:0xea4:145:-88:8
+0x2464:0xea4:145:-88:8
+0x2474:0xea4:145:-88:8
+0x2484:0xea4:145:-88:8
+0x2494:0xea4:145:-88:8
+0x24a4:0xea4:145:-88:8
+0x24b4:0xea4:145:-88:8
+0x24c4:0xea4:145:-88:8
+0x24d4:0xea4:145:-88:8
+0x24e4:0xea4:145:-88:8
+0x24f4:0xea4:145:-88:8
+0x2504:0xea4:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 898 sr__ uintptr cond|args
+0x2374:0xea4:145:-96:8
+0x2384:0xea4:145:-96:8
+0x2394:0xea4:145:-96:8
+0x23a4:0xea4:145:-96:8
+0x23b4:0xea4:145:-96:8
+0x23c4:0xea4:145:-96:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 901 data_offset unsigned#int cond|args
+0x5244:0x52c3:145:-100:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 921 sr__ uintptr cond|args
+0x23e4:0xea4:145:-112:8
+0x23f4:0xea4:145:-112:8
+0x2404:0xea4:145:-112:8
+0x2414:0xea4:145:-112:8
+0x2424:0xea4:145:-112:8
+0x2434:0xea4:145:-112:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_retrieve 931 sr__ uintptr cond|args
+0x22d4:0xea4:145:-120:8
+0x22e4:0xea4:145:-120:8
+0x22f4:0xea4:145:-120:8
+0x2304:0xea4:145:-120:8
+0x2314:0xea4:145:-120:8
+0x2324:0xea4:145:-120:8
+0x2334:0xea4:145:-120:8
+0x2344:0xea4:145:-120:8
+0x2354:0xea4:145:-120:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_retrieve 535 ctx uintptr cond
+0x2720:0x2acf:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_retrieve 536 s uintptr cond|args
+0x2720:0x2acf:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_retrieve 537 id uintptr cond|args
+0x2720:0x2acf:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_retrieve 537 idlen unsigned#int cond|args
+0x2720:0x2acf:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_retrieve 538 dest uintptr cond|args
+0x2720:0x2acf:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_retrieve 538 destlen uintptr cond|args
+0x2720:0x2acf:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_retrieve 539 p uintptr cond
+0x2720:0x2acf:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_retrieve 541 header uintptr cond|args
+0x2720:0x2acf:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_retrieve 542 subcache uintptr cond|args
+0x2720:0x2acf:145:-72:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_retrieve 543 rv int cond
+0x2720:0x2acf:145:-76:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_retrieve 545 sr__ uintptr cond|args
+0x1854:0xea4:145:-88:8
+0x1864:0xea4:145:-88:8
+0x1874:0xea4:145:-88:8
+0x1884:0xea4:145:-88:8
+0x1894:0xea4:145:-88:8
+0x18a4:0xea4:145:-88:8
+0x18b4:0xea4:145:-88:8
+0x18c4:0xea4:145:-88:8
+0x18d4:0xea4:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_retrieve 556 sr__ uintptr cond|args
+0x18f4:0xea4:145:-96:8
+0x1904:0xea4:145:-96:8
+0x1914:0xea4:145:-96:8
+0x1924:0xea4:145:-96:8
+0x1934:0xea4:145:-96:8
+0x1944:0xea4:145:-96:8
+0x1954:0xea4:145:-96:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_remove 562 ctx uintptr cond
+0x2ad0:0x2ee3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_remove 563 s uintptr cond|args
+0x2ad0:0x2ee3:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_remove 563 id uintptr cond|args
+0x2ad0:0x2ee3:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_remove 564 idlen unsigned#int cond|args
+0x2ad0:0x2ee3:145:-36:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_remove 564 p uintptr cond
+0x2ad0:0x2ee3:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_remove 566 header uintptr cond|args
+0x2ad0:0x2ee3:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_remove 567 subcache uintptr cond|args
+0x2ad0:0x2ee3:145:-64:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_remove 568 rv apr_status_t cond
+0x2ad0:0x2ee3:145:-68:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_remove 570 sr__ uintptr cond|args
+0x1974:0xea4:145:-80:8
+0x1984:0xea4:145:-80:8
+0x1994:0xea4:145:-80:8
+0x19a4:0xea4:145:-80:8
+0x19b4:0xea4:145:-80:8
+0x19c4:0xea4:145:-80:8
+0x19d4:0xea4:145:-80:8
+0x19e4:0xea4:145:-80:8
+0x19f4:0xea4:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_remove 574 sr__ uintptr cond|args
+0x1a14:0xea4:145:-88:8
+0x1a24:0xea4:145:-88:8
+0x1a34:0xea4:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_remove 585 sr__ uintptr cond|args
+0x1a54:0xea4:145:-96:8
+0x1a64:0xea4:145:-96:8
+0x1a74:0xea4:145:-96:8
+0x1a84:0xea4:145:-96:8
+0x1a94:0xea4:145:-96:8
+0x1aa4:0xea4:145:-96:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 591 ctx uintptr cond|args
+0x2ee4:0x3a47:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 592 r uintptr cond|args
+0x2ee4:0x3a47:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 592 flags int cond
+0x2ee4:0x3a47:145:-20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 594 s uintptr cond|args
+0x2ee4:0x3a47:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 595 header uintptr cond|args
+0x2ee4:0x3a47:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 596 loop unsigned#int cond
+0x2ee4:0x3a47:145:-44:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 596 total unsigned#int cond|args
+0x2ee4:0x3a47:145:-48:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 596 cache_total unsigned#int cond
+0x2ee4:0x3a47:145:-52:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 596 non_empty_subcaches unsigned#int cond
+0x2ee4:0x3a47:145:-56:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 597 idx_expiry apr_time_t cond
+0x2ee4:0x3a47:145:-64:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 597 min_expiry apr_time_t cond|args
+0x2ee4:0x3a47:145:-72:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 597 max_expiry apr_time_t cond|args
+0x2ee4:0x3a47:145:-80:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 598 now apr_time_t cond|args
+0x2ee4:0x3a47:145:-88:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 599 expiry_total double cond
+0x2ee4:0x3a47:145:-96:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 600 index_pct int cond|args
+0x2ee4:0x3a47:145:-100:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 600 cache_pct int cond|args
+0x2ee4:0x3a47:145:-104:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 609 subcache uintptr cond|args
+0x3208:0x3333:145:-112:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 614 idx uintptr cond
+0x3278:0x3333:145:-120:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 637 average_expiry apr_time_t cond|args
+0x1ac4:0xea4:145:-128:8
+0x1ad4:0xea4:145:-128:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_status 673 average_expiry apr_time_t cond|args
+0x1af4:0xea4:145:-136:8
+0x1b04:0xea4:145:-136:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 972 instance uintptr cond|args
+0x574c:0x5e3b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 973 s uintptr cond|args
+0x574c:0x5e3b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 974 userctx uintptr cond|args
+0x574c:0x5e3b:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 975 header uintptr cond|args
+0x574c:0x5e3b:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 976 subcache uintptr cond|args
+0x574c:0x5e3b:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 977 iterator uintptr cond
+0x574c:0x5e3b:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 978 buf uintptr cond
+0x574c:0x5e3b:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 979 buf_len uintptr cond|args
+0x574c:0x5e3b:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 980 pool uintptr cond|args
+0x574c:0x5e3b:145:-80:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 981 now apr_time_t cond
+0x574c:0x5e3b:145:-88:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 983 pos unsigned#int cond|args
+0x574c:0x5e3b:145:-92:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 984 loop unsigned#int cond
+0x574c:0x5e3b:145:-96:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 985 rv apr_status_t cond|args
+0x574c:0x5e3b:145:-100:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 989 idx uintptr cond|args
+0x2794:0xea4:145:-112:8
+0x27a4:0xea4:145:-112:8
+0x27b4:0xea4:145:-112:8
+0x27c4:0xea4:145:-112:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 994 sr__ uintptr cond|args
+0x2554:0xea4:145:-120:8
+0x2564:0xea4:145:-120:8
+0x2574:0xea4:145:-120:8
+0x2584:0xea4:145:-120:8
+0x2594:0xea4:145:-120:8
+0x25a4:0xea4:145:-120:8
+0x25b4:0xea4:145:-120:8
+0x25c4:0xea4:145:-120:8
+0x25d4:0xea4:145:-120:8
+0x25e4:0xea4:145:-120:8
+0x25f4:0xea4:145:-120:8
+0x2604:0xea4:145:-120:8
+0x2614:0xea4:145:-120:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 997 id uintptr cond|args
+0x26a4:0xea4:145:-128:8
+0x26b4:0xea4:145:-128:8
+0x26c4:0xea4:145:-128:8
+0x26d4:0xea4:145:-128:8
+0x26e4:0xea4:145:-128:8
+0x26f4:0xea4:145:-128:8
+0x2704:0xea4:145:-128:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 998 dest uintptr cond|args
+0x26a4:0xea4:145:-136:8
+0x26b4:0xea4:145:-136:8
+0x26c4:0xea4:145:-136:8
+0x26d4:0xea4:145:-136:8
+0x26e4:0xea4:145:-136:8
+0x26f4:0xea4:145:-136:8
+0x2704:0xea4:145:-136:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 999 data_offset unsigned#int cond|args
+0x26a4:0xea4:145:-140:4
+0x26b4:0xea4:145:-140:4
+0x26c4:0xea4:145:-140:4
+0x26d4:0xea4:145:-140:4
+0x26e4:0xea4:145:-140:4
+0x26f4:0xea4:145:-140:4
+0x2704:0xea4:145:-140:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 999 dest_len unsigned#int cond|args
+0x26a4:0xea4:145:-144:4
+0x26b4:0xea4:145:-144:4
+0x26c4:0xea4:145:-144:4
+0x26d4:0xea4:145:-144:4
+0x26e4:0xea4:145:-144:4
+0x26f4:0xea4:145:-144:4
+0x2704:0xea4:145:-144:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 1000 buf_req apr_size_t cond
+0x26a4:0xea4:145:-152:8
+0x26b4:0xea4:145:-152:8
+0x26c4:0xea4:145:-152:8
+0x26d4:0xea4:145:-152:8
+0x26e4:0xea4:145:-152:8
+0x26f4:0xea4:145:-152:8
+0x2704:0xea4:145:-152:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 1036 sr__ uintptr cond|args
+0x2634:0xea4:143:160:8
+0x2644:0xea4:143:160:8
+0x2654:0xea4:143:160:8
+0x2664:0xea4:143:160:8
+0x2674:0xea4:143:160:8
+0x2684:0xea4:143:160:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c shmcb_subcache_iterate 1045 sr__ uintptr cond|args
+0x2724:0xea4:143:152:8
+0x2734:0xea4:143:152:8
+0x2744:0xea4:143:152:8
+0x2754:0xea4:143:152:8
+0x2764:0xea4:143:152:8
+0x2774:0xea4:143:152:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_iterate 695 instance uintptr cond|args
+0x3a48:0x3b57:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_iterate 696 s uintptr cond|args
+0x3a48:0x3b57:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_iterate 696 userctx uintptr cond|args
+0x3a48:0x3b57:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_iterate 697 iterator uintptr cond|args
+0x3a48:0x3b57:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_iterate 698 pool uintptr cond|args
+0x3a48:0x3b57:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_iterate 700 header uintptr cond|args
+0x3a48:0x3b57:145:-48:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_iterate 701 loop unsigned#int cond
+0x3a48:0x3b57:145:-52:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_iterate 702 now apr_time_t cond|args
+0x3a48:0x3b57:143:64:8
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_iterate 703 rv apr_status_t cond
+0x3a48:0x3b57:143:60:4
+#variable = DW_TAG_base_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_iterate 704 buflen apr_size_t cond|args
+0x3a48:0x3b57:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_iterate 705 buf uintptr cond|args
+0x3a48:0x3b57:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_iterate 712 subcache uintptr cond|args
+0x3ad0:0x3b37:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_cleanup 345 arg uintptr cond
+0x3b58:0x3ba7:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/cache mod_socache_shmcb.c socache_shmcb_cleanup 347 ctx uintptr cond|args
+0x3b58:0x3ba7:143:0:8
+#variable = DW_TAG_structure_type /root/httpd/modules/cache mod_socache_shmcb.c #global 1083 socache_shmcb_module module globalVar
+0xe94:0x5e3b:3:98520:112
+#variable = DW_TAG_structure_type /root/httpd/modules/cache mod_socache_shmcb.c #global 1057 socache_shmcb uintptr globalVar
+0xe94:0x5e3b:3:97680:80

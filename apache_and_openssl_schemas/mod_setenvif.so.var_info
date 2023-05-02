@@ -1,0 +1,171 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c create_setenvif_config 133 p uintptr cond|args
+0x1200:0x1257:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c create_setenvif_config 135 new uintptr cond
+0x1200:0x1257:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c create_setenvif_config_dir 146 p uintptr cond|args
+0x1084:0x10ab:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c create_setenvif_config_dir 146 dummy uintptr cond
+0x1084:0x10ab:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c merge_setenvif_config 151 p uintptr cond|args
+0x10ac:0x111b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c merge_setenvif_config 151 basev uintptr cond
+0x10ac:0x111b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c merge_setenvif_config 151 overridesv uintptr cond
+0x10ac:0x111b:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c merge_setenvif_config 153 a uintptr cond
+0x10ac:0x111b:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c merge_setenvif_config 154 base uintptr cond|args
+0x10ac:0x111b:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c merge_setenvif_config 154 overrides uintptr cond|args
+0x10ac:0x111b:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c create_setenvif_config_svr 141 p uintptr cond|args
+0x111c:0x1143:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c create_setenvif_config_svr 141 dummy uintptr cond
+0x111c:0x1143:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c register_hooks 639 p uintptr cond|args
+0x1144:0x11ff:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c match_headers 491 r uintptr cond|args
+0x1cd0:0x251b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c match_headers 493 sconf uintptr cond
+0x1cd0:0x251b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c match_headers 494 entries uintptr cond
+0x1cd0:0x251b:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c match_headers 495 elts uintptr cond|args
+0x1cd0:0x251b:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c match_headers 496 val uintptr cond|args
+0x1cd0:0x251b:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c match_headers 496 err uintptr cond|args
+0x1cd0:0x251b:145:-56:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_setenvif.c match_headers 497 val_len apr_size_t cond|args
+0x1cd0:0x251b:145:-64:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_setenvif.c match_headers 498 i int cond
+0x1cd0:0x251b:145:-68:4
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_setenvif.c match_headers 498 j int cond|args
+0x1cd0:0x251b:145:-72:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c match_headers 499 last_name uintptr cond
+0x1cd0:0x251b:145:-80:8
+#variable = DW_TAG_array_type /root/httpd/modules/metadata mod_setenvif.c match_headers 500 regm uintptr cond|args
+0x1cd0:0x251b:145:-160:80
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c match_headers 516 b uintptr cond|args
+0x11e4:0x1094:143:168:8
+0x11f4:0x1094:143:168:8
+0x1204:0x1094:143:168:8
+0x1214:0x1094:143:168:8
+0x1224:0x1094:143:168:8
+0x1234:0x1094:143:168:8
+0x1244:0x1094:143:168:8
+0x1254:0x1094:143:168:8
+0x1264:0x1094:143:168:8
+0x1274:0x1094:143:168:8
+0x1284:0x1094:143:168:8
+0x1294:0x1094:143:168:8
+0x12a4:0x1094:143:168:8
+0x12b4:0x1094:143:168:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c match_headers 552 arr uintptr cond
+0x1084:0x1094:143:160:8
+0x1094:0x1094:143:160:8
+0x10a4:0x1094:143:160:8
+0x10b4:0x1094:143:160:8
+0x10c4:0x1094:143:160:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c match_headers 592 arr uintptr cond
+0x1144:0x1094:143:152:8
+0x1154:0x1094:143:152:8
+0x1164:0x1094:143:152:8
+0x1174:0x1094:143:152:8
+0x1184:0x1094:143:152:8
+0x1194:0x1094:143:152:8
+0x11a4:0x1094:143:152:8
+0x11b4:0x1094:143:152:8
+0x11c4:0x1094:143:152:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c match_headers 611 replaced uintptr cond|args
+0x10e4:0x1094:143:144:8
+0x10f4:0x1094:143:144:8
+0x1104:0x1094:143:144:8
+0x1114:0x1094:143:144:8
+0x1124:0x1094:143:144:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c non_regex_pattern 190 p uintptr cond|args
+0x19e4:0x1b43:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c non_regex_pattern 190 s uintptr cond|args
+0x19e4:0x1b43:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c non_regex_pattern 192 src uintptr cond|args
+0x19e4:0x1b43:143:32:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_setenvif.c non_regex_pattern 193 escapes_found int cond
+0x19e4:0x1b43:143:28:4
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_setenvif.c non_regex_pattern 194 in_escape int cond
+0x19e4:0x1b43:143:24:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c non_regex_pattern 237 unescaped uintptr cond
+0x1ac0:0x1b33:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c non_regex_pattern 238 dst uintptr cond
+0x1ac0:0x1b33:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c is_header_regex 170 p uintptr cond
+0x1b44:0x1bab:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c is_header_regex 170 name uintptr cond|args
+0x1b44:0x1bab:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_envvars 249 cmd uintptr cond|args
+0x1bac:0x1ccf:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_envvars 249 args uintptr cond|args
+0x1bac:0x1ccf:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_envvars 249 new uintptr cond|args
+0x1bac:0x1ccf:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_envvars 251 feature uintptr cond|args
+0x1bac:0x1ccf:143:24:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_setenvif.c add_envvars 252 beenhere int cond
+0x1bac:0x1ccf:143:20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_envvars 253 var uintptr cond|args
+0x1bac:0x1ccf:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif_core 282 cmd uintptr cond|args
+0x14ec:0x19e3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif_core 282 mconfig uintptr cond
+0x14ec:0x19e3:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif_core 283 fname uintptr cond|args
+0x14ec:0x19e3:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif_core 283 args uintptr cond|args
+0x14ec:0x19e3:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif_core 285 regex uintptr cond|args
+0x14ec:0x19e3:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif_core 286 simple_pattern uintptr cond|args
+0x14ec:0x19e3:143:56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif_core 287 sconf uintptr cond|args
+0x14ec:0x19e3:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif_core 288 new uintptr cond|args
+0x14ec:0x19e3:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif_core 289 entries uintptr cond|args
+0x14ec:0x19e3:143:32:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif_core 290 i int cond|args
+0x14ec:0x19e3:143:28:4
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif_core 291 icase int cond|args
+0x14ec:0x19e3:143:24:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif 404 cmd uintptr cond|args
+0x1258:0x12eb:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif 404 mconfig uintptr cond|args
+0x1258:0x12eb:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif 405 args uintptr cond|args
+0x1258:0x12eb:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvif 407 fname uintptr cond|args
+0x1258:0x12eb:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvifexpr 418 cmd uintptr cond|args
+0x12ec:0x14ab:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvifexpr 418 mconfig uintptr cond
+0x12ec:0x14ab:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvifexpr 419 args uintptr cond|args
+0x12ec:0x14ab:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvifexpr 421 expr uintptr cond|args
+0x12ec:0x14ab:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvifexpr 422 sconf uintptr cond|args
+0x12ec:0x14ab:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvifexpr 423 new uintptr cond|args
+0x12ec:0x14ab:143:56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_setenvifexpr 424 err uintptr cond|args
+0x12ec:0x14ab:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_browser 461 cmd uintptr cond|args
+0x14ac:0x14eb:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_browser 461 mconfig uintptr cond|args
+0x14ac:0x14eb:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c add_browser 461 args uintptr cond|args
+0x14ac:0x14eb:143:8:8
+#variable = DW_TAG_structure_type /root/httpd/modules/metadata mod_setenvif.c #global 649 setenvif_module module globalVar
+0x1084:0x251b:3:78064:112
+#variable = DW_TAG_array_type /root/httpd/modules/metadata mod_setenvif.c #global 466 setenvif_module_cmds uintptr globalVar
+0x1084:0x251b:3:77048:240
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_setenvif.c #global 168 is_header_regex_regex uintptr globalVar
+0x1084:0x251b:3:78184:8

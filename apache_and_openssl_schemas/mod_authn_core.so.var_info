@@ -1,0 +1,148 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c create_authn_core_dir_config 75 p uintptr cond|args
+0xf84:0xfc7:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c create_authn_core_dir_config 75 dummy uintptr cond
+0xf84:0xfc7:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c create_authn_core_dir_config 77 conf uintptr cond
+0xf84:0xfc7:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c merge_authn_core_dir_config 83 a uintptr cond|args
+0xfc8:0x109b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c merge_authn_core_dir_config 83 basev uintptr cond
+0xfc8:0x109b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c merge_authn_core_dir_config 83 newv uintptr cond
+0xfc8:0x109b:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c merge_authn_core_dir_config 85 base uintptr cond
+0xfc8:0x109b:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c merge_authn_core_dir_config 86 new uintptr cond
+0xfc8:0x109b:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c merge_authn_core_dir_config 87 conf uintptr cond
+0xfc8:0x109b:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c create_authn_alias_svr_config 172 p uintptr cond|args
+0x109c:0x10e7:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c create_authn_alias_svr_config 172 s uintptr cond
+0x109c:0x10e7:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c create_authn_alias_svr_config 175 authcfg uintptr cond
+0x109c:0x10e7:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c merge_authn_alias_svr_config 184 p uintptr cond
+0x10e8:0x1103:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c merge_authn_alias_svr_config 184 basev uintptr cond
+0x10e8:0x1103:145:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c merge_authn_alias_svr_config 184 overridesv uintptr cond
+0x10e8:0x1103:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c register_hooks 408 p uintptr cond
+0x1104:0x1177:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c register_hooks 410 apu__opt uintptr cond|args
+0x1114:0x112f:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c register_hooks 411 apu__opt uintptr cond|args
+0x1130:0x114b:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_ap_auth_type 334 r uintptr cond|args
+0x1910:0x1a33:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_ap_auth_type 336 conf uintptr cond|args
+0x1910:0x1a33:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_ap_auth_type 342 err uintptr cond|args
+0xf84:0xf94:145:-32:8
+0xf94:0xf94:145:-32:8
+0xfa4:0xf94:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_ap_auth_type 342 type uintptr cond|args
+0xf84:0xf94:143:40:8
+0xf94:0xf94:143:40:8
+0xfa4:0xf94:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_ap_auth_name 356 r uintptr cond|args
+0x1a34:0x1b3b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_ap_auth_name 358 conf uintptr cond|args
+0x1a34:0x1b3b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_ap_auth_name 359 err uintptr cond|args
+0x1a34:0x1b3b:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_ap_auth_name 359 name uintptr cond|args
+0x1a34:0x1b3b:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authenticate_no_user 390 r uintptr cond|args
+0x1b3c:0x1bfb:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c set_authtype 315 cmd uintptr cond|args
+0x1178:0x1267:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c set_authtype 315 mconfig uintptr cond
+0x1178:0x1267:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c set_authtype 316 word1 uintptr cond|args
+0x1178:0x1267:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c set_authtype 318 aconfig uintptr cond
+0x1178:0x1267:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c set_authtype 319 expr_err uintptr cond|args
+0x1178:0x1267:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c set_authname 298 cmd uintptr cond|args
+0x1268:0x134b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c set_authname 298 mconfig uintptr cond
+0x1268:0x134b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c set_authname 299 word1 uintptr cond|args
+0x1268:0x134b:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c set_authname 301 aconfig uintptr cond
+0x1268:0x134b:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c set_authname 302 expr_err uintptr cond|args
+0x1268:0x134b:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 201 cmd uintptr cond|args
+0x134c:0x16f7:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 201 mconfig uintptr cond
+0x134c:0x16f7:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 201 arg uintptr cond|args
+0x134c:0x16f7:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 203 endp uintptr cond|args
+0x134c:0x16f7:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 204 args uintptr cond|args
+0x134c:0x16f7:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 205 provider_alias uintptr cond|args
+0x134c:0x16f7:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 206 provider_name uintptr cond|args
+0x134c:0x16f7:145:-64:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 207 old_overrides int cond
+0x134c:0x16f7:145:-68:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 208 errmsg uintptr cond
+0x134c:0x16f7:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 209 provider uintptr cond|args
+0x134c:0x16f7:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 210 new_auth_config uintptr cond|args
+0x134c:0x16f7:143:96:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 211 authcfg uintptr cond|args
+0x134c:0x16f7:143:88:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 215 err uintptr cond
+0x134c:0x16f7:143:80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authaliassection 262 prvdraliasrec uintptr cond|args
+0x15ec:0x16df:143:72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_check_password 108 r uintptr cond|args
+0x16f8:0x17ff:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_check_password 108 user uintptr cond|args
+0x16f8:0x17ff:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_check_password 109 password uintptr cond|args
+0x16f8:0x17ff:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_check_password 116 provider_name uintptr cond|args
+0x16f8:0x17ff:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_check_password 117 ret authn_status cond
+0x16f8:0x17ff:145:-36:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_check_password 118 authcfg uintptr cond|args
+0x16f8:0x17ff:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_check_password 123 prvdraliasrec uintptr cond|args
+0x1778:0x17ef:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_check_password 125 orig_dir_config uintptr cond|args
+0x1778:0x17ef:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_get_realm_hash 140 r uintptr cond|args
+0x1800:0x190f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_get_realm_hash 140 user uintptr cond|args
+0x1800:0x190f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_get_realm_hash 141 realm uintptr cond|args
+0x1800:0x190f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_get_realm_hash 141 rethash uintptr cond|args
+0x1800:0x190f:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_get_realm_hash 148 provider_name uintptr cond|args
+0x1800:0x190f:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_get_realm_hash 149 ret authn_status cond
+0x1800:0x190f:145:-44:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_get_realm_hash 150 authcfg uintptr cond|args
+0x1800:0x190f:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_get_realm_hash 155 prvdraliasrec uintptr cond|args
+0x1884:0x18ff:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authn_core.c authn_alias_get_realm_hash 157 orig_dir_config uintptr cond|args
+0x1884:0x18ff:143:24:8
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authn_core.c #global 417 authn_core_module module globalVar
+0xf84:0x1bfb:3:78048:112
+#variable = DW_TAG_array_type /root/httpd/modules/aaa mod_authn_core.c #global 378 authn_cmds uintptr globalVar
+0xf84:0x1bfb:3:77096:160
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authn_core.c #global 189 authn_alias_provider uintptr globalVar
+0xf84:0x1bfb:3:77256:16
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authn_core.c #global 195 authn_alias_provider_nodigest uintptr globalVar
+0xf84:0x1bfb:3:77272:16

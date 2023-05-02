@@ -1,0 +1,155 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_hooks 402 pool uintptr cond
+0x1598:0x1627:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_pre_config 295 pconf uintptr cond
+0x18a0:0x19cb:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_pre_config 295 plog uintptr cond
+0x18a0:0x19cb:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_pre_config 296 ptemp uintptr cond|args
+0x18a0:0x19cb:145:-24:8
+#variable = DW_TAG_structure_type /root/httpd/modules/arch/unix mod_unixd.c unixd_pre_config 298 wrapper apr_finfo_t cond|args
+0x18a0:0x19cb:143:48:120
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_dump_config 382 p uintptr cond|args
+0x19cc:0x1acb:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_dump_config 382 s uintptr cond
+0x19cc:0x1acb:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_dump_config 384 out uintptr cond|args
+0x19cc:0x1acb:143:24:8
+#variable = DW_TAG_base_type /root/httpd/modules/arch/unix mod_unixd.c unixd_dump_config 385 uid apr_uid_t cond|args
+0x19cc:0x1acb:143:20:4
+#variable = DW_TAG_base_type /root/httpd/modules/arch/unix mod_unixd.c unixd_dump_config 386 gid apr_gid_t cond|args
+0x19cc:0x1acb:143:16:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_dump_config 387 no_root uintptr cond|args
+0x19cc:0x1acb:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c set_group_privs 90 name uintptr cond|args
+0x1314:0xff4:145:-16:8
+0x1324:0xff4:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c set_group_privs 95 ent uintptr cond
+0x1204:0xff4:145:-24:8
+0x1214:0xff4:145:-24:8
+0x1224:0xff4:145:-24:8
+0x1234:0xff4:145:-24:8
+0x1244:0xff4:145:-24:8
+0x1254:0xff4:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/modules/arch/unix mod_unixd.c set_group_privs 96 uid uid_t cond|args
+0x1204:0xff4:145:-28:4
+0x1214:0xff4:145:-28:4
+0x1224:0xff4:145:-28:4
+0x1234:0xff4:145:-28:4
+0x1244:0xff4:145:-28:4
+0x1254:0xff4:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c set_group_privs 99 sr__ uintptr cond|args
+0x11c4:0xff4:145:-40:8
+0x11d4:0xff4:145:-40:8
+0x11e4:0xff4:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c set_group_privs 118 sr__ uintptr cond|args
+0x12d4:0xff4:145:-48:8
+0x12e4:0xff4:145:-48:8
+0x12f4:0xff4:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c set_group_privs 127 sr__ uintptr cond|args
+0x1274:0xff4:145:-56:8
+0x1284:0xff4:145:-56:8
+0x1294:0xff4:145:-56:8
+0x12a4:0xff4:145:-56:8
+0x12b4:0xff4:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_drop_privileges 139 pool uintptr cond
+0x1acc:0x1e93:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_drop_privileges 139 s uintptr cond
+0x1acc:0x1e93:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/modules/arch/unix mod_unixd.c unixd_drop_privileges 141 rv int cond
+0x1acc:0x1e93:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_drop_privileges 150 sr__ uintptr cond|args
+0x1344:0xff4:145:-40:8
+0x1354:0xff4:145:-40:8
+0x1364:0xff4:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_drop_privileges 157 sr__ uintptr cond|args
+0x1384:0xff4:145:-48:8
+0x1394:0xff4:145:-48:8
+0x13a4:0xff4:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_drop_privileges 164 sr__ uintptr cond|args
+0x13c4:0xff4:145:-56:8
+0x13d4:0xff4:145:-56:8
+0x13e4:0xff4:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_drop_privileges 171 sr__ uintptr cond|args
+0x1404:0xff4:145:-64:8
+0x1414:0xff4:145:-64:8
+0x1424:0xff4:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_drop_privileges 184 sr__ uintptr cond|args
+0x1444:0xff4:145:-72:8
+0x1454:0xff4:145:-72:8
+0x1464:0xff4:145:-72:8
+0x1474:0xff4:145:-72:8
+0x1484:0xff4:145:-72:8
+0x1494:0xff4:145:-72:8
+0x14a4:0xff4:145:-72:8
+0x14b4:0xff4:145:-72:8
+0x14c4:0xff4:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_drop_privileges 194 sr__ uintptr cond|args
+0x14e4:0xff4:143:80:8
+0x14f4:0xff4:143:80:8
+0x1504:0xff4:143:80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_user 207 cmd uintptr cond|args
+0x1628:0x16c3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_user 207 dummy uintptr cond
+0x1628:0x16c3:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_user 208 arg uintptr cond|args
+0x1628:0x16c3:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_user 210 err uintptr cond
+0x1628:0x16c3:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_group 235 cmd uintptr cond|args
+0x16c4:0x1743:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_group 235 dummy uintptr cond
+0x16c4:0x1743:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_group 236 arg uintptr cond|args
+0x16c4:0x1743:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_group 238 err uintptr cond
+0x16c4:0x1743:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_chroot_dir 250 cmd uintptr cond|args
+0x1744:0x17d7:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_chroot_dir 250 dummy uintptr cond
+0x1744:0x17d7:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_chroot_dir 251 arg uintptr cond|args
+0x1744:0x17d7:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_chroot_dir 253 err uintptr cond
+0x1744:0x17d7:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_suexec 266 cmd uintptr cond|args
+0x17d8:0x189f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_suexec 266 dummy uintptr cond
+0x17d8:0x189f:143:24:8
+#variable = DW_TAG_base_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_suexec 266 arg int cond
+0x17d8:0x189f:143:20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c unixd_set_suexec 268 err uintptr cond
+0x17d8:0x189f:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c ap_unixd_setup_child 337 sr__ uintptr cond|args
+0xfe4:0xff4:145:-16:8
+0xff4:0xff4:145:-16:8
+0x1004:0xff4:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c ap_unixd_setup_child 342 sr__ uintptr cond|args
+0x1024:0xff4:145:-24:8
+0x1034:0xff4:145:-24:8
+0x1044:0xff4:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c ap_unixd_setup_child 347 sr__ uintptr cond|args
+0x1064:0xff4:145:-32:8
+0x1074:0xff4:145:-32:8
+0x1084:0xff4:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c ap_unixd_setup_child 352 sr__ uintptr cond|args
+0x10a4:0xff4:145:-40:8
+0x10b4:0xff4:145:-40:8
+0x10c4:0xff4:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c ap_unixd_setup_child 364 sr__ uintptr cond|args
+0x10e4:0xff4:145:-48:8
+0x10f4:0xff4:145:-48:8
+0x1104:0xff4:145:-48:8
+0x1114:0xff4:145:-48:8
+0x1124:0xff4:145:-48:8
+0x1134:0xff4:145:-48:8
+0x1144:0xff4:145:-48:8
+0x1154:0xff4:145:-48:8
+0x1164:0xff4:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/arch/unix mod_unixd.c ap_unixd_setup_child 373 sr__ uintptr cond|args
+0x1184:0xff4:145:-56:8
+0x1194:0xff4:145:-56:8
+0x11a4:0xff4:145:-56:8
+#variable = DW_TAG_structure_type /root/httpd/modules/arch/unix mod_unixd.c #global 424 unixd_module module globalVar
+0xfe4:0x1e93:3:78048:112
+#variable = DW_TAG_array_type /root/httpd/modules/arch/unix mod_unixd.c #global 412 unixd_cmds uintptr globalVar
+0xfe4:0x1e93:3:77056:200

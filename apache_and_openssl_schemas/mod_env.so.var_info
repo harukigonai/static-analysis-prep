@@ -1,0 +1,76 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c create_env_dir_config 37 p uintptr cond|args
+0xba4:0xc0b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c create_env_dir_config 37 dummy uintptr cond
+0xba4:0xc0b:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c create_env_dir_config 39 conf uintptr cond
+0xba4:0xc0b:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c merge_env_dir_configs 47 p uintptr cond|args
+0xc0c:0xd77:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c merge_env_dir_configs 47 basev uintptr cond
+0xc0c:0xd77:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c merge_env_dir_configs 47 addv uintptr cond
+0xc0c:0xd77:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c merge_env_dir_configs 49 base uintptr cond|args
+0xc0c:0xd77:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c merge_env_dir_configs 50 add uintptr cond|args
+0xc0c:0xd77:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c merge_env_dir_configs 51 res uintptr cond|args
+0xc0c:0xd77:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c merge_env_dir_configs 53 elts uintptr cond|args
+0xc0c:0xd77:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c merge_env_dir_configs 54 arr uintptr cond
+0xc0c:0xd77:143:16:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_env.c merge_env_dir_configs 56 i int cond|args
+0xc0c:0xd77:143:12:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c register_hooks 175 p uintptr cond
+0xd78:0xdb3:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c fixup_env_module 160 r uintptr cond|args
+0x1068:0x10f3:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c fixup_env_module 162 sconf uintptr cond|args
+0x1068:0x10f3:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_passed 92 cmd uintptr cond|args
+0xdb4:0xebf:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_passed 92 sconf_ uintptr cond
+0xdb4:0xebf:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_passed 93 arg uintptr cond|args
+0xdb4:0xebf:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_passed 95 sconf uintptr cond
+0xdb4:0xebf:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_passed 96 vars uintptr cond|args
+0xdb4:0xebf:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_passed 97 env_var uintptr cond|args
+0xdb4:0xebf:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_passed 104 sr__ uintptr cond|args
+0xba4:0xbb4:143:56:8
+0xbb4:0xbb4:143:56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_set 111 cmd uintptr cond|args
+0xec0:0x100b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_set 111 sconf_ uintptr cond
+0xec0:0x100b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_set 112 name uintptr cond|args
+0xec0:0x100b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_set 112 value uintptr cond|args
+0xec0:0x100b:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_set 114 sconf uintptr cond|args
+0xec0:0x100b:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_set 117 env uintptr cond|args
+0xc04:0xbb4:145:-48:8
+0xc14:0xbb4:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_set 117 plast uintptr cond|args
+0xc04:0xbb4:145:-56:8
+0xc14:0xbb4:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_set 121 sr__ uintptr cond|args
+0xbd4:0xbb4:143:64:8
+0xbe4:0xbb4:143:64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_unset 134 cmd uintptr cond
+0x100c:0x1067:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_unset 134 sconf_ uintptr cond
+0x100c:0x1067:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_unset 135 arg uintptr cond|args
+0x100c:0x1067:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_env.c add_env_module_vars_unset 137 sconf uintptr cond|args
+0x100c:0x1067:143:16:8
+#variable = DW_TAG_structure_type /root/httpd/modules/metadata mod_env.c #global 180 env_module module globalVar
+0xba4:0x10f3:3:73872:112
+#variable = DW_TAG_array_type /root/httpd/modules/metadata mod_env.c #global 149 env_module_cmds uintptr globalVar
+0xba4:0x10f3:3:73032:160

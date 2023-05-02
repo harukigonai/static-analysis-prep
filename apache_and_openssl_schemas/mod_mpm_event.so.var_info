@@ -1,0 +1,1952 @@
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_hooks 3904 p uintptr cond
+0x4474:0x4633:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_open_logs 3441 p uintptr cond
+0x4b84:0x5417:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_open_logs 3441 plog uintptr cond
+0x4b84:0x5417:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_open_logs 3442 ptemp uintptr cond
+0x4b84:0x5417:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_open_logs 3442 s uintptr cond
+0x4b84:0x5417:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_open_logs 3444 startup int cond
+0x4b84:0x5417:145:-44:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_open_logs 3445 level_flags int cond|args
+0x4b84:0x5417:145:-48:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_open_logs 3446 num_buckets int cond|args
+0x4b84:0x5417:145:-52:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_open_logs 3447 listen_buckets uintptr cond|args
+0x4b84:0x5417:145:-64:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_open_logs 3448 rv apr_status_t cond|args
+0x4b84:0x5417:145:-68:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_open_logs 3449 i int cond|args
+0x4b84:0x5417:145:-72:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_open_logs 3460 sr__ uintptr cond|args
+0x45a4:0x4484:145:-80:8
+0x45b4:0x4484:145:-80:8
+0x45c4:0x4484:145:-80:8
+0x45d4:0x4484:145:-80:8
+0x45e4:0x4484:145:-80:8
+0x45f4:0x4484:145:-80:8
+0x4604:0x4484:145:-80:8
+0x4614:0x4484:145:-80:8
+0x4624:0x4484:145:-80:8
+0x4634:0x4484:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_open_logs 3475 sr__ uintptr cond|args
+0x4704:0x4484:145:-88:8
+0x4714:0x4484:145:-88:8
+0x4724:0x4484:145:-88:8
+0x4734:0x4484:145:-88:8
+0x4744:0x4484:145:-88:8
+0x4754:0x4484:145:-88:8
+0x4764:0x4484:145:-88:8
+0x4774:0x4484:145:-88:8
+0x4784:0x4484:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_open_logs 3485 sr__ uintptr cond|args
+0x44b4:0x4484:145:-96:8
+0x44c4:0x4484:145:-96:8
+0x44d4:0x4484:145:-96:8
+0x44e4:0x4484:145:-96:8
+0x44f4:0x4484:145:-96:8
+0x4504:0x4484:145:-96:8
+0x4514:0x4484:145:-96:8
+0x4524:0x4484:145:-96:8
+0x4534:0x4484:145:-96:8
+0x4544:0x4484:145:-96:8
+0x4554:0x4484:145:-96:8
+0x4564:0x4484:145:-96:8
+0x4574:0x4484:145:-96:8
+0x4584:0x4484:145:-96:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_open_logs 3494 new_max int cond|args
+0x4654:0x4484:145:-100:4
+0x4664:0x4484:145:-100:4
+0x4674:0x4484:145:-100:4
+0x4684:0x4484:145:-100:4
+0x4694:0x4484:145:-100:4
+0x46a4:0x4484:145:-100:4
+0x46b4:0x4484:145:-100:4
+0x46c4:0x4484:145:-100:4
+0x46d4:0x4484:145:-100:4
+0x46e4:0x4484:145:-100:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_open_logs 3494 new_ptr uintptr cond|args
+0x4654:0x4484:145:-112:8
+0x4664:0x4484:145:-112:8
+0x4674:0x4484:145:-112:8
+0x4684:0x4484:145:-112:8
+0x4694:0x4484:145:-112:8
+0x46a4:0x4484:145:-112:8
+0x46b4:0x4484:145:-112:8
+0x46c4:0x4484:145:-112:8
+0x46d4:0x4484:145:-112:8
+0x46e4:0x4484:145:-112:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_open_logs 3507 rate_max int cond
+0x5340:0x53e3:145:-116:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_pre_config 3528 pconf uintptr cond|args
+0x5418:0x58df:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_pre_config 3528 plog uintptr cond|args
+0x5418:0x58df:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_pre_config 3529 ptemp uintptr cond
+0x5418:0x58df:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_pre_config 3531 no_detach int cond|args
+0x5418:0x58df:145:-36:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_pre_config 3531 debug int cond
+0x5418:0x58df:145:-40:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_pre_config 3531 foreground int cond
+0x5418:0x58df:145:-44:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_pre_config 3532 rv apr_status_t cond|args
+0x5418:0x58df:145:-48:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_pre_config 3533 userdata_key uintptr cond|args
+0x5418:0x58df:145:-56:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_pre_config 3534 test_atomics int cond
+0x5418:0x58df:145:-60:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_pre_config 3570 sr__ uintptr cond|args
+0x47a4:0x4484:145:-72:8
+0x47b4:0x4484:145:-72:8
+0x47c4:0x4484:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_pre_config 3581 sr__ uintptr cond|args
+0x4844:0x4484:143:80:8
+0x4854:0x4484:143:80:8
+0x4864:0x4484:143:80:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_pre_config 3595 sr__ uintptr cond|args
+0x47e4:0x4484:143:72:8
+0x47f4:0x4484:143:72:8
+0x4804:0x4484:143:72:8
+0x4814:0x4484:143:72:8
+0x4824:0x4484:143:72:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c TO_QUEUE_MAKE 318 p uintptr cond|args
+0x79e8:0x7a9b:145:-8:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c TO_QUEUE_MAKE 318 t apr_time_t cond
+0x79e8:0x7a9b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c TO_QUEUE_MAKE 319 ref uintptr cond
+0x79e8:0x7a9b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c TO_QUEUE_MAKE 321 q uintptr cond
+0x79e8:0x7a9b:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_post_config 3626 pconf uintptr cond|args
+0x58e0:0x5bdf:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_post_config 3626 plog uintptr cond
+0x58e0:0x5bdf:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_post_config 3627 ptemp uintptr cond|args
+0x58e0:0x5bdf:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_post_config 3627 s uintptr cond|args
+0x58e0:0x5bdf:145:-40:8
+#variable = DW_TAG_structure_type /root/httpd/server/mpm/event event.c event_post_config 3632 wc uintptr cond|args
+0x58e0:0x5bdf:145:-64:24
+#variable = DW_TAG_structure_type /root/httpd/server/mpm/event event.c event_post_config 3632 ka uintptr cond|args
+0x58e0:0x5bdf:145:-88:24
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_post_config 3649 sc uintptr cond
+0x4884:0x4484:143:96:8
+0x4894:0x4484:143:96:8
+0x48a4:0x4484:143:96:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3689 p uintptr cond
+0x5be0:0x6a1b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3689 plog uintptr cond
+0x5be0:0x6a1b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3690 ptemp uintptr cond
+0x5be0:0x6a1b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3690 s uintptr cond
+0x5be0:0x6a1b:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_check_config 3692 startup int cond
+0x5be0:0x6a1b:145:-36:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3701 sr__ uintptr cond|args
+0x4cc4:0x4484:145:-48:8
+0x4cd4:0x4484:145:-48:8
+0x4ce4:0x4484:145:-48:8
+0x4cf4:0x4484:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3706 sr__ uintptr cond|args
+0x4d14:0x4484:145:-56:8
+0x4d24:0x4484:145:-56:8
+0x4d34:0x4484:145:-56:8
+0x4d44:0x4484:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3715 sr__ uintptr cond|args
+0x4be4:0x4484:145:-64:8
+0x4bf4:0x4484:145:-64:8
+0x4c04:0x4484:145:-64:8
+0x4c14:0x4484:145:-64:8
+0x4c24:0x4484:145:-64:8
+0x4c34:0x4484:145:-64:8
+0x4c44:0x4484:145:-64:8
+0x4c54:0x4484:145:-64:8
+0x4c64:0x4484:145:-64:8
+0x4c74:0x4484:145:-64:8
+0x4c84:0x4484:145:-64:8
+0x4c94:0x4484:145:-64:8
+0x4ca4:0x4484:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3719 sr__ uintptr cond|args
+0x48c4:0x4484:145:-72:8
+0x48d4:0x4484:145:-72:8
+0x48e4:0x4484:145:-72:8
+0x48f4:0x4484:145:-72:8
+0x4904:0x4484:145:-72:8
+0x4914:0x4484:145:-72:8
+0x4924:0x4484:145:-72:8
+0x4934:0x4484:145:-72:8
+0x4944:0x4484:145:-72:8
+0x4954:0x4484:145:-72:8
+0x4964:0x4484:145:-72:8
+0x4974:0x4484:145:-72:8
+0x4984:0x4484:145:-72:8
+0x4994:0x4484:145:-72:8
+0x49a4:0x4484:145:-72:8
+0x49b4:0x4484:145:-72:8
+0x49c4:0x4484:145:-72:8
+0x49d4:0x4484:145:-72:8
+0x49e4:0x4484:145:-72:8
+0x49f4:0x4484:145:-72:8
+0x4a04:0x4484:145:-72:8
+0x4a14:0x4484:145:-72:8
+0x4a24:0x4484:145:-72:8
+0x4a34:0x4484:145:-72:8
+0x4a44:0x4484:145:-72:8
+0x4a54:0x4484:145:-72:8
+0x4a64:0x4484:145:-72:8
+0x4a74:0x4484:145:-72:8
+0x4a84:0x4484:145:-72:8
+0x4a94:0x4484:145:-72:8
+0x4aa4:0x4484:145:-72:8
+0x4ab4:0x4484:145:-72:8
+0x4ac4:0x4484:145:-72:8
+0x4ad4:0x4484:145:-72:8
+0x4ae4:0x4484:145:-72:8
+0x4af4:0x4484:145:-72:8
+0x4b04:0x4484:145:-72:8
+0x4b14:0x4484:145:-72:8
+0x4b24:0x4484:145:-72:8
+0x4b34:0x4484:145:-72:8
+0x4b44:0x4484:145:-72:8
+0x4b54:0x4484:145:-72:8
+0x4b64:0x4484:145:-72:8
+0x4b74:0x4484:145:-72:8
+0x4b84:0x4484:145:-72:8
+0x4b94:0x4484:145:-72:8
+0x4ba4:0x4484:145:-72:8
+0x4bb4:0x4484:145:-72:8
+0x4bc4:0x4484:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3734 sr__ uintptr cond|args
+0x5104:0x4484:145:-80:8
+0x5114:0x4484:145:-80:8
+0x5124:0x4484:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3743 sr__ uintptr cond|args
+0x4d64:0x4484:145:-88:8
+0x4d74:0x4484:145:-88:8
+0x4d84:0x4484:145:-88:8
+0x4d94:0x4484:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3748 sr__ uintptr cond|args
+0x4db4:0x4484:145:-96:8
+0x4dc4:0x4484:145:-96:8
+0x4dd4:0x4484:145:-96:8
+0x4de4:0x4484:145:-96:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3757 sr__ uintptr cond|args
+0x4e04:0x4484:145:-104:8
+0x4e14:0x4484:145:-104:8
+0x4e24:0x4484:145:-104:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3761 sr__ uintptr cond|args
+0x4e44:0x4484:145:-112:8
+0x4e54:0x4484:145:-112:8
+0x4e64:0x4484:145:-112:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3776 sr__ uintptr cond|args
+0x5144:0x4484:145:-120:8
+0x5154:0x4484:145:-120:8
+0x5164:0x4484:145:-120:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3785 sr__ uintptr cond|args
+0x4e84:0x4484:145:-128:8
+0x4e94:0x4484:145:-128:8
+0x4ea4:0x4484:145:-128:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3791 sr__ uintptr cond|args
+0x4ec4:0x4484:145:-136:8
+0x4ed4:0x4484:145:-136:8
+0x4ee4:0x4484:145:-136:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3800 sr__ uintptr cond|args
+0x4f04:0x4484:145:-144:8
+0x4f14:0x4484:145:-144:8
+0x4f24:0x4484:145:-144:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3804 sr__ uintptr cond|args
+0x4f44:0x4484:145:-152:8
+0x4f54:0x4484:145:-152:8
+0x4f64:0x4484:145:-152:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3813 sr__ uintptr cond|args
+0x4f84:0x4484:145:-160:8
+0x4f94:0x4484:145:-160:8
+0x4fa4:0x4484:145:-160:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3820 sr__ uintptr cond|args
+0x4fc4:0x4484:145:-168:8
+0x4fd4:0x4484:145:-168:8
+0x4fe4:0x4484:145:-168:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_check_config 3831 tmp_max_workers int cond|args
+0x5204:0x4484:145:-172:4
+0x5214:0x4484:145:-172:4
+0x5224:0x4484:145:-172:4
+0x5234:0x4484:145:-172:4
+0x5244:0x4484:145:-172:4
+0x5254:0x4484:145:-172:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3834 sr__ uintptr cond|args
+0x5184:0x4484:145:-184:8
+0x5194:0x4484:145:-184:8
+0x51a4:0x4484:145:-184:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3841 sr__ uintptr cond|args
+0x51c4:0x4484:145:-192:8
+0x51d4:0x4484:145:-192:8
+0x51e4:0x4484:145:-192:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3852 sr__ uintptr cond|args
+0x5274:0x4484:145:-200:8
+0x5284:0x4484:145:-200:8
+0x5294:0x4484:145:-200:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3859 sr__ uintptr cond|args
+0x52b4:0x4484:145:-208:8
+0x52c4:0x4484:145:-208:8
+0x52d4:0x4484:145:-208:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3871 sr__ uintptr cond|args
+0x5004:0x4484:145:-216:8
+0x5014:0x4484:145:-216:8
+0x5024:0x4484:145:-216:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3875 sr__ uintptr cond|args
+0x5044:0x4484:143:224:8
+0x5054:0x4484:143:224:8
+0x5064:0x4484:143:224:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3884 sr__ uintptr cond|args
+0x5084:0x4484:143:216:8
+0x5094:0x4484:143:216:8
+0x50a4:0x4484:143:216:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_check_config 3890 sr__ uintptr cond|args
+0x50c4:0x4484:143:208:8
+0x50d4:0x4484:143:208:8
+0x50e4:0x4484:143:208:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_note_child_started 731 slot int cond|args
+0x85c0:0x885b:145:-4:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_note_child_started 731 pid pid_t cond|args
+0x85c0:0x885b:145:-8:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_note_child_started 733 gen ap_generation_t cond|args
+0x85c0:0x885b:145:-12:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_note_child_started 740 sr__ uintptr cond|args
+0x5924:0x4484:145:-24:8
+0x5934:0x4484:145:-24:8
+0x5944:0x4484:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_note_child_stopped 699 slot int cond|args
+0x7fd0:0x8317:145:-4:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_note_child_stopped 699 pid pid_t cond|args
+0x7fd0:0x8317:145:-8:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_note_child_stopped 699 gen ap_generation_t cond|args
+0x7fd0:0x8317:145:-12:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_note_child_stopped 702 ps uintptr cond|args
+0x5804:0x4484:145:-24:8
+0x5814:0x4484:145:-24:8
+0x5824:0x4484:145:-24:8
+0x5834:0x4484:145:-24:8
+0x5844:0x4484:145:-24:8
+0x5854:0x4484:145:-24:8
+0x5864:0x4484:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_note_child_stopped 703 i int cond|args
+0x5804:0x4484:145:-28:4
+0x5814:0x4484:145:-28:4
+0x5824:0x4484:145:-28:4
+0x5834:0x4484:145:-28:4
+0x5844:0x4484:145:-28:4
+0x5854:0x4484:145:-28:4
+0x5864:0x4484:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_note_child_stopped 715 sr__ uintptr cond|args
+0x5774:0x4484:145:-40:8
+0x5784:0x4484:145:-40:8
+0x5794:0x4484:145:-40:8
+0x57a4:0x4484:145:-40:8
+0x57b4:0x4484:145:-40:8
+0x57c4:0x4484:145:-40:8
+0x57d4:0x4484:145:-40:8
+0x57e4:0x4484:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c clean_child_exit 756 code int cond|args
+0x9174:0x920f:145:-4:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2245 rv apr_status_t cond|args
+0x9210:0x98bb:145:-4:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2246 lr uintptr cond
+0x9210:0x98bb:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2247 pskip uintptr cond|args
+0x9210:0x98bb:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2248 max_recycled_pools int cond|args
+0x9210:0x98bb:145:-28:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2248 i int cond|args
+0x9210:0x98bb:145:-32:4
+#variable = DW_TAG_array_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2249 good_methods uintptr cond|args
+0x9210:0x98bb:145:-48:12
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2253 async_factor uintptr cond
+0x9210:0x98bb:145:-52:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2254 pollset_size uintptr cond|args
+0x9210:0x98bb:145:-56:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2257 pollset_flags int cond|args
+0x9210:0x98bb:145:-60:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2291 sr__ uintptr cond|args
+0x5da4:0x4484:145:-72:8
+0x5db4:0x4484:145:-72:8
+0x5dc4:0x4484:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2306 sr__ uintptr cond|args
+0x5de4:0x4484:145:-80:8
+0x5df4:0x4484:145:-80:8
+0x5e04:0x4484:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2317 sr__ uintptr cond|args
+0x5e24:0x4484:145:-88:8
+0x5e34:0x4484:145:-88:8
+0x5e44:0x4484:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2349 sr__ uintptr cond|args
+0x5d54:0x4484:145:-96:8
+0x5d64:0x4484:145:-96:8
+0x5d74:0x4484:145:-96:8
+0x5d84:0x4484:145:-96:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2358 pfd uintptr cond|args
+0x5e64:0x4484:145:-104:8
+0x5e74:0x4484:145:-104:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c setup_threads_runtime 2359 pt uintptr cond
+0x5e64:0x4484:145:-112:8
+0x5e74:0x4484:145:-112:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c join_start_thread 2530 start_thread_id uintptr cond|args
+0x9ebc:0x9f73:145:-8:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c join_start_thread 2532 rv apr_status_t cond|args
+0x9ebc:0x9f73:145:-12:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c join_start_thread 2532 thread_rv apr_status_t cond|args
+0x9ebc:0x9f73:145:-16:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c join_start_thread 2540 sr__ uintptr cond|args
+0x6094:0x4484:143:24:8
+0x60a4:0x4484:143:24:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c disable_listensocks 469 i int cond|args
+0xefc0:0xf08f:145:-4:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c wakeup_listener 575 sr__ uintptr cond|args
+0x7904:0x4484:145:-8:8
+0x7914:0x4484:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c close_socket_nonblocking_ 536 csd uintptr cond|args
+0xca2c:0xcc9b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c close_socket_nonblocking_ 537 from uintptr cond|args
+0xca2c:0xcc9b:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c close_socket_nonblocking_ 537 line int cond|args
+0xca2c:0xcc9b:145:-20:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c close_socket_nonblocking_ 539 rv apr_status_t cond|args
+0xca2c:0xcc9b:145:-24:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c close_socket_nonblocking_ 540 fd apr_os_sock_t cond|args
+0xca2c:0xcc9b:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c close_socket_nonblocking_ 544 sr__ uintptr cond|args
+0x6764:0x4484:145:-40:8
+0x6774:0x4484:145:-40:8
+0x6784:0x4484:145:-40:8
+0x6794:0x4484:145:-40:8
+0x67a4:0x4484:145:-40:8
+0x67b4:0x4484:145:-40:8
+0x67c4:0x4484:145:-40:8
+0x67d4:0x4484:145:-40:8
+0x67e4:0x4484:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c close_socket_nonblocking_ 553 sr__ uintptr cond|args
+0x6804:0x4484:145:-48:8
+0x6814:0x4484:145:-48:8
+0x6824:0x4484:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c close_worker_sockets 565 csd uintptr cond|args
+0xfd64:0xfdc7:143:0:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c close_worker_sockets 563 i int cond
+0xfd3c:0xfde3:145:-4:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c signal_threads 617 mode int cond|args
+0x9f74:0xa027:145:-4:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c join_workers 2478 listener uintptr cond|args
+0xa028:0xa4bf:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c join_workers 2478 threads uintptr cond|args
+0xa028:0xa4bf:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c join_workers 2480 i int cond|args
+0xa028:0xa4bf:145:-20:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c join_workers 2481 rv apr_status_t cond|args
+0xa028:0xa4bf:145:-24:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c join_workers 2481 thread_rv apr_status_t cond|args
+0xa028:0xa4bf:145:-28:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c join_workers 2484 iter int cond|args
+0x6214:0x4484:145:-32:4
+0x6224:0x4484:145:-32:4
+0x6234:0x4484:145:-32:4
+0x6244:0x4484:145:-32:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c join_workers 2501 sr__ uintptr cond|args
+0x60c4:0x4484:145:-40:8
+0x60d4:0x4484:145:-40:8
+0x60e4:0x4484:145:-40:8
+0x60f4:0x4484:145:-40:8
+0x6104:0x4484:145:-40:8
+0x6114:0x4484:145:-40:8
+0x6124:0x4484:145:-40:8
+0x6134:0x4484:145:-40:8
+0x6144:0x4484:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c join_workers 2506 sr__ uintptr cond|args
+0x6164:0x4484:145:-48:8
+0x6174:0x4484:145:-48:8
+0x6184:0x4484:145:-48:8
+0x6194:0x4484:145:-48:8
+0x61a4:0x4484:145:-48:8
+0x61b4:0x4484:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c join_workers 2512 sr__ uintptr cond|args
+0x61d4:0x4484:145:-56:8
+0x61e4:0x4484:145:-56:8
+0x61f4:0x4484:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c join_workers 2522 sr__ uintptr cond|args
+0x6264:0x4484:145:-64:8
+0x6274:0x4484:145:-64:8
+0x6284:0x4484:145:-64:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c unblock_signal 1287 sig int cond|args
+0xa4d0:0xa52f:145:-4:4
+#variable = DW_TAG_structure_type /root/httpd/server/mpm/event event.c unblock_signal 1289 sig_mask sigset_t cond|args
+0xa4d0:0xa52f:143:24:128
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c child_main 2545 child_num_arg int cond
+0x885c:0x9157:145:-4:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c child_main 2545 child_bucket int cond
+0x885c:0x9157:145:-8:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c child_main 2547 threads uintptr cond|args
+0x885c:0x9157:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c child_main 2548 rv apr_status_t cond|args
+0x885c:0x9157:145:-20:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c child_main 2549 ts uintptr cond|args
+0x885c:0x9157:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c child_main 2550 thread_attr uintptr cond|args
+0x885c:0x9157:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c child_main 2551 start_thread_id uintptr cond|args
+0x885c:0x9157:145:-48:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c child_main 2552 i int cond|args
+0x885c:0x9157:145:-52:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c child_main 2569 thd uintptr cond|args
+0x5a64:0x4484:145:-64:8
+0x5a74:0x4484:145:-64:8
+0x5a84:0x4484:145:-64:8
+0x5a94:0x4484:145:-64:8
+0x5aa4:0x4484:145:-64:8
+0x5ab4:0x4484:145:-64:8
+0x5ac4:0x4484:145:-64:8
+0x5ad4:0x4484:145:-64:8
+0x5ae4:0x4484:145:-64:8
+0x5af4:0x4484:145:-64:8
+0x5b04:0x4484:145:-64:8
+0x5b14:0x4484:145:-64:8
+0x5b24:0x4484:145:-64:8
+0x5b34:0x4484:145:-64:8
+0x5b44:0x4484:145:-64:8
+0x5b54:0x4484:145:-64:8
+0x5b64:0x4484:145:-64:8
+0x5b74:0x4484:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c child_main 2571 sr__ uintptr cond|args
+0x5964:0x4484:145:-72:8
+0x5974:0x4484:145:-72:8
+0x5984:0x4484:145:-72:8
+0x5994:0x4484:145:-72:8
+0x59a4:0x4484:145:-72:8
+0x59b4:0x4484:145:-72:8
+0x59c4:0x4484:145:-72:8
+0x59d4:0x4484:145:-72:8
+0x59e4:0x4484:145:-72:8
+0x59f4:0x4484:145:-72:8
+0x5a04:0x4484:145:-72:8
+0x5a14:0x4484:145:-72:8
+0x5a24:0x4484:145:-72:8
+0x5a34:0x4484:145:-72:8
+0x5a44:0x4484:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c child_main 2602 sr__ uintptr cond|args
+0x5bc4:0x4484:145:-80:8
+0x5bd4:0x4484:145:-80:8
+0x5be4:0x4484:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c child_main 2635 sr__ uintptr cond|args
+0x5b94:0x4484:145:-88:8
+0x5ba4:0x4484:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c child_main 2650 sr__ uintptr cond|args
+0x5c04:0x4484:145:-96:8
+0x5c14:0x4484:145:-96:8
+0x5c24:0x4484:145:-96:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c child_main 2725 sr__ uintptr cond|args
+0x5c44:0x4484:145:-104:8
+0x5c54:0x4484:145:-104:8
+0x5c64:0x4484:145:-104:8
+0x5c74:0x4484:145:-104:8
+0x5c84:0x4484:145:-104:8
+0x5c94:0x4484:145:-104:8
+0x5ca4:0x4484:145:-104:8
+0x5cb4:0x4484:145:-104:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c child_main 2729 sr__ uintptr cond|args
+0x5cd4:0x4484:145:-112:8
+0x5ce4:0x4484:145:-112:8
+0x5cf4:0x4484:145:-112:8
+0x5d04:0x4484:145:-112:8
+0x5d14:0x4484:145:-112:8
+0x5d24:0x4484:145:-112:8
+0x5d34:0x4484:145:-112:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c make_child 2739 s uintptr cond
+0x8318:0x85bf:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c make_child 2739 slot int cond|args
+0x8318:0x85bf:145:-20:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c make_child 2739 bucket int cond|args
+0x8318:0x85bf:145:-24:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c make_child 2741 pid int cond|args
+0x8318:0x85bf:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c make_child 2749 sr__ uintptr cond|args
+0x58d4:0x4484:145:-40:8
+0x58e4:0x4484:145:-40:8
+0x58f4:0x4484:145:-40:8
+0x5904:0x4484:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c make_child 2767 sr__ uintptr cond|args
+0x5884:0x4484:145:-48:8
+0x5894:0x4484:145:-48:8
+0x58a4:0x4484:145:-48:8
+0x58b4:0x4484:145:-48:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c startup_children 2817 number_to_start int cond
+0x7a9c:0x7b7f:145:-4:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c startup_children 2819 i int cond|args
+0x7a9c:0x7b7f:143:8:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2832 child_bucket int cond|args
+0xfde4:0x10d8b:145:-4:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2833 max_daemon_used uintptr cond
+0xfde4:0x10d8b:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2835 num_buckets int cond
+0xfde4:0x10d8b:145:-20:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2836 idle_thread_count int cond|args
+0xfde4:0x10d8b:145:-24:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2837 ps uintptr cond|args
+0xfde4:0x10d8b:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2838 free_length int cond|args
+0xfde4:0x10d8b:145:-36:4
+#variable = DW_TAG_array_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2839 free_slots uintptr cond
+0xfde4:0x10d8b:145:-164:128
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2840 last_non_dead int cond
+0xfde4:0x10d8b:145:-168:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2841 active_thread_count int cond
+0xfde4:0x10d8b:145:-172:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2842 i int cond|args
+0xfde4:0x10d8b:145:-176:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2842 j int cond
+0xfde4:0x10d8b:145:-180:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2859 child_threads_active int cond
+0x79f4:0x4484:145:-184:4
+0x7a04:0x4484:145:-184:4
+0x7a14:0x4484:145:-184:4
+0x7a24:0x4484:145:-184:4
+0x7a34:0x4484:145:-184:4
+0x7a44:0x4484:145:-184:4
+0x7a54:0x4484:145:-184:4
+0x7a64:0x4484:145:-184:4
+0x7a74:0x4484:145:-184:4
+0x7a84:0x4484:145:-184:4
+0x7a94:0x4484:145:-184:4
+0x7aa4:0x4484:145:-184:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2863 sr__ uintptr cond|args
+0x7934:0x4484:145:-192:8
+0x7944:0x4484:145:-192:8
+0x7954:0x4484:145:-192:8
+0x7964:0x4484:145:-192:8
+0x7974:0x4484:145:-192:8
+0x7984:0x4484:145:-192:8
+0x7994:0x4484:145:-192:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2872 status int cond
+0x79b4:0x4484:145:-196:4
+0x79c4:0x4484:145:-196:4
+0x79d4:0x4484:145:-196:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2919 sr__ uintptr cond|args
+0x7ac4:0x4484:145:-208:8
+0x7ad4:0x4484:145:-208:8
+0x7ae4:0x4484:145:-208:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2950 do_kill int cond|args
+0x7b84:0x4484:145:-212:4
+0x7b94:0x4484:145:-212:4
+0x7ba4:0x4484:145:-212:4
+0x7bb4:0x4484:145:-212:4
+0x7bc4:0x4484:145:-212:4
+0x7bd4:0x4484:145:-212:4
+0x7be4:0x4484:145:-212:4
+0x7bf4:0x4484:145:-212:4
+0x7c04:0x4484:145:-212:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2953 sr__ uintptr cond|args
+0x7b04:0x4484:145:-224:8
+0x7b14:0x4484:145:-224:8
+0x7b24:0x4484:145:-224:8
+0x7b34:0x4484:145:-224:8
+0x7b44:0x4484:145:-224:8
+0x7b54:0x4484:145:-224:8
+0x7b64:0x4484:145:-224:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2974 sr__ uintptr cond|args
+0x7c24:0x4484:145:-232:8
+0x7c34:0x4484:145:-232:8
+0x7c44:0x4484:145:-232:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2983 sr__ uintptr cond|args
+0x7c64:0x4484:145:-240:8
+0x7c74:0x4484:145:-240:8
+0x7c84:0x4484:145:-240:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 2993 sr__ uintptr cond|args
+0x7ca4:0x4484:145:-248:8
+0x7cb4:0x4484:145:-248:8
+0x7cc4:0x4484:145:-248:8
+0x7cd4:0x4484:145:-248:8
+0x7ce4:0x4484:145:-248:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 3007 sr__ uintptr cond|args
+0x7d04:0x4484:145:-256:8
+0x7d14:0x4484:145:-256:8
+0x7d24:0x4484:145:-256:8
+0x7d34:0x4484:145:-256:8
+0x7d44:0x4484:145:-256:8
+0x7d54:0x4484:145:-256:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 3021 sr__ uintptr cond|args
+0x7d74:0x4484:145:-264:8
+0x7d84:0x4484:145:-264:8
+0x7d94:0x4484:145:-264:8
+0x7da4:0x4484:145:-264:8
+0x7db4:0x4484:145:-264:8
+0x7dc4:0x4484:145:-264:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c perform_idle_server_maintenance 3032 slot int cond|args
+0x10c70:0x10cd3:145:-268:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c server_main_loop 3057 remaining_children_to_start int cond|args
+0x7b80:0x7fcf:145:-4:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c server_main_loop 3059 num_buckets int cond|args
+0x7b80:0x7fcf:145:-8:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c server_main_loop 3060 max_daemon_used int cond|args
+0x7b80:0x7fcf:145:-12:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c server_main_loop 3061 successive_kills int cond
+0x7b80:0x7fcf:145:-16:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c server_main_loop 3062 child_slot int cond|args
+0x7b80:0x7fcf:145:-20:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c server_main_loop 3063 exitwhy apr_exit_why_e cond|args
+0x7b80:0x7fcf:145:-24:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c server_main_loop 3064 status int cond|args
+0x7b80:0x7fcf:145:-28:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c server_main_loop 3064 processed_status int cond
+0x7b80:0x7fcf:145:-32:4
+#variable = DW_TAG_structure_type /root/httpd/server/mpm/event event.c server_main_loop 3065 pid apr_proc_t cond|args
+0x7b80:0x7fcf:145:-64:32
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c server_main_loop 3066 i int cond|args
+0x7b80:0x7fcf:145:-68:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c server_main_loop 3092 sr__ uintptr cond|args
+0x5684:0x4484:145:-80:8
+0x5694:0x4484:145:-80:8
+0x56a4:0x4484:145:-80:8
+0x56b4:0x4484:145:-80:8
+0x56c4:0x4484:145:-80:8
+0x56d4:0x4484:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c server_main_loop 3132 sr__ uintptr cond|args
+0x56f4:0x4484:143:88:8
+0x5704:0x4484:143:88:8
+0x5714:0x4484:143:88:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c server_main_loop 3151 sr__ uintptr cond|args
+0x5734:0x4484:143:80:8
+0x5744:0x4484:143:80:8
+0x5754:0x4484:143:80:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_run 3185 _pconf uintptr cond
+0x6a1c:0x745b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_run 3185 plog uintptr cond|args
+0x6a1c:0x745b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_run 3185 s uintptr cond|args
+0x6a1c:0x745b:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_run 3187 num_buckets int cond
+0x6a1c:0x745b:145:-36:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_run 3188 remaining_children_to_start int cond|args
+0x6a1c:0x745b:145:-40:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_run 3189 i int cond|args
+0x6a1c:0x745b:145:-44:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_run 3247 sr__ uintptr cond|args
+0x52f4:0x4484:145:-56:8
+0x5304:0x4484:145:-56:8
+0x5314:0x4484:145:-56:8
+0x5324:0x4484:145:-56:8
+0x5334:0x4484:145:-56:8
+0x5344:0x4484:145:-56:8
+0x5354:0x4484:145:-56:8
+0x5364:0x4484:145:-56:8
+0x5374:0x4484:145:-56:8
+0x5384:0x4484:145:-56:8
+0x5394:0x4484:145:-56:8
+0x53a4:0x4484:145:-56:8
+0x53b4:0x4484:145:-56:8
+0x53c4:0x4484:145:-56:8
+0x53d4:0x4484:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_run 3250 sr__ uintptr cond|args
+0x5574:0x4484:145:-64:8
+0x5584:0x4484:145:-64:8
+0x5594:0x4484:145:-64:8
+0x55a4:0x4484:145:-64:8
+0x55b4:0x4484:145:-64:8
+0x55c4:0x4484:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_run 3274 sr__ uintptr cond|args
+0x55e4:0x4484:145:-72:8
+0x55f4:0x4484:145:-72:8
+0x5604:0x4484:145:-72:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_run 3285 active_children int cond
+0x54b4:0x4484:145:-76:4
+0x54c4:0x4484:145:-76:4
+0x54d4:0x4484:145:-76:4
+0x54e4:0x4484:145:-76:4
+0x54f4:0x4484:145:-76:4
+0x5504:0x4484:145:-76:4
+0x5514:0x4484:145:-76:4
+0x5524:0x4484:145:-76:4
+0x5534:0x4484:145:-76:4
+0x5544:0x4484:145:-76:4
+0x5554:0x4484:145:-76:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_run 3286 index int cond|args
+0x54b4:0x4484:145:-80:4
+0x54c4:0x4484:145:-80:4
+0x54d4:0x4484:145:-80:4
+0x54e4:0x4484:145:-80:4
+0x54f4:0x4484:145:-80:4
+0x5504:0x4484:145:-80:4
+0x5514:0x4484:145:-80:4
+0x5524:0x4484:145:-80:4
+0x5534:0x4484:145:-80:4
+0x5544:0x4484:145:-80:4
+0x5554:0x4484:145:-80:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_run 3287 cutoff apr_time_t cond
+0x54b4:0x4484:145:-88:8
+0x54c4:0x4484:145:-88:8
+0x54d4:0x4484:145:-88:8
+0x54e4:0x4484:145:-88:8
+0x54f4:0x4484:145:-88:8
+0x5504:0x4484:145:-88:8
+0x5514:0x4484:145:-88:8
+0x5524:0x4484:145:-88:8
+0x5534:0x4484:145:-88:8
+0x5544:0x4484:145:-88:8
+0x5554:0x4484:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_run 3300 sr__ uintptr cond|args
+0x5474:0x4484:145:-96:8
+0x5484:0x4484:145:-96:8
+0x5494:0x4484:145:-96:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_run 3357 sr__ uintptr cond|args
+0x53f4:0x4484:145:-104:8
+0x5404:0x4484:145:-104:8
+0x5414:0x4484:145:-104:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_run 3371 sr__ uintptr cond|args
+0x5434:0x4484:145:-112:8
+0x5444:0x4484:145:-112:8
+0x5454:0x4484:145:-112:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_query 643 query_code int cond
+0x745c:0x7613:145:44:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_query 643 result uintptr cond
+0x745c:0x7613:145:32:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_query 643 rv uintptr cond
+0x745c:0x7613:145:24:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_register_timed_callback 1424 t apr_time_t cond
+0x7614:0x7793:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_register_timed_callback 1425 cbfn uintptr cond
+0x7614:0x7793:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_register_timed_callback 1426 baton uintptr cond
+0x7614:0x7793:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_register_timed_callback 1428 te uintptr cond|args
+0x7614:0x7793:143:32:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c event_register_timed_callback 1447 next_expiry apr_time_t cond
+0x5624:0x4484:143:24:8
+0x5634:0x4484:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_pre_read_request 926 r uintptr cond|args
+0x7794:0x782f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_pre_read_request 926 c uintptr cond|args
+0x7794:0x782f:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_pre_read_request 928 cs uintptr cond
+0x7794:0x782f:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_post_read_request 942 r uintptr cond
+0x7830:0x78f3:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_post_read_request 944 c uintptr cond
+0x7830:0x78f3:145:16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_post_read_request 945 cs uintptr cond
+0x7830:0x78f3:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c setup_slave_conn 3389 c uintptr cond|args
+0x10de0:0x10f3f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c setup_slave_conn 3389 csd uintptr cond
+0x10de0:0x10f3f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c setup_slave_conn 3391 mcs uintptr cond|args
+0x10de0:0x10f3f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c setup_slave_conn 3392 cs uintptr cond|args
+0x10de0:0x10f3f:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_pre_connection 3412 c uintptr cond|args
+0x7900:0x7967:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_pre_connection 3412 csd uintptr cond|args
+0x7900:0x7967:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_protocol_switch 3420 c uintptr cond
+0x7968:0x79e7:145:40:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_protocol_switch 3420 r uintptr cond
+0x7968:0x79e7:145:32:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_protocol_switch 3420 s uintptr cond
+0x7968:0x79e7:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_protocol_switch 3421 protocol uintptr cond
+0x7968:0x79e7:145:16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_protocol_switch 3430 cs uintptr cond
+0x5654:0x4484:145:8:8
+0x5664:0x4484:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_request_cleanup 916 dummy uintptr cond
+0x10d8c:0x10ddf:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_request_cleanup 918 c uintptr cond
+0x10d8c:0x10ddf:145:16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c event_request_cleanup 919 cs uintptr cond
+0x10d8c:0x10ddf:145:8:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c just_die 774 sig int cond
+0x9158:0x9173:145:-4:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c create_listener_thread 2222 ts uintptr cond|args
+0xaafc:0xac2f:145:-8:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c create_listener_thread 2224 my_child_num int cond
+0xaafc:0xac2f:145:-12:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c create_listener_thread 2225 thread_attr uintptr cond|args
+0xaafc:0xac2f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c create_listener_thread 2226 my_info uintptr cond|args
+0xaafc:0xac2f:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c create_listener_thread 2227 rv apr_status_t cond|args
+0xaafc:0xac2f:145:-36:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c create_listener_thread 2235 sr__ uintptr cond|args
+0x6414:0x4484:143:48:8
+0x6424:0x4484:143:48:8
+0x6434:0x4484:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c start_threads 2388 thd uintptr cond|args
+0x98bc:0x9e6b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c start_threads 2388 dummy uintptr cond
+0x98bc:0x9e6b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c start_threads 2390 ts uintptr cond|args
+0x98bc:0x9e6b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c start_threads 2391 threads uintptr cond|args
+0x98bc:0x9e6b:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c start_threads 2392 thread_attr uintptr cond|args
+0x98bc:0x9e6b:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c start_threads 2393 my_child_num int cond|args
+0x98bc:0x9e6b:145:-44:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c start_threads 2394 my_info uintptr cond|args
+0x98bc:0x9e6b:145:-56:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c start_threads 2395 rv apr_status_t cond|args
+0x98bc:0x9e6b:145:-60:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c start_threads 2396 threads_created int cond|args
+0x98bc:0x9e6b:145:-64:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c start_threads 2397 listener_started int cond
+0x98bc:0x9e6b:145:-68:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c start_threads 2398 prev_threads_created int cond
+0x98bc:0x9e6b:145:-72:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c start_threads 2399 loops int cond
+0x98bc:0x9e6b:145:-76:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c start_threads 2399 i int cond|args
+0x98bc:0x9e6b:145:-80:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c start_threads 2401 sr__ uintptr cond|args
+0x5e94:0x4484:145:-88:8
+0x5ea4:0x4484:145:-88:8
+0x5eb4:0x4484:145:-88:8
+0x5ec4:0x4484:145:-88:8
+0x5ed4:0x4484:145:-88:8
+0x5ee4:0x4484:145:-88:8
+0x5ef4:0x4484:145:-88:8
+0x5f04:0x4484:145:-88:8
+0x5f14:0x4484:145:-88:8
+0x5f24:0x4484:145:-88:8
+0x5f34:0x4484:145:-88:8
+0x5f44:0x4484:145:-88:8
+0x5f54:0x4484:145:-88:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c start_threads 2410 status int cond
+0x5fb4:0x4484:145:-92:4
+0x5fc4:0x4484:145:-92:4
+0x5fd4:0x4484:145:-92:4
+0x5fe4:0x4484:145:-92:4
+0x5ff4:0x4484:145:-92:4
+0x6004:0x4484:145:-92:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c start_threads 2430 sr__ uintptr cond|args
+0x5f74:0x4484:145:-104:8
+0x5f84:0x4484:145:-104:8
+0x5f94:0x4484:145:-104:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c start_threads 2454 sr__ uintptr cond|args
+0x6024:0x4484:145:-112:8
+0x6034:0x4484:145:-112:8
+0x6044:0x4484:145:-112:8
+0x6054:0x4484:145:-112:8
+0x6064:0x4484:145:-112:8
+0x6074:0x4484:145:-112:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c check_signal 2212 signum int cond
+0x9e6c:0x9ebb:145:8:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c dummy_signal_handler 1300 sig int cond
+0xa4c0:0xa4cf:145:12:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c connections_above_limit 511 busy uintptr cond
+0xbb30:0xbc2b:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c connections_above_limit 513 i_count apr_uint32_t cond
+0xbb30:0xbc2b:145:-20:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c connections_above_limit 515 c_count apr_uint32_t cond
+0xbb64:0xbbff:143:24:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c connections_above_limit 516 l_count apr_uint32_t cond
+0xbb64:0xbbff:143:20:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c worker_thread_should_exit_early 2058 conns apr_uint32_t cond
+0xaca0:0xad1f:143:8:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c worker_thread_should_exit_early 2059 dead apr_uint32_t cond|args
+0xaca0:0xad1f:143:4:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c worker_thread_should_exit_early 2060 newdead apr_uint32_t cond|args
+0xaca0:0xad1f:143:0:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c update_reqevents_from_sense 966 cs uintptr cond
+0xbf64:0xbfd3:145:8:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c update_reqevents_from_sense 966 sense int cond
+0xbf64:0xbfd3:145:4:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c notify_resume 827 cs uintptr cond|args
+0xc018:0xc083:145:-8:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c notify_resume 827 cleanup int cond
+0xc018:0xc083:145:-12:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c notify_suspend 820 cs uintptr cond|args
+0xc084:0xc0df:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c TO_QUEUE_APPEND 286 q uintptr cond
+0xc0e0:0xc1e3:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c TO_QUEUE_APPEND 286 el uintptr cond
+0xc0e0:0xc1e3:143:16:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c TO_QUEUE_APPEND 288 elem_expiry apr_time_t cond
+0xc0e0:0xc1e3:143:8:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c TO_QUEUE_APPEND 289 next_expiry apr_time_t cond
+0xc0e0:0xc1e3:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c TO_QUEUE_REMOVE 310 q uintptr cond
+0xc1e4:0xc25b:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c TO_QUEUE_REMOVE 310 el uintptr cond
+0xc1e4:0xc25b:145:0:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c close_connection 870 cs uintptr cond|args
+0xc25c:0xc4df:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_lingering_close 1481 cs uintptr cond|args
+0xc4e0:0xca2b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_lingering_close 1483 csd uintptr cond|args
+0xc4e0:0xca2b:145:-16:8
+#variable = DW_TAG_array_type /root/httpd/server/mpm/event event.c process_lingering_close 1484 dummybuf uintptr cond|args
+0xc4e0:0xca2b:143:160:32768
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_lingering_close 1485 nbytes apr_size_t cond|args
+0xc4e0:0xca2b:143:152:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_lingering_close 1486 rv apr_status_t cond|args
+0xc4e0:0xca2b:143:148:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_lingering_close 1487 q uintptr cond|args
+0xc4e0:0xca2b:143:136:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_lingering_close 1546 sr__ uintptr cond|args
+0x6724:0x4484:143:128:8
+0x6734:0x4484:143:128:8
+0x6744:0x4484:143:128:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_socket 990 thd uintptr cond
+0xad34:0xbb13:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_socket 990 p uintptr cond|args
+0xad34:0xbb13:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_socket 990 sock uintptr cond|args
+0xad34:0xbb13:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_socket 991 cs uintptr cond|args
+0xad34:0xbb13:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_socket 991 my_child_num int cond|args
+0xad34:0xbb13:145:-36:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_socket 992 my_thread_num int cond|args
+0xad34:0xbb13:145:-40:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_socket 994 c uintptr cond|args
+0xad34:0xbb13:145:-48:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_socket 995 conn_id long#int cond|args
+0xad34:0xbb13:145:-56:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_socket 996 clogging int cond
+0xad34:0xbb13:145:-60:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_socket 997 rv apr_status_t cond|args
+0xad34:0xbb13:145:-64:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_socket 998 rc int cond|args
+0xad34:0xbb13:145:-68:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_socket 1001 pt uintptr cond
+0x6454:0x4484:145:-80:8
+0x6464:0x4484:145:-80:8
+0x6474:0x4484:145:-80:8
+0x6484:0x4484:145:-80:8
+0x6494:0x4484:145:-80:8
+0x64a4:0x4484:145:-80:8
+0x64b4:0x4484:145:-80:8
+0x64c4:0x4484:145:-80:8
+0x64d4:0x4484:145:-80:8
+0x64e4:0x4484:145:-80:8
+0x64f4:0x4484:145:-80:8
+0x6504:0x4484:145:-80:8
+0x6514:0x4484:145:-80:8
+0x6524:0x4484:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_socket 1140 output_filter uintptr cond|args
+0x6584:0x4484:145:-88:8
+0x6594:0x4484:145:-88:8
+0x65a4:0x4484:145:-88:8
+0x65b4:0x4484:145:-88:8
+0x65c4:0x4484:145:-88:8
+0x65d4:0x4484:145:-88:8
+0x65e4:0x4484:145:-88:8
+0x65f4:0x4484:145:-88:8
+0x6604:0x4484:145:-88:8
+0x6614:0x4484:145:-88:8
+0x6624:0x4484:145:-88:8
+0x6634:0x4484:145:-88:8
+0x6644:0x4484:145:-88:8
+0x6654:0x4484:145:-88:8
+0x6664:0x4484:145:-88:8
+0x6674:0x4484:145:-88:8
+0x6684:0x4484:145:-88:8
+0x6694:0x4484:145:-88:8
+0x66a4:0x4484:145:-88:8
+0x66b4:0x4484:145:-88:8
+0x66c4:0x4484:145:-88:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_socket 1141 rv apr_status_t cond|args
+0x6584:0x4484:145:-92:4
+0x6594:0x4484:145:-92:4
+0x65a4:0x4484:145:-92:4
+0x65b4:0x4484:145:-92:4
+0x65c4:0x4484:145:-92:4
+0x65d4:0x4484:145:-92:4
+0x65e4:0x4484:145:-92:4
+0x65f4:0x4484:145:-92:4
+0x6604:0x4484:145:-92:4
+0x6614:0x4484:145:-92:4
+0x6624:0x4484:145:-92:4
+0x6634:0x4484:145:-92:4
+0x6644:0x4484:145:-92:4
+0x6654:0x4484:145:-92:4
+0x6664:0x4484:145:-92:4
+0x6674:0x4484:145:-92:4
+0x6684:0x4484:145:-92:4
+0x6694:0x4484:145:-92:4
+0x66a4:0x4484:145:-92:4
+0x66b4:0x4484:145:-92:4
+0x66c4:0x4484:145:-92:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_socket 1169 sr__ uintptr cond|args
+0x6544:0x4484:145:-104:8
+0x6554:0x4484:145:-104:8
+0x6564:0x4484:145:-104:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_socket 1218 sr__ uintptr cond|args
+0x66e4:0x4484:145:-112:8
+0x66f4:0x4484:145:-112:8
+0x6704:0x4484:145:-112:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c worker_thread 2084 thd uintptr cond|args
+0xa574:0xaafb:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c worker_thread 2084 dummy uintptr cond
+0xa574:0xaafb:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c worker_thread 2086 ti uintptr cond|args
+0xa574:0xaafb:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c worker_thread 2087 process_slot int cond|args
+0xa574:0xaafb:145:-28:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c worker_thread 2088 thread_slot int cond|args
+0xa574:0xaafb:145:-32:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c worker_thread 2089 rv apr_status_t cond|args
+0xa574:0xaafb:145:-36:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c worker_thread 2090 is_idle int cond
+0xa574:0xaafb:145:-40:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c worker_thread 2101 csd uintptr cond|args
+0x6364:0x4484:145:-48:8
+0x6374:0x4484:145:-48:8
+0x6384:0x4484:145:-48:8
+0x6394:0x4484:145:-48:8
+0x63a4:0x4484:145:-48:8
+0x63b4:0x4484:145:-48:8
+0x63c4:0x4484:145:-48:8
+0x63d4:0x4484:145:-48:8
+0x63e4:0x4484:145:-48:8
+0x63f4:0x4484:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c worker_thread 2102 cs uintptr cond|args
+0x6364:0x4484:145:-56:8
+0x6374:0x4484:145:-56:8
+0x6384:0x4484:145:-56:8
+0x6394:0x4484:145:-56:8
+0x63a4:0x4484:145:-56:8
+0x63b4:0x4484:145:-56:8
+0x63c4:0x4484:145:-56:8
+0x63d4:0x4484:145:-56:8
+0x63e4:0x4484:145:-56:8
+0x63f4:0x4484:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c worker_thread 2103 te uintptr cond|args
+0x6364:0x4484:145:-64:8
+0x6374:0x4484:145:-64:8
+0x6384:0x4484:145:-64:8
+0x6394:0x4484:145:-64:8
+0x63a4:0x4484:145:-64:8
+0x63b4:0x4484:145:-64:8
+0x63c4:0x4484:145:-64:8
+0x63d4:0x4484:145:-64:8
+0x63e4:0x4484:145:-64:8
+0x63f4:0x4484:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c worker_thread 2104 ptrans uintptr cond|args
+0x6364:0x4484:145:-72:8
+0x6374:0x4484:145:-72:8
+0x6384:0x4484:145:-72:8
+0x6394:0x4484:145:-72:8
+0x63a4:0x4484:145:-72:8
+0x63b4:0x4484:145:-72:8
+0x63c4:0x4484:145:-72:8
+0x63d4:0x4484:145:-72:8
+0x63e4:0x4484:145:-72:8
+0x63f4:0x4484:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c worker_thread 2109 sr__ uintptr cond|args
+0x62a4:0x4484:145:-80:8
+0x62b4:0x4484:145:-80:8
+0x62c4:0x4484:145:-80:8
+0x62d4:0x4484:145:-80:8
+0x62e4:0x4484:145:-80:8
+0x62f4:0x4484:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c worker_thread 2161 sr__ uintptr cond|args
+0x6314:0x4484:145:-88:8
+0x6324:0x4484:145:-88:8
+0x6334:0x4484:145:-88:8
+0x6344:0x4484:145:-88:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c check_infinite_requests 1249 sr__ uintptr cond|args
+0x7754:0x4484:145:-8:8
+0x7764:0x4484:145:-8:8
+0x7774:0x4484:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c close_listeners 1259 closed uintptr cond|args
+0xe9ec:0xecc3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c close_listeners 1261 sr__ uintptr cond|args
+0x7794:0x4484:145:-24:8
+0x77a4:0x4484:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c close_listeners 1265 i int cond|args
+0x77c4:0x4484:145:-28:4
+0x77d4:0x4484:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c push_timer2worker 1308 te uintptr cond|args
+0xecc4:0xecf3:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c get_worker 1359 have_idle_worker_p uintptr cond
+0xecf4:0xee27:145:-8:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c get_worker 1359 blocking int cond
+0xecf4:0xee27:145:-12:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c get_worker 1359 all_busy uintptr cond|args
+0xecf4:0xee27:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c get_worker 1361 rc apr_status_t cond|args
+0xecf4:0xee27:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c get_worker 1382 sr__ uintptr cond|args
+0x77f4:0x4484:143:24:8
+0x7804:0x4484:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c defer_lingering_close 840 cs uintptr cond|args
+0xf578:0xf82b:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c defer_lingering_close 854 chain uintptr cond|args
+0x7894:0x4484:145:-16:8
+0x78a4:0x4484:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c shutdown_connection 885 cs uintptr cond|args
+0xee28:0xee8b:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c push2worker 1317 cs uintptr cond|args
+0xee8c:0xefbf:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c push2worker 1317 csd uintptr cond|args
+0xee8c:0xefbf:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c push2worker 1318 ptrans uintptr cond|args
+0xee8c:0xefbf:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c push2worker 1320 rc apr_status_t cond|args
+0xee8c:0xefbf:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c push2worker 1328 sr__ uintptr cond|args
+0x7824:0x4484:143:24:8
+0x7834:0x4484:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_timeout_queue 1559 q uintptr cond
+0xf260:0xf577:145:-8:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_timeout_queue 1559 expiry apr_time_t cond
+0xf260:0xf577:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_timeout_queue 1560 func uintptr cond
+0xf260:0xf577:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_timeout_queue 1562 total apr_uint32_t cond
+0xf260:0xf577:145:-28:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_timeout_queue 1562 count apr_uint32_t cond
+0xf260:0xf577:145:-32:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_timeout_queue 1563 first uintptr cond|args
+0xf260:0xf577:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_timeout_queue 1563 cs uintptr cond|args
+0xf260:0xf577:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_timeout_queue 1563 last uintptr cond
+0xf260:0xf577:145:-56:8
+#variable = DW_TAG_structure_type /root/httpd/server/mpm/event event.c process_timeout_queue 1564 trash event_conn_state_t cond
+0xf260:0xf577:143:64:136
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_timeout_queue 1565 qp uintptr cond
+0xf260:0xf577:143:56:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_timeout_queue 1566 rv apr_status_t cond|args
+0xf260:0xf577:143:52:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_timeout_queue 1594 elem_expiry apr_time_t cond
+0xf334:0xf393:143:40:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_timeout_queue 1595 next_expiry apr_time_t cond
+0xf334:0xf393:143:32:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c process_keepalive_queue 1638 expiry apr_time_t cond|args
+0xf090:0xf25f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c process_keepalive_queue 1644 sr__ uintptr cond|args
+0x7854:0x4484:145:-16:8
+0x7864:0x4484:145:-16:8
+0x7874:0x4484:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c enable_listensocks 483 i int cond|args
+0xf82c:0xfb0b:145:-4:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c enable_listensocks 488 sr__ uintptr cond|args
+0x78c4:0x4484:145:-16:8
+0x78d4:0x4484:145:-16:8
+0x78e4:0x4484:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1651 thd uintptr cond|args
+0xcc9c:0xe843:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1651 dummy uintptr cond
+0xcc9c:0xe843:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c listener_thread 1653 rc apr_status_t cond|args
+0xcc9c:0xe843:145:-20:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1654 ti uintptr cond|args
+0xcc9c:0xe843:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c listener_thread 1655 process_slot int cond|args
+0xcc9c:0xe843:145:-36:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1656 ps uintptr cond
+0xcc9c:0xe843:145:-48:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c listener_thread 1657 closed int cond|args
+0xcc9c:0xe843:145:-52:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c listener_thread 1658 have_idle_worker int cond|args
+0xcc9c:0xe843:145:-56:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c listener_thread 1659 last_log apr_time_t cond
+0xcc9c:0xe843:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1671 te uintptr cond|args
+0x7614:0x4484:145:-72:8
+0x7624:0x4484:145:-72:8
+0x7634:0x4484:145:-72:8
+0x7644:0x4484:145:-72:8
+0x7654:0x4484:145:-72:8
+0x7664:0x4484:145:-72:8
+0x7674:0x4484:145:-72:8
+0x7684:0x4484:145:-72:8
+0x7694:0x4484:145:-72:8
+0x76a4:0x4484:145:-72:8
+0x76b4:0x4484:145:-72:8
+0x76c4:0x4484:145:-72:8
+0x76d4:0x4484:145:-72:8
+0x76e4:0x4484:145:-72:8
+0x76f4:0x4484:145:-72:8
+0x7704:0x4484:145:-72:8
+0x7714:0x4484:145:-72:8
+0x7724:0x4484:145:-72:8
+0x7734:0x4484:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1672 out_pfd uintptr cond|args
+0x7614:0x4484:145:-80:8
+0x7624:0x4484:145:-80:8
+0x7634:0x4484:145:-80:8
+0x7644:0x4484:145:-80:8
+0x7654:0x4484:145:-80:8
+0x7664:0x4484:145:-80:8
+0x7674:0x4484:145:-80:8
+0x7684:0x4484:145:-80:8
+0x7694:0x4484:145:-80:8
+0x76a4:0x4484:145:-80:8
+0x76b4:0x4484:145:-80:8
+0x76c4:0x4484:145:-80:8
+0x76d4:0x4484:145:-80:8
+0x76e4:0x4484:145:-80:8
+0x76f4:0x4484:145:-80:8
+0x7704:0x4484:145:-80:8
+0x7714:0x4484:145:-80:8
+0x7724:0x4484:145:-80:8
+0x7734:0x4484:145:-80:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c listener_thread 1673 num apr_int32_t cond|args
+0x7614:0x4484:145:-84:4
+0x7624:0x4484:145:-84:4
+0x7634:0x4484:145:-84:4
+0x7644:0x4484:145:-84:4
+0x7654:0x4484:145:-84:4
+0x7664:0x4484:145:-84:4
+0x7674:0x4484:145:-84:4
+0x7684:0x4484:145:-84:4
+0x7694:0x4484:145:-84:4
+0x76a4:0x4484:145:-84:4
+0x76b4:0x4484:145:-84:4
+0x76c4:0x4484:145:-84:4
+0x76d4:0x4484:145:-84:4
+0x76e4:0x4484:145:-84:4
+0x76f4:0x4484:145:-84:4
+0x7704:0x4484:145:-84:4
+0x7714:0x4484:145:-84:4
+0x7724:0x4484:145:-84:4
+0x7734:0x4484:145:-84:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c listener_thread 1674 timeout apr_interval_time_t cond|args
+0x7614:0x4484:145:-96:8
+0x7624:0x4484:145:-96:8
+0x7634:0x4484:145:-96:8
+0x7644:0x4484:145:-96:8
+0x7654:0x4484:145:-96:8
+0x7664:0x4484:145:-96:8
+0x7674:0x4484:145:-96:8
+0x7684:0x4484:145:-96:8
+0x7694:0x4484:145:-96:8
+0x76a4:0x4484:145:-96:8
+0x76b4:0x4484:145:-96:8
+0x76c4:0x4484:145:-96:8
+0x76d4:0x4484:145:-96:8
+0x76e4:0x4484:145:-96:8
+0x76f4:0x4484:145:-96:8
+0x7704:0x4484:145:-96:8
+0x7714:0x4484:145:-96:8
+0x7724:0x4484:145:-96:8
+0x7734:0x4484:145:-96:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c listener_thread 1675 now apr_time_t cond|args
+0x7614:0x4484:145:-104:8
+0x7624:0x4484:145:-104:8
+0x7634:0x4484:145:-104:8
+0x7644:0x4484:145:-104:8
+0x7654:0x4484:145:-104:8
+0x7664:0x4484:145:-104:8
+0x7674:0x4484:145:-104:8
+0x7684:0x4484:145:-104:8
+0x7694:0x4484:145:-104:8
+0x76a4:0x4484:145:-104:8
+0x76b4:0x4484:145:-104:8
+0x76c4:0x4484:145:-104:8
+0x76d4:0x4484:145:-104:8
+0x76e4:0x4484:145:-104:8
+0x76f4:0x4484:145:-104:8
+0x7704:0x4484:145:-104:8
+0x7714:0x4484:145:-104:8
+0x7724:0x4484:145:-104:8
+0x7734:0x4484:145:-104:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c listener_thread 1675 expiry apr_time_t cond|args
+0x7614:0x4484:145:-112:8
+0x7624:0x4484:145:-112:8
+0x7634:0x4484:145:-112:8
+0x7644:0x4484:145:-112:8
+0x7654:0x4484:145:-112:8
+0x7664:0x4484:145:-112:8
+0x7674:0x4484:145:-112:8
+0x7684:0x4484:145:-112:8
+0x7694:0x4484:145:-112:8
+0x76a4:0x4484:145:-112:8
+0x76b4:0x4484:145:-112:8
+0x76c4:0x4484:145:-112:8
+0x76d4:0x4484:145:-112:8
+0x76e4:0x4484:145:-112:8
+0x76f4:0x4484:145:-112:8
+0x7704:0x4484:145:-112:8
+0x7714:0x4484:145:-112:8
+0x7724:0x4484:145:-112:8
+0x7734:0x4484:145:-112:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c listener_thread 1676 workers_were_busy int cond|args
+0x7614:0x4484:145:-116:4
+0x7624:0x4484:145:-116:4
+0x7634:0x4484:145:-116:4
+0x7644:0x4484:145:-116:4
+0x7654:0x4484:145:-116:4
+0x7664:0x4484:145:-116:4
+0x7674:0x4484:145:-116:4
+0x7684:0x4484:145:-116:4
+0x7694:0x4484:145:-116:4
+0x76a4:0x4484:145:-116:4
+0x76b4:0x4484:145:-116:4
+0x76c4:0x4484:145:-116:4
+0x76d4:0x4484:145:-116:4
+0x76e4:0x4484:145:-116:4
+0x76f4:0x4484:145:-116:4
+0x7704:0x4484:145:-116:4
+0x7714:0x4484:145:-116:4
+0x7724:0x4484:145:-116:4
+0x7734:0x4484:145:-116:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c listener_thread 1682 first_close int cond
+0x6844:0x4484:145:-120:4
+0x6854:0x4484:145:-120:4
+0x6864:0x4484:145:-120:4
+0x6874:0x4484:145:-120:4
+0x6884:0x4484:145:-120:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1704 sr__ uintptr cond|args
+0x68a4:0x4484:145:-128:8
+0x68b4:0x4484:145:-128:8
+0x68c4:0x4484:145:-128:8
+0x68d4:0x4484:145:-128:8
+0x68e4:0x4484:145:-128:8
+0x68f4:0x4484:145:-128:8
+0x6904:0x4484:145:-128:8
+0x6914:0x4484:145:-128:8
+0x6924:0x4484:145:-128:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1714 sr__ uintptr cond|args
+0x6944:0x4484:145:-136:8
+0x6954:0x4484:145:-136:8
+0x6964:0x4484:145:-136:8
+0x6974:0x4484:145:-136:8
+0x6984:0x4484:145:-136:8
+0x6994:0x4484:145:-136:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1778 sr__ uintptr cond|args
+0x73c4:0x4484:145:-144:8
+0x73d4:0x4484:145:-144:8
+0x73e4:0x4484:145:-144:8
+0x73f4:0x4484:145:-144:8
+0x7404:0x4484:145:-144:8
+0x7414:0x4484:145:-144:8
+0x7424:0x4484:145:-144:8
+0x7434:0x4484:145:-144:8
+0x7444:0x4484:145:-144:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1788 sr__ uintptr cond|args
+0x7464:0x4484:145:-152:8
+0x7474:0x4484:145:-152:8
+0x7484:0x4484:145:-152:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1798 sr__ uintptr cond|args
+0x74a4:0x4484:145:-160:8
+0x74b4:0x4484:145:-160:8
+0x74c4:0x4484:145:-160:8
+0x74d4:0x4484:145:-160:8
+0x74e4:0x4484:145:-160:8
+0x74f4:0x4484:145:-160:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1812 pt uintptr cond
+0x7074:0x4484:145:-168:8
+0x7084:0x4484:145:-168:8
+0x7094:0x4484:145:-168:8
+0x70a4:0x4484:145:-168:8
+0x70b4:0x4484:145:-168:8
+0x70c4:0x4484:145:-168:8
+0x70d4:0x4484:145:-168:8
+0x70e4:0x4484:145:-168:8
+0x70f4:0x4484:145:-168:8
+0x7104:0x4484:145:-168:8
+0x7114:0x4484:145:-168:8
+0x7124:0x4484:145:-168:8
+0x7134:0x4484:145:-168:8
+0x7144:0x4484:145:-168:8
+0x7154:0x4484:145:-168:8
+0x7164:0x4484:145:-168:8
+0x7174:0x4484:145:-168:8
+0x7184:0x4484:145:-168:8
+0x7194:0x4484:145:-168:8
+0x71a4:0x4484:145:-168:8
+0x71b4:0x4484:145:-168:8
+0x71c4:0x4484:145:-168:8
+0x71d4:0x4484:145:-168:8
+0x71e4:0x4484:145:-168:8
+0x71f4:0x4484:145:-168:8
+0x7204:0x4484:145:-168:8
+0x7214:0x4484:145:-168:8
+0x7224:0x4484:145:-168:8
+0x7234:0x4484:145:-168:8
+0x7244:0x4484:145:-168:8
+0x7254:0x4484:145:-168:8
+0x7264:0x4484:145:-168:8
+0x7274:0x4484:145:-168:8
+0x7284:0x4484:145:-168:8
+0x7294:0x4484:145:-168:8
+0x72a4:0x4484:145:-168:8
+0x72b4:0x4484:145:-168:8
+0x72c4:0x4484:145:-168:8
+0x72d4:0x4484:145:-168:8
+0x72e4:0x4484:145:-168:8
+0x72f4:0x4484:145:-168:8
+0x7304:0x4484:145:-168:8
+0x7314:0x4484:145:-168:8
+0x7324:0x4484:145:-168:8
+0x7334:0x4484:145:-168:8
+0x7344:0x4484:145:-168:8
+0x7354:0x4484:145:-168:8
+0x7364:0x4484:145:-168:8
+0x7374:0x4484:145:-168:8
+0x7384:0x4484:145:-168:8
+0x7394:0x4484:145:-168:8
+0x73a4:0x4484:145:-168:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1815 cs uintptr cond|args
+0x6fa4:0x4484:145:-176:8
+0x6fb4:0x4484:145:-176:8
+0x6fc4:0x4484:145:-176:8
+0x6fd4:0x4484:145:-176:8
+0x6fe4:0x4484:145:-176:8
+0x6ff4:0x4484:145:-176:8
+0x7004:0x4484:145:-176:8
+0x7014:0x4484:145:-176:8
+0x7024:0x4484:145:-176:8
+0x7034:0x4484:145:-176:8
+0x7044:0x4484:145:-176:8
+0x7054:0x4484:145:-176:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1816 remove_from_q uintptr cond|args
+0x6fa4:0x4484:145:-184:8
+0x6fb4:0x4484:145:-184:8
+0x6fc4:0x4484:145:-184:8
+0x6fd4:0x4484:145:-184:8
+0x6fe4:0x4484:145:-184:8
+0x6ff4:0x4484:145:-184:8
+0x7004:0x4484:145:-184:8
+0x7014:0x4484:145:-184:8
+0x7024:0x4484:145:-184:8
+0x7034:0x4484:145:-184:8
+0x7044:0x4484:145:-184:8
+0x7054:0x4484:145:-184:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c listener_thread 1819 blocking int cond|args
+0x6fa4:0x4484:145:-188:4
+0x6fb4:0x4484:145:-188:4
+0x6fc4:0x4484:145:-188:4
+0x6fd4:0x4484:145:-188:4
+0x6fe4:0x4484:145:-188:4
+0x6ff4:0x4484:145:-188:4
+0x7004:0x4484:145:-188:4
+0x7014:0x4484:145:-188:4
+0x7024:0x4484:145:-188:4
+0x7034:0x4484:145:-188:4
+0x7044:0x4484:145:-188:4
+0x7054:0x4484:145:-188:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1841 sr__ uintptr cond|args
+0x6f34:0x4484:145:-200:8
+0x6f44:0x4484:145:-200:8
+0x6f54:0x4484:145:-200:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1861 sr__ uintptr cond|args
+0x6f74:0x4484:145:-208:8
+0x6f84:0x4484:145:-208:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1888 sr__ uintptr cond|args
+0x6ec4:0x4484:145:-216:8
+0x6ed4:0x4484:145:-216:8
+0x6ee4:0x4484:145:-216:8
+0x6ef4:0x4484:145:-216:8
+0x6f04:0x4484:145:-216:8
+0x6f14:0x4484:145:-216:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1894 sr__ uintptr cond|args
+0x6dd4:0x4484:145:-224:8
+0x6de4:0x4484:145:-224:8
+0x6df4:0x4484:145:-224:8
+0x6e04:0x4484:145:-224:8
+0x6e14:0x4484:145:-224:8
+0x6e24:0x4484:145:-224:8
+0x6e34:0x4484:145:-224:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1898 sr__ uintptr cond|args
+0x6e54:0x4484:145:-232:8
+0x6e64:0x4484:145:-232:8
+0x6e74:0x4484:145:-232:8
+0x6e84:0x4484:145:-232:8
+0x6e94:0x4484:145:-232:8
+0x6ea4:0x4484:145:-232:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1903 csd uintptr cond|args
+0x6a54:0x4484:145:-240:8
+0x6a64:0x4484:145:-240:8
+0x6a74:0x4484:145:-240:8
+0x6a84:0x4484:145:-240:8
+0x6a94:0x4484:145:-240:8
+0x6aa4:0x4484:145:-240:8
+0x6ab4:0x4484:145:-240:8
+0x6ac4:0x4484:145:-240:8
+0x6ad4:0x4484:145:-240:8
+0x6ae4:0x4484:145:-240:8
+0x6af4:0x4484:145:-240:8
+0x6b04:0x4484:145:-240:8
+0x6b14:0x4484:145:-240:8
+0x6b24:0x4484:145:-240:8
+0x6b34:0x4484:145:-240:8
+0x6b44:0x4484:145:-240:8
+0x6b54:0x4484:145:-240:8
+0x6b64:0x4484:145:-240:8
+0x6b74:0x4484:145:-240:8
+0x6b84:0x4484:145:-240:8
+0x6b94:0x4484:145:-240:8
+0x6ba4:0x4484:145:-240:8
+0x6bb4:0x4484:145:-240:8
+0x6bc4:0x4484:145:-240:8
+0x6bd4:0x4484:145:-240:8
+0x6be4:0x4484:145:-240:8
+0x6bf4:0x4484:145:-240:8
+0x6c04:0x4484:145:-240:8
+0x6c14:0x4484:145:-240:8
+0x6c24:0x4484:145:-240:8
+0x6c34:0x4484:145:-240:8
+0x6c44:0x4484:145:-240:8
+0x6c54:0x4484:145:-240:8
+0x6c64:0x4484:145:-240:8
+0x6c74:0x4484:145:-240:8
+0x6c84:0x4484:145:-240:8
+0x6c94:0x4484:145:-240:8
+0x6ca4:0x4484:145:-240:8
+0x6cb4:0x4484:145:-240:8
+0x6cc4:0x4484:145:-240:8
+0x6cd4:0x4484:145:-240:8
+0x6ce4:0x4484:145:-240:8
+0x6cf4:0x4484:145:-240:8
+0x6d04:0x4484:145:-240:8
+0x6d14:0x4484:145:-240:8
+0x6d24:0x4484:145:-240:8
+0x6d34:0x4484:145:-240:8
+0x6d44:0x4484:145:-240:8
+0x6d54:0x4484:145:-240:8
+0x6d64:0x4484:145:-240:8
+0x6d74:0x4484:145:-240:8
+0x6d84:0x4484:145:-240:8
+0x6d94:0x4484:145:-240:8
+0x6da4:0x4484:145:-240:8
+0x6db4:0x4484:145:-240:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1904 lr uintptr cond|args
+0x6a54:0x4484:145:-248:8
+0x6a64:0x4484:145:-248:8
+0x6a74:0x4484:145:-248:8
+0x6a84:0x4484:145:-248:8
+0x6a94:0x4484:145:-248:8
+0x6aa4:0x4484:145:-248:8
+0x6ab4:0x4484:145:-248:8
+0x6ac4:0x4484:145:-248:8
+0x6ad4:0x4484:145:-248:8
+0x6ae4:0x4484:145:-248:8
+0x6af4:0x4484:145:-248:8
+0x6b04:0x4484:145:-248:8
+0x6b14:0x4484:145:-248:8
+0x6b24:0x4484:145:-248:8
+0x6b34:0x4484:145:-248:8
+0x6b44:0x4484:145:-248:8
+0x6b54:0x4484:145:-248:8
+0x6b64:0x4484:145:-248:8
+0x6b74:0x4484:145:-248:8
+0x6b84:0x4484:145:-248:8
+0x6b94:0x4484:145:-248:8
+0x6ba4:0x4484:145:-248:8
+0x6bb4:0x4484:145:-248:8
+0x6bc4:0x4484:145:-248:8
+0x6bd4:0x4484:145:-248:8
+0x6be4:0x4484:145:-248:8
+0x6bf4:0x4484:145:-248:8
+0x6c04:0x4484:145:-248:8
+0x6c14:0x4484:145:-248:8
+0x6c24:0x4484:145:-248:8
+0x6c34:0x4484:145:-248:8
+0x6c44:0x4484:145:-248:8
+0x6c54:0x4484:145:-248:8
+0x6c64:0x4484:145:-248:8
+0x6c74:0x4484:145:-248:8
+0x6c84:0x4484:145:-248:8
+0x6c94:0x4484:145:-248:8
+0x6ca4:0x4484:145:-248:8
+0x6cb4:0x4484:145:-248:8
+0x6cc4:0x4484:145:-248:8
+0x6cd4:0x4484:145:-248:8
+0x6ce4:0x4484:145:-248:8
+0x6cf4:0x4484:145:-248:8
+0x6d04:0x4484:145:-248:8
+0x6d14:0x4484:145:-248:8
+0x6d24:0x4484:145:-248:8
+0x6d34:0x4484:145:-248:8
+0x6d44:0x4484:145:-248:8
+0x6d54:0x4484:145:-248:8
+0x6d64:0x4484:145:-248:8
+0x6d74:0x4484:145:-248:8
+0x6d84:0x4484:145:-248:8
+0x6d94:0x4484:145:-248:8
+0x6da4:0x4484:145:-248:8
+0x6db4:0x4484:145:-248:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1905 ptrans uintptr cond|args
+0x6a54:0x4484:145:-256:8
+0x6a64:0x4484:145:-256:8
+0x6a74:0x4484:145:-256:8
+0x6a84:0x4484:145:-256:8
+0x6a94:0x4484:145:-256:8
+0x6aa4:0x4484:145:-256:8
+0x6ab4:0x4484:145:-256:8
+0x6ac4:0x4484:145:-256:8
+0x6ad4:0x4484:145:-256:8
+0x6ae4:0x4484:145:-256:8
+0x6af4:0x4484:145:-256:8
+0x6b04:0x4484:145:-256:8
+0x6b14:0x4484:145:-256:8
+0x6b24:0x4484:145:-256:8
+0x6b34:0x4484:145:-256:8
+0x6b44:0x4484:145:-256:8
+0x6b54:0x4484:145:-256:8
+0x6b64:0x4484:145:-256:8
+0x6b74:0x4484:145:-256:8
+0x6b84:0x4484:145:-256:8
+0x6b94:0x4484:145:-256:8
+0x6ba4:0x4484:145:-256:8
+0x6bb4:0x4484:145:-256:8
+0x6bc4:0x4484:145:-256:8
+0x6bd4:0x4484:145:-256:8
+0x6be4:0x4484:145:-256:8
+0x6bf4:0x4484:145:-256:8
+0x6c04:0x4484:145:-256:8
+0x6c14:0x4484:145:-256:8
+0x6c24:0x4484:145:-256:8
+0x6c34:0x4484:145:-256:8
+0x6c44:0x4484:145:-256:8
+0x6c54:0x4484:145:-256:8
+0x6c64:0x4484:145:-256:8
+0x6c74:0x4484:145:-256:8
+0x6c84:0x4484:145:-256:8
+0x6c94:0x4484:145:-256:8
+0x6ca4:0x4484:145:-256:8
+0x6cb4:0x4484:145:-256:8
+0x6cc4:0x4484:145:-256:8
+0x6cd4:0x4484:145:-256:8
+0x6ce4:0x4484:145:-256:8
+0x6cf4:0x4484:145:-256:8
+0x6d04:0x4484:145:-256:8
+0x6d14:0x4484:145:-256:8
+0x6d24:0x4484:145:-256:8
+0x6d34:0x4484:145:-256:8
+0x6d44:0x4484:145:-256:8
+0x6d54:0x4484:145:-256:8
+0x6d64:0x4484:145:-256:8
+0x6d74:0x4484:145:-256:8
+0x6d84:0x4484:145:-256:8
+0x6d94:0x4484:145:-256:8
+0x6da4:0x4484:145:-256:8
+0x6db4:0x4484:145:-256:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1910 allocator uintptr cond|args
+0x69f4:0x4484:145:-264:8
+0x6a04:0x4484:145:-264:8
+0x6a14:0x4484:145:-264:8
+0x6a24:0x4484:145:-264:8
+0x6a34:0x4484:145:-264:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1924 sr__ uintptr cond|args
+0x69b4:0x4484:145:-272:8
+0x69c4:0x4484:145:-272:8
+0x69d4:0x4484:145:-272:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 1973 sr__ uintptr cond|args
+0x7514:0x4484:145:-280:8
+0x7524:0x4484:145:-280:8
+0x7534:0x4484:145:-280:8
+0x7544:0x4484:145:-280:8
+0x7554:0x4484:145:-280:8
+0x7564:0x4484:145:-280:8
+0x7574:0x4484:145:-280:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c listener_thread 2001 sr__ uintptr cond|args
+0x7594:0x4484:145:-288:8
+0x75a4:0x4484:145:-288:8
+0x75b4:0x4484:145:-288:8
+0x75c4:0x4484:145:-288:8
+0x75d4:0x4484:145:-288:8
+0x75e4:0x4484:145:-288:8
+0x75f4:0x4484:145:-288:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c decrement_connection_count 785 cs_ uintptr cond
+0xbc2c:0xbf63:145:-8:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c decrement_connection_count 787 is_last_connection int cond
+0xbc2c:0xbf63:145:-12:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c decrement_connection_count 788 cs uintptr cond|args
+0xbc2c:0xbf63:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c ptrans_pre_cleanup 902 dummy uintptr cond
+0xbfd4:0xc017:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c ptrans_pre_cleanup 904 cs uintptr cond|args
+0xbfd4:0xc017:143:0:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c timer_comp 1416 t2 apr_time_t cond
+0xa530:0xa573:145:0:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c timer_comp 1413 a uintptr cond
+0xa530:0xa573:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c timer_comp 1413 b uintptr cond
+0xa530:0xa573:145:16:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c timer_comp 1415 t1 apr_time_t cond
+0xa530:0xa573:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_daemons_to_start 3932 cmd uintptr cond|args
+0x4634:0x469f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_daemons_to_start 3932 dummy uintptr cond
+0x4634:0x469f:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_daemons_to_start 3933 arg uintptr cond|args
+0x4634:0x469f:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_daemons_to_start 3935 err uintptr cond
+0x4634:0x469f:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_server_limit 3995 cmd uintptr cond|args
+0x46a0:0x470b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_server_limit 3995 dummy uintptr cond
+0x46a0:0x470b:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_server_limit 3995 arg uintptr cond|args
+0x46a0:0x470b:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_server_limit 3997 err uintptr cond
+0x46a0:0x470b:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_min_spare_threads 3944 cmd uintptr cond|args
+0x470c:0x4777:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_min_spare_threads 3944 dummy uintptr cond
+0x470c:0x4777:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_min_spare_threads 3945 arg uintptr cond|args
+0x470c:0x4777:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_min_spare_threads 3947 err uintptr cond
+0x470c:0x4777:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_max_spare_threads 3956 cmd uintptr cond|args
+0x4778:0x47e3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_max_spare_threads 3956 dummy uintptr cond
+0x4778:0x47e3:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_max_spare_threads 3957 arg uintptr cond|args
+0x4778:0x47e3:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_max_spare_threads 3959 err uintptr cond
+0x4778:0x47e3:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_max_workers 3968 cmd uintptr cond|args
+0x47e4:0x49c7:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_max_workers 3968 dummy uintptr cond
+0x47e4:0x49c7:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_max_workers 3969 arg uintptr cond|args
+0x47e4:0x49c7:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_max_workers 3971 err uintptr cond
+0x47e4:0x49c7:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_max_workers 3976 sr__ uintptr cond|args
+0x4474:0x4484:145:-48:8
+0x4484:0x4484:145:-48:8
+0x4494:0x4484:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_threads_per_child 3984 cmd uintptr cond|args
+0x49c8:0x4a33:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_threads_per_child 3984 dummy uintptr cond
+0x49c8:0x4a33:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_threads_per_child 3985 arg uintptr cond|args
+0x49c8:0x4a33:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_threads_per_child 3987 err uintptr cond
+0x49c8:0x4a33:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_thread_limit 4006 cmd uintptr cond|args
+0x4a34:0x4a9f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_thread_limit 4006 dummy uintptr cond
+0x4a34:0x4a9f:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_thread_limit 4007 arg uintptr cond|args
+0x4a34:0x4a9f:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_thread_limit 4009 err uintptr cond
+0x4a34:0x4a9f:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_worker_factor 4018 cmd uintptr cond|args
+0x4aa0:0x4b83:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_worker_factor 4018 dummy uintptr cond
+0x4aa0:0x4b83:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_worker_factor 4019 arg uintptr cond|args
+0x4aa0:0x4b83:143:32:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c set_worker_factor 4021 val double cond
+0x4aa0:0x4b83:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_worker_factor 4022 endptr uintptr cond|args
+0x4aa0:0x4b83:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c set_worker_factor 4023 err uintptr cond
+0x4aa0:0x4b83:143:8:8
+#variable = DW_TAG_structure_type /root/httpd/server/mpm/event event.c #global 4069 mpm_event_module module globalVar
+0x4474:0x10f3f:3:152872:112
+#variable = DW_TAG_array_type /root/httpd/server/mpm/event event.c #global 4043 event_cmds uintptr globalVar
+0x4474:0x10f3f:3:150256:640
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 166 ap_daemons_to_start int globalVar
+0x4474:0x10f3f:3:153000:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 171 server_limit int globalVar
+0x4474:0x10f3f:3:153004:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 167 min_spare_threads int globalVar
+0x4474:0x10f3f:3:153008:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 168 max_spare_threads int globalVar
+0x4474:0x10f3f:3:153012:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 170 max_workers int globalVar
+0x4474:0x10f3f:3:153016:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 165 threads_per_child int globalVar
+0x4474:0x10f3f:3:153020:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 172 thread_limit int globalVar
+0x4474:0x10f3f:3:153024:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 162 worker_factor unsigned#int globalVar
+0x4474:0x10f3f:3:152984:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 435 one_process int globalVar
+0x4474:0x10f3f:3:153028:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 441 pconf uintptr globalVar
+0x4474:0x10f3f:3:153032:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 406 retained uintptr globalVar
+0x4474:0x10f3f:3:153040:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 179 num_listensocks int globalVar
+0x4474:0x10f3f:3:153048:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 412 all_buckets uintptr globalVar
+0x4474:0x10f3f:3:153056:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 211 event_pollset uintptr globalVar
+0x4474:0x10f3f:3:153072:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 445 ap_my_pid pid_t globalVar
+0x4474:0x10f3f:3:153080:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 447 parent_pid pid_t globalVar
+0x4474:0x10f3f:3:153084:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 169 active_daemons_limit int globalVar
+0x4474:0x10f3f:3:153088:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 219 defer_linger_chain uintptr globalVar
+0x4474:0x10f3f:3:153096:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 173 had_healthy_child int globalVar
+0x4474:0x10f3f:3:153104:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 190 worker_queue_info uintptr globalVar
+0x4474:0x10f3f:3:153112:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 448 listener_os_thread uintptr globalVar
+0x4474:0x10f3f:3:153120:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 465 listensocks_disabled uintptr globalVar
+0x4474:0x10f3f:3:153128:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 178 listener_is_wakeable int globalVar
+0x4474:0x10f3f:3:153132:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 272 linger_q uintptr globalVar
+0x4474:0x10f3f:3:153136:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 273 short_linger_q uintptr globalVar
+0x4474:0x10f3f:3:153144:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 270 write_completion_q uintptr globalVar
+0x4474:0x10f3f:3:153152:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 271 keepalive_q uintptr globalVar
+0x4474:0x10f3f:3:153160:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 413 my_bucket uintptr globalVar
+0x4474:0x10f3f:3:153176:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 450 ap_child_slot int globalVar
+0x4474:0x10f3f:3:153184:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 442 pchild uintptr globalVar
+0x4474:0x10f3f:3:153192:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 180 conns_this_child apr_int32_t globalVar
+0x4474:0x10f3f:3:153200:4
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 1422 g_timer_skiplist_mtx uintptr globalVar
+0x4474:0x10f3f:3:153216:8
+#variable = DW_TAG_structure_type /root/httpd/server/mpm/event event.c #global 1390 timer_free_ring timer_event_t globalVar
+0x4474:0x10f3f:3:153224:56
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 1392 timer_skiplist uintptr globalVar
+0x4474:0x10f3f:3:153280:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 443 pruntime uintptr globalVar
+0x4474:0x10f3f:3:153288:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 189 worker_queue uintptr globalVar
+0x4474:0x10f3f:3:153296:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 192 timeout_mutex uintptr globalVar
+0x4474:0x10f3f:3:153304:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 200 listener_pollfd uintptr globalVar
+0x4474:0x10f3f:3:153312:8
+#variable = DW_TAG_pointer_type /root/httpd/server/mpm/event event.c #global 463 worker_sockets uintptr globalVar
+0x4474:0x10f3f:3:153320:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 182 connection_count apr_uint32_t globalVar
+0x4474:0x10f3f:3:153340:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 183 lingering_count apr_uint32_t globalVar
+0x4474:0x10f3f:3:153344:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 174 dying uintptr globalVar
+0x4474:0x10f3f:3:153332:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 175 workers_may_exit uintptr globalVar
+0x4474:0x10f3f:3:153336:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 186 threads_shutdown apr_uint32_t globalVar
+0x4474:0x10f3f:3:153348:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 185 clogged_count apr_uint32_t globalVar
+0x4474:0x10f3f:3:153352:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 274 queues_next_expiry uintptr globalVar
+0x4474:0x10f3f:3:153368:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 177 listener_may_exit uintptr globalVar
+0x4474:0x10f3f:3:153356:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 184 suspended_count apr_uint32_t globalVar
+0x4474:0x10f3f:3:153360:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 1393 timers_next_expiry uintptr globalVar
+0x4474:0x10f3f:3:153376:8
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 176 start_thread_may_exit uintptr globalVar
+0x4474:0x10f3f:3:153328:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 615 terminate_mode int globalVar
+0x4474:0x10f3f:3:153204:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 188 resource_shortage int globalVar
+0x4474:0x10f3f:3:153208:4
+#variable = DW_TAG_base_type /root/httpd/server/mpm/event event.c #global 783 child_fatal int globalVar
+0x4474:0x10f3f:3:153168:4

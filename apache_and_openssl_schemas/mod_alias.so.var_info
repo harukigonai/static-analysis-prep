@@ -1,0 +1,283 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c create_alias_dir_config 78 p uintptr cond|args
+0x1214:0x128f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c create_alias_dir_config 78 d uintptr cond
+0x1214:0x128f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c create_alias_dir_config 80 a uintptr cond
+0x1214:0x128f:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c merge_alias_dir_config 98 p uintptr cond|args
+0x1290:0x14df:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c merge_alias_dir_config 98 basev uintptr cond
+0x1290:0x14df:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c merge_alias_dir_config 98 overridesv uintptr cond
+0x1290:0x14df:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c merge_alias_dir_config 100 a uintptr cond
+0x1290:0x14df:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c merge_alias_dir_config 102 base uintptr cond|args
+0x1290:0x14df:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c merge_alias_dir_config 103 overrides uintptr cond|args
+0x1290:0x14df:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c create_alias_config 68 p uintptr cond|args
+0x14e0:0x155f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c create_alias_config 68 s uintptr cond
+0x14e0:0x155f:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c create_alias_config 70 a uintptr cond
+0x14e0:0x155f:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c merge_alias_config 86 p uintptr cond|args
+0x1560:0x15f3:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c merge_alias_config 86 basev uintptr cond
+0x1560:0x15f3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c merge_alias_config 86 overridesv uintptr cond
+0x1560:0x15f3:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c merge_alias_config 88 a uintptr cond
+0x1560:0x15f3:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c merge_alias_config 90 base uintptr cond|args
+0x1560:0x15f3:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c merge_alias_config 91 overrides uintptr cond|args
+0x1560:0x15f3:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c register_hooks 709 p uintptr cond
+0x15f4:0x165f:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_redirect 448 r uintptr cond|args
+0x2ae8:0x2d07:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_redirect 448 status uintptr cond
+0x2ae8:0x2d07:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_redirect 450 dirconf uintptr cond|args
+0x2ae8:0x2d07:145:-32:8
+#variable = DW_TAG_structure_type /root/httpd/modules/mappers mod_alias.c try_redirect 454 uri apr_uri_t cond|args
+0x1454:0x1224:143:72:88
+0x1464:0x1224:143:72:88
+0x1474:0x1224:143:72:88
+0x1484:0x1224:143:72:88
+0x1494:0x1224:143:72:88
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_redirect 455 err uintptr cond|args
+0x1454:0x1224:143:64:8
+0x1464:0x1224:143:64:8
+0x1474:0x1224:143:64:8
+0x1484:0x1224:143:64:8
+0x1494:0x1224:143:64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_redirect 456 found uintptr cond|args
+0x1454:0x1224:143:56:8
+0x1464:0x1224:143:56:8
+0x1474:0x1224:143:56:8
+0x1484:0x1224:143:56:8
+0x1494:0x1224:143:56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c alias_matches 376 uri uintptr cond
+0x1bc0:0x1ccf:145:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c alias_matches 376 alias_fakename uintptr cond
+0x1bc0:0x1ccf:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c alias_matches 378 aliasp uintptr cond
+0x1bc0:0x1ccf:145:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c alias_matches 378 urip uintptr cond
+0x1bc0:0x1ccf:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_alias_list 489 r uintptr cond|args
+0x2d08:0x30a7:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_alias_list 489 aliases uintptr cond
+0x2d08:0x30a7:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_alias.c try_alias_list 490 is_redir int cond
+0x2d08:0x30a7:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_alias_list 490 status uintptr cond
+0x2d08:0x30a7:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_alias_list 492 entries uintptr cond
+0x2d08:0x30a7:145:-48:8
+#variable = DW_TAG_array_type /root/httpd/modules/mappers mod_alias.c try_alias_list 493 regm uintptr cond|args
+0x2d08:0x30a7:145:-128:80
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_alias_list 494 found uintptr cond|args
+0x2d08:0x30a7:145:-136:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_alias.c try_alias_list 495 i int cond
+0x2d08:0x30a7:145:-140:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_alias_list 498 alias uintptr cond|args
+0x1544:0x1224:143:136:8
+0x1554:0x1224:143:136:8
+0x1564:0x1224:143:136:8
+0x1574:0x1224:143:136:8
+0x1584:0x1224:143:136:8
+0x1594:0x1224:143:136:8
+0x15a4:0x1224:143:136:8
+0x15b4:0x1224:143:136:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_alias.c try_alias_list 499 l int cond|args
+0x1544:0x1224:143:132:4
+0x1554:0x1224:143:132:4
+0x1564:0x1224:143:132:4
+0x1574:0x1224:143:132:4
+0x1584:0x1224:143:132:4
+0x1594:0x1224:143:132:4
+0x15a4:0x1224:143:132:4
+0x15b4:0x1224:143:132:4
+#variable = DW_TAG_structure_type /root/httpd/modules/mappers mod_alias.c try_alias_list 508 uri apr_uri_t cond|args
+0x14b4:0x1224:143:40:88
+0x14c4:0x1224:143:40:88
+0x14d4:0x1224:143:40:88
+0x14e4:0x1224:143:40:88
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_alias_list 543 escurl uintptr cond|args
+0x1504:0x1224:143:32:8
+0x1514:0x1224:143:32:8
+0x1524:0x1224:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_alias 415 r uintptr cond|args
+0x30a8:0x3217:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_alias 417 dirconf uintptr cond|args
+0x30a8:0x3217:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_alias 421 err uintptr cond|args
+0x3100:0x31ff:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c try_alias 423 found uintptr cond|args
+0x3100:0x31ff:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c translate_alias_redir 577 r uintptr cond|args
+0x2124:0x2643:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c translate_alias_redir 579 sconf uintptr cond
+0x2124:0x2643:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c translate_alias_redir 580 serverconf uintptr cond|args
+0x2124:0x2643:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c translate_alias_redir 581 ret uintptr cond|args
+0x2124:0x2643:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_alias.c translate_alias_redir 582 status int cond|args
+0x2124:0x2643:145:-44:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c translate_alias_redir 595 orig_target uintptr cond|args
+0x1354:0x1224:145:-56:8
+0x1364:0x1224:145:-56:8
+0x1374:0x1224:145:-56:8
+0x1384:0x1224:145:-56:8
+0x1394:0x1224:145:-56:8
+0x13a4:0x1224:145:-56:8
+0x13b4:0x1224:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c fixup_redir 633 r uintptr cond|args
+0x2644:0x2ae7:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c fixup_redir 635 dconf uintptr cond
+0x2644:0x2ae7:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c fixup_redir 636 dirconf uintptr cond|args
+0x2644:0x2ae7:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c fixup_redir 638 ret uintptr cond|args
+0x2644:0x2ae7:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_alias.c fixup_redir 639 status int cond|args
+0x2644:0x2ae7:145:-44:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c fixup_redir 650 orig_target uintptr cond|args
+0x13d4:0x1224:145:-56:8
+0x13e4:0x1224:145:-56:8
+0x13f4:0x1224:145:-56:8
+0x1404:0x1224:145:-56:8
+0x1414:0x1224:145:-56:8
+0x1424:0x1224:145:-56:8
+0x1434:0x1224:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 121 cmd uintptr cond|args
+0x18f8:0x1bbf:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 121 dummy uintptr cond
+0x18f8:0x1bbf:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 122 fake uintptr cond|args
+0x18f8:0x1bbf:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 122 real uintptr cond
+0x18f8:0x1bbf:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 123 use_regex int cond
+0x18f8:0x1bbf:145:-44:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 125 s uintptr cond
+0x18f8:0x1bbf:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 126 conf uintptr cond|args
+0x18f8:0x1bbf:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 128 new uintptr cond
+0x18f8:0x1bbf:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 129 entries uintptr cond
+0x18f8:0x1bbf:145:-80:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 130 i int cond
+0x18f8:0x1bbf:145:-84:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 134 err uintptr cond
+0x18f8:0x1bbf:143:80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 162 alias uintptr cond|args
+0x12a4:0x1224:143:72:8
+0x12b4:0x1224:143:72:8
+0x12c4:0x1224:143:72:8
+0x12d4:0x1224:143:72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_internal 166 sr__ uintptr cond|args
+0x1274:0x1224:143:64:8
+0x1284:0x1224:143:64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias 183 cmd uintptr cond|args
+0x1660:0x17d7:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias 183 dummy uintptr cond|args
+0x1660:0x17d7:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias 183 fake uintptr cond|args
+0x1660:0x17d7:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias 184 real uintptr cond|args
+0x1660:0x17d7:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias 192 dirconf uintptr cond
+0x1214:0x1224:143:48:8
+0x1224:0x1224:143:48:8
+0x1234:0x1224:143:48:8
+0x1244:0x1224:143:48:8
+0x1254:0x1224:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias 194 err uintptr cond|args
+0x1214:0x1224:143:40:8
+0x1224:0x1224:143:40:8
+0x1234:0x1224:143:40:8
+0x1244:0x1224:143:40:8
+0x1254:0x1224:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 227 cmd uintptr cond|args
+0x1cd0:0x2123:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 228 dirconf uintptr cond|args
+0x1cd0:0x2123:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 229 arg1 uintptr cond|args
+0x1cd0:0x2123:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 229 arg2 uintptr cond
+0x1cd0:0x2123:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 230 arg3 uintptr cond
+0x1cd0:0x2123:145:-48:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 230 use_regex int cond
+0x1cd0:0x2123:145:-52:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 232 new uintptr cond
+0x1cd0:0x2123:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 233 s uintptr cond
+0x1cd0:0x2123:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 234 serverconf uintptr cond|args
+0x1cd0:0x2123:145:-80:8
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 236 status int cond
+0x1cd0:0x2123:145:-84:4
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 237 grokarg1 int cond
+0x1cd0:0x2123:143:88:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 238 regex uintptr cond
+0x1cd0:0x2123:143:80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 239 fake uintptr cond|args
+0x1cd0:0x2123:143:72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 240 url uintptr cond|args
+0x1cd0:0x2123:143:64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_internal 286 expr_err uintptr cond|args
+0x12f4:0x1224:143:56:8
+0x1304:0x1224:143:56:8
+0x1314:0x1224:143:56:8
+0x1324:0x1224:143:56:8
+0x1334:0x1224:143:56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect 356 cmd uintptr cond|args
+0x17d8:0x1823:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect 356 dirconf uintptr cond|args
+0x17d8:0x1823:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect 357 arg1 uintptr cond|args
+0x17d8:0x1823:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect 357 arg2 uintptr cond|args
+0x17d8:0x1823:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect 358 arg3 uintptr cond|args
+0x17d8:0x1823:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_regex 221 cmd uintptr cond|args
+0x1824:0x1863:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_regex 221 dummy uintptr cond|args
+0x1824:0x1863:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_regex 222 fake uintptr cond|args
+0x1824:0x1863:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_alias_regex 222 real uintptr cond|args
+0x1824:0x1863:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_regex 369 cmd uintptr cond|args
+0x1864:0x18ab:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_regex 369 dirconf uintptr cond|args
+0x1864:0x18ab:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_regex 370 arg1 uintptr cond|args
+0x1864:0x18ab:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_regex 370 arg2 uintptr cond|args
+0x1864:0x18ab:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect_regex 371 arg3 uintptr cond|args
+0x1864:0x18ab:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect2 363 cmd uintptr cond|args
+0x18ac:0x18f7:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect2 363 dirconf uintptr cond|args
+0x18ac:0x18f7:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect2 364 arg1 uintptr cond|args
+0x18ac:0x18f7:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/mappers mod_alias.c add_redirect2 364 arg2 uintptr cond|args
+0x18ac:0x18f7:143:0:8
+#variable = DW_TAG_structure_type /root/httpd/modules/mappers mod_alias.c #global 718 alias_module module globalVar
+0x1214:0x3217:3:82176:112
+#variable = DW_TAG_array_type /root/httpd/modules/mappers mod_alias.c #global 681 alias_cmds uintptr globalVar
+0x1214:0x3217:3:81000:360
+#variable = DW_TAG_base_type /root/httpd/modules/mappers mod_alias.c #global 65 magic_error_value char globalVar
+0x1214:0x3217:3:82289:1

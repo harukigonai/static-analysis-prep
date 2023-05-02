@@ -1,0 +1,103 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c create_access_compat_dir_config 78 p uintptr cond|args
+0xcb4:0xdc7:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c create_access_compat_dir_config 78 dummy uintptr cond
+0xcb4:0xdc7:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c create_access_compat_dir_config 80 i int cond
+0xcb4:0xdc7:145:-20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c create_access_compat_dir_config 81 conf uintptr cond
+0xcb4:0xdc7:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c register_hooks 359 p uintptr cond
+0xdc8:0xe1f:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c register_hooks 361 apu__opt uintptr cond|args
+0xdd8:0xdf3:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c access_compat_ap_satisfies 307 r uintptr cond
+0x1288:0x12d3:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c access_compat_ap_satisfies 309 conf uintptr cond
+0x1288:0x12d3:145:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c in_domain 215 domain uintptr cond|args
+0x1708:0x17f7:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c in_domain 215 what uintptr cond|args
+0x1708:0x17f7:143:24:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c in_domain 217 dl int cond|args
+0x1708:0x17f7:143:20:4
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c in_domain 218 wl int cond|args
+0x1708:0x17f7:143:16:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c find_allowdeny 242 r uintptr cond|args
+0x14e8:0x1707:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c find_allowdeny 242 a uintptr cond
+0x14e8:0x1707:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c find_allowdeny 242 method int cond
+0x14e8:0x1707:145:-28:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c find_allowdeny 245 ap uintptr cond|args
+0x14e8:0x1707:143:40:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c find_allowdeny 246 mmask apr_int64_t cond
+0x14e8:0x1707:143:32:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c find_allowdeny 247 i int cond|args
+0x14e8:0x1707:143:28:4
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c find_allowdeny 248 gothost int cond
+0x14e8:0x1707:143:24:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c find_allowdeny 249 remotehost uintptr cond|args
+0x14e8:0x1707:143:16:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c find_allowdeny 280 remotehost_is_ip int cond|args
+0xcb4:0xcc4:143:12:4
+0xcc4:0xcc4:143:12:4
+0xcd4:0xcc4:143:12:4
+0xce4:0xcc4:143:12:4
+0xcf4:0xcc4:143:12:4
+0xd04:0xcc4:143:12:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c check_dir_access 315 r uintptr cond|args
+0x12d4:0x14e7:145:-8:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c check_dir_access 317 method int cond|args
+0x12d4:0x14e7:145:-12:4
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c check_dir_access 318 ret int cond
+0x12d4:0x14e7:145:-16:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c check_dir_access 319 a uintptr cond|args
+0x12d4:0x14e7:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c order 97 cmd uintptr cond
+0xe20:0xf17:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c order 97 dv uintptr cond
+0xe20:0xf17:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c order 97 arg uintptr cond|args
+0xe20:0xf17:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c order 99 d uintptr cond
+0xe20:0xf17:143:8:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c order 100 i int cond
+0xe20:0xf17:143:4:4
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c order 100 o int cond
+0xe20:0xf17:143:0:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c allow_cmd 143 cmd uintptr cond|args
+0xf18:0x11a3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c allow_cmd 143 dv uintptr cond
+0xf18:0x11a3:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c allow_cmd 143 from uintptr cond|args
+0xf18:0x11a3:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c allow_cmd 144 where_c uintptr cond|args
+0xf18:0x11a3:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c allow_cmd 146 d uintptr cond|args
+0xf18:0x11a3:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c allow_cmd 147 a uintptr cond|args
+0xf18:0x11a3:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c allow_cmd 148 where uintptr cond|args
+0xf18:0x11a3:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c allow_cmd 149 s uintptr cond|args
+0xf18:0x11a3:143:24:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c allow_cmd 150 rv apr_status_t cond|args
+0xf18:0x11a3:143:20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c satisfy 118 cmd uintptr cond
+0x11a4:0x1287:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c satisfy 118 dv uintptr cond
+0x11a4:0x1287:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c satisfy 118 arg uintptr cond|args
+0x11a4:0x1287:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_access_compat.c satisfy 120 d uintptr cond
+0x11a4:0x1287:143:8:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c satisfy 121 satisfy int cond
+0x11a4:0x1287:143:4:4
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c satisfy 122 i int cond
+0x11a4:0x1287:143:0:4
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_access_compat.c #global 368 access_compat_module module globalVar
+0xcb4:0x17f7:3:73888:112
+#variable = DW_TAG_array_type /root/httpd/modules/aaa mod_access_compat.c #global 202 access_compat_cmds uintptr globalVar
+0xcb4:0x17f7:3:72992:200
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_access_compat.c #global 200 its_an_allow char globalVar
+0xcb4:0x17f7:3:74001:1

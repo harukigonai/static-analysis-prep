@@ -1,0 +1,65 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c compare_version 76 version_string uintptr cond|args
+0xef4:0x112f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c compare_version 76 error uintptr cond
+0xef4:0x112f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c compare_version 78 p uintptr cond
+0xef4:0x112f:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c compare_version 78 ep uintptr cond
+0xef4:0x112f:145:-40:8
+#variable = DW_TAG_array_type /root/httpd/modules/metadata mod_version.c compare_version 79 version uintptr cond|args
+0xef4:0x112f:143:40:12
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_version.c compare_version 80 c int cond
+0xef4:0x112f:143:36:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c match_version 142 pool uintptr cond|args
+0x1130:0x121b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c match_version 142 version_string uintptr cond|args
+0x1130:0x121b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c match_version 143 error uintptr cond
+0x1130:0x121b:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c match_version 145 compiled uintptr cond|args
+0x1130:0x121b:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c match_version 146 to_match uintptr cond|args
+0x1130:0x121b:143:32:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_version.c match_version 147 rc int cond
+0x1130:0x121b:143:28:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c start_ifversion 172 cmd uintptr cond|args
+0x9d4:0xef3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c start_ifversion 172 mconfig uintptr cond
+0x9d4:0xef3:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c start_ifversion 173 arg1 uintptr cond|args
+0x9d4:0xef3:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c start_ifversion 173 arg2 uintptr cond|args
+0x9d4:0xef3:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c start_ifversion 174 arg3 uintptr cond
+0x9d4:0xef3:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c start_ifversion 176 endp uintptr cond|args
+0x9d4:0xef3:145:-56:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_version.c start_ifversion 177 reverse int cond
+0x9d4:0xef3:145:-60:4
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_version.c start_ifversion 177 done int cond
+0x9d4:0xef3:145:-64:4
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_version.c start_ifversion 177 match int cond
+0x9d4:0xef3:145:-68:4
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_version.c start_ifversion 177 compare int cond
+0x9d4:0xef3:145:-72:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c start_ifversion 178 p uintptr cond
+0x9d4:0xef3:145:-80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c start_ifversion 178 error uintptr cond|args
+0x9d4:0xef3:143:88:8
+#variable = DW_TAG_base_type /root/httpd/modules/metadata mod_version.c start_ifversion 179 c char cond
+0x9d4:0xef3:143:87:1
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c start_ifversion 284 parent uintptr cond|args
+0x9d4:0x9e4:143:72:8
+0x9e4:0x9e4:143:72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c start_ifversion 285 current uintptr cond|args
+0x9d4:0x9e4:143:64:8
+0x9e4:0x9e4:143:64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/metadata mod_version.c start_ifversion 286 retval uintptr cond
+0x9d4:0x9e4:143:56:8
+0x9e4:0x9e4:143:56:8
+#variable = DW_TAG_structure_type /root/httpd/modules/metadata mod_version.c #global 304 version_module module globalVar
+0x9d4:0x121b:3:73848:112
+#variable = DW_TAG_array_type /root/httpd/modules/metadata mod_version.c #global 298 version_cmds uintptr globalVar
+0x9d4:0x121b:3:73120:80
+#variable = DW_TAG_structure_type /root/httpd/modules/metadata mod_version.c #global 70 httpd_version ap_version_t globalVar
+0x9d4:0x121b:3:73968:24

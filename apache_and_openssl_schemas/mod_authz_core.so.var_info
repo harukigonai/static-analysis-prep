@@ -1,0 +1,295 @@
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c create_authz_core_dir_config 102 p uintptr cond|args
+0x1584:0x1613:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c create_authz_core_dir_config 102 dummy uintptr cond
+0x1584:0x1613:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c create_authz_core_dir_config 104 conf uintptr cond
+0x1584:0x1613:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c merge_authz_core_dir_config 115 p uintptr cond|args
+0x1614:0x1847:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c merge_authz_core_dir_config 116 basev uintptr cond
+0x1614:0x1847:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c merge_authz_core_dir_config 116 newv uintptr cond
+0x1614:0x1847:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c merge_authz_core_dir_config 118 base uintptr cond|args
+0x1614:0x1847:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c merge_authz_core_dir_config 119 new uintptr cond|args
+0x1614:0x1847:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c merge_authz_core_dir_config 120 conf uintptr cond
+0x1614:0x1847:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c merge_authz_core_dir_config 132 section uintptr cond
+0x1584:0x1594:143:24:8
+0x1594:0x1594:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c create_authz_core_svr_config 178 p uintptr cond|args
+0x1848:0x1893:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c create_authz_core_svr_config 178 s uintptr cond
+0x1848:0x1893:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c create_authz_core_svr_config 180 authcfg uintptr cond
+0x1848:0x1893:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c merge_authz_core_svr_config 172 p uintptr cond
+0x1894:0x18af:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c merge_authz_core_svr_config 173 basev uintptr cond
+0x1894:0x18af:145:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c merge_authz_core_svr_config 173 newv uintptr cond
+0x1894:0x18af:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c register_hooks 1138 p uintptr cond|args
+0x18b0:0x1a23:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c register_hooks 1140 apu__opt uintptr cond|args
+0x18d8:0x18f3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_some_auth_required 924 r uintptr cond
+0x2944:0x29c3:145:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_some_auth_required 926 conf uintptr cond
+0x2944:0x29c3:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_pre_config 656 p uintptr cond
+0x29c4:0x29f3:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_pre_config 656 plog uintptr cond
+0x29c4:0x29f3:145:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_pre_config 657 ptemp uintptr cond
+0x29c4:0x29f3:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c format_authz_command 368 p uintptr cond|args
+0x27f4:0x2943:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c format_authz_command 369 section uintptr cond|args
+0x27f4:0x2943:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_section 597 p uintptr cond|args
+0x2ad4:0x2d1f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_section 597 s uintptr cond|args
+0x2ad4:0x2d1f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_section 598 section uintptr cond|args
+0x2ad4:0x2d1f:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_section 598 is_conf int cond
+0x2ad4:0x2d1f:145:-36:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_section 600 prev uintptr cond
+0x2ad4:0x2d1f:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_section 601 child uintptr cond|args
+0x2ad4:0x2d1f:145:-56:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_section 602 ret int cond
+0x2ad4:0x2d1f:145:-60:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_section 611 next uintptr cond
+0x2b80:0x2c1b:143:56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_section 647 sr__ uintptr cond|args
+0x1624:0x1594:143:48:8
+0x1634:0x1594:143:48:8
+0x1644:0x1594:143:48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_config 664 p uintptr cond|args
+0x29f4:0x2a7f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_config 664 plog uintptr cond
+0x29f4:0x2a7f:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_config 665 ptemp uintptr cond
+0x29f4:0x2a7f:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_config 665 s uintptr cond|args
+0x29f4:0x2a7f:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_core_check_config 667 conf uintptr cond|args
+0x29f4:0x2a7f:143:0:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c format_authz_result 357 result authz_status cond
+0x3ae0:0x3b53:145:28:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c apply_authz_sections 722 r uintptr cond|args
+0x32f8:0x3adf:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c apply_authz_sections 723 section uintptr cond|args
+0x32f8:0x3adf:145:-24:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c apply_authz_sections 724 parent_op authz_logic_op cond
+0x32f8:0x3adf:145:-28:4
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c apply_authz_sections 726 auth_result authz_status cond|args
+0x32f8:0x3adf:145:-32:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c apply_authz_sections 753 child uintptr cond|args
+0x1664:0x1594:145:-40:8
+0x1674:0x1594:145:-40:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c apply_authz_sections 758 child_result authz_status cond
+0x36d4:0x37a7:145:-44:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authorize_user_core 823 r uintptr cond|args
+0x2d20:0x32f7:145:-16:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c authorize_user_core 823 after_authn int cond
+0x2d20:0x32f7:145:-20:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authorize_user_core 825 conf uintptr cond|args
+0x2d20:0x32f7:145:-32:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c authorize_user_core 826 auth_result authz_status cond
+0x2d20:0x32f7:145:-36:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authorize_user 919 r uintptr cond|args
+0x2a80:0x2aa7:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authorize_userless 914 r uintptr cond|args
+0x2aa8:0x2ad3:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c expr_check_authorization 1106 r uintptr cond|args
+0x3e08:0x3f0f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c expr_check_authorization 1107 require_line uintptr cond
+0x3e08:0x3f0f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c expr_check_authorization 1108 parsed_require_line uintptr cond
+0x3e08:0x3f0f:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c expr_check_authorization 1110 err uintptr cond|args
+0x3e08:0x3f0f:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c expr_check_authorization 1111 info uintptr cond|args
+0x3e08:0x3f0f:143:32:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c expr_check_authorization 1112 rc int cond
+0x3e08:0x3f0f:143:28:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c expr_parse_config 1075 cmd uintptr cond|args
+0x3f10:0x408b:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c expr_parse_config 1075 require_line uintptr cond|args
+0x3f10:0x408b:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c expr_parse_config 1076 parsed_require_line uintptr cond
+0x3f10:0x408b:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c expr_parse_config 1078 expr_err uintptr cond|args
+0x3f10:0x408b:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c expr_parse_config 1079 info uintptr cond|args
+0x3f10:0x408b:143:48:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c expr_parse_config 1083 len apr_size_t cond|args
+0x3f74:0x3fb7:143:40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c expr_lookup_fn 1063 parms uintptr cond|args
+0x408c:0x40f7:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c expr_lookup_fn 1067 info uintptr cond|args
+0x40c0:0x40e3:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c method_check_authorization 1015 r uintptr cond
+0x3ca4:0x3cfb:145:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c method_check_authorization 1016 require_line uintptr cond
+0x3ca4:0x3cfb:145:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c method_check_authorization 1017 parsed_require_line uintptr cond
+0x3ca4:0x3cfb:145:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c method_check_authorization 1019 allowed uintptr cond
+0x3ca4:0x3cfb:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c method_parse_config 1026 cmd uintptr cond|args
+0x3cfc:0x3e07:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c method_parse_config 1026 require_line uintptr cond
+0x3cfc:0x3e07:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c method_parse_config 1027 parsed_require_line uintptr cond
+0x3cfc:0x3e07:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c method_parse_config 1029 w uintptr cond|args
+0x3cfc:0x3e07:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c method_parse_config 1029 t uintptr cond|args
+0x3cfc:0x3e07:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c method_parse_config 1030 allowed uintptr cond
+0x3cfc:0x3e07:143:8:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c method_parse_config 1035 m int cond
+0x1694:0x1594:143:4:4
+0x16a4:0x1594:143:4:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c all_check_authorization 972 r uintptr cond
+0x3bec:0x3c1f:145:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c all_check_authorization 973 require_line uintptr cond
+0x3bec:0x3c1f:145:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c all_check_authorization 974 parsed_require_line uintptr cond
+0x3bec:0x3c1f:145:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c all_parse_config 982 cmd uintptr cond
+0x3c20:0x3ca3:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c all_parse_config 982 require_line uintptr cond|args
+0x3c20:0x3ca3:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c all_parse_config 983 parsed_require_line uintptr cond
+0x3c20:0x3ca3:143:0:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c env_check_authorization 942 r uintptr cond|args
+0x3b54:0x3beb:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c env_check_authorization 943 require_line uintptr cond
+0x3b54:0x3beb:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c env_check_authorization 944 parsed_require_line uintptr cond
+0x3b54:0x3beb:143:32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c env_check_authorization 946 t uintptr cond|args
+0x3b54:0x3beb:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c env_check_authorization 946 w uintptr cond|args
+0x3b54:0x3beb:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 248 cmd uintptr cond|args
+0x1a24:0x1e47:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 248 mconfig uintptr cond
+0x1a24:0x1e47:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 249 args uintptr cond|args
+0x1a24:0x1e47:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 251 endp uintptr cond|args
+0x1a24:0x1e47:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 252 provider_name uintptr cond|args
+0x1a24:0x1e47:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 253 provider_alias uintptr cond|args
+0x1a24:0x1e47:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 254 provider_args uintptr cond|args
+0x1a24:0x1e47:145:-64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 254 extra_args uintptr cond|args
+0x1a24:0x1e47:145:-72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 255 new_authz_config uintptr cond|args
+0x1a24:0x1e47:145:-80:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 256 old_overrides int cond
+0x1a24:0x1e47:145:-84:4
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 257 errmsg uintptr cond
+0x1a24:0x1e47:145:-96:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 259 err uintptr cond|args
+0x1a24:0x1e47:143:104:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 290 sr__ uintptr cond|args
+0x15b4:0x1594:143:96:8
+0x15c4:0x1594:143:96:8
+0x15d4:0x1594:143:96:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 308 prvdraliasrec uintptr cond|args
+0x1cb0:0x1e2f:143:88:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_require_alias_section 309 authcfg uintptr cond|args
+0x1cb0:0x1e2f:143:80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c create_default_section 382 p uintptr cond|args
+0x2790:0x27f3:145:-8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c create_default_section 384 section uintptr cond
+0x2790:0x27f3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_provider 391 cmd uintptr cond|args
+0x1e48:0x213f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_provider 391 config uintptr cond
+0x1e48:0x213f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_provider 392 args uintptr cond|args
+0x1e48:0x213f:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_provider 394 conf uintptr cond|args
+0x1e48:0x213f:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_provider 395 section uintptr cond|args
+0x1e48:0x213f:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_provider 396 child uintptr cond
+0x1e48:0x213f:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_provider 432 err uintptr cond
+0x1fbc:0x201b:143:64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_section 473 cmd uintptr cond|args
+0x2140:0x251f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_section 473 mconfig uintptr cond
+0x2140:0x251f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_section 474 args uintptr cond|args
+0x2140:0x251f:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_section 476 conf uintptr cond
+0x2140:0x251f:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_section 477 endp uintptr cond|args
+0x2140:0x251f:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_section 478 old_section uintptr cond|args
+0x2140:0x251f:145:-56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_section 479 section uintptr cond|args
+0x2140:0x251f:145:-64:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c add_authz_section 480 old_overrides int cond
+0x2140:0x251f:145:-68:4
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c add_authz_section 481 old_limited apr_int64_t cond
+0x2140:0x251f:143:80:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_section 482 errmsg uintptr cond
+0x2140:0x251f:143:72:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c add_authz_section 532 child uintptr cond
+0x2388:0x24bb:143:64:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_merge_sections 575 cmd uintptr cond|args
+0x2520:0x25f3:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_merge_sections 575 mconfig uintptr cond
+0x2520:0x25f3:143:24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_merge_sections 576 arg uintptr cond|args
+0x2520:0x25f3:143:16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_merge_sections 578 conf uintptr cond
+0x2520:0x25f3:143:8:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_alias_check_authorization 191 r uintptr cond|args
+0x25f4:0x278f:145:-16:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_alias_check_authorization 192 require_args uintptr cond
+0x25f4:0x278f:145:-24:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_alias_check_authorization 193 parsed_require_args uintptr cond
+0x25f4:0x278f:145:-32:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_alias_check_authorization 195 provider_name uintptr cond|args
+0x25f4:0x278f:145:-40:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_alias_check_authorization 206 authcfg uintptr cond|args
+0x15f4:0x1594:145:-48:8
+0x1604:0x1594:145:-48:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_alias_check_authorization 207 prvdraliasrec uintptr cond|args
+0x15f4:0x1594:143:56:8
+0x1604:0x1594:143:56:8
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c authz_alias_check_authorization 218 orig_dir_config uintptr cond|args
+0x268c:0x26f7:143:48:8
+#variable = DW_TAG_base_type /root/httpd/modules/aaa mod_authz_core.c authz_alias_check_authorization 219 ret authz_status cond
+0x268c:0x26f7:143:44:4
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authz_core.c #global 1163 authz_core_module module globalVar
+0x1584:0x40f7:3:90432:112
+#variable = DW_TAG_pointer_type /root/httpd/modules/aaa mod_authz_core.c #global 100 authz_core_first_dir_conf uintptr globalVar
+0x1584:0x40f7:3:90552:8
+#variable = DW_TAG_array_type /root/httpd/modules/aaa mod_authz_core.c #global 682 authz_cmds uintptr globalVar
+0x1584:0x40f7:3:89168:320
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authz_core.c #global 242 authz_alias_provider uintptr globalVar
+0x1584:0x40f7:3:89488:16
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authz_core.c #global 961 authz_env_provider uintptr globalVar
+0x1584:0x40f7:3:89504:16
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authz_core.c #global 1004 authz_all_provider uintptr globalVar
+0x1584:0x40f7:3:89520:16
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authz_core.c #global 1047 authz_method_provider uintptr globalVar
+0x1584:0x40f7:3:89536:16
+#variable = DW_TAG_structure_type /root/httpd/modules/aaa mod_authz_core.c #global 1131 authz_expr_provider uintptr globalVar
+0x1584:0x40f7:3:89552:16
